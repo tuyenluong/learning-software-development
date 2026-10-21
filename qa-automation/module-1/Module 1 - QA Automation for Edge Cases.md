@@ -20,7 +20,7 @@ Legend: 📘 = permanent note written from official docs. ⏳ = not written yet 
 | 2 | [[Playwright API testing (APIRequestContext)]] | 📘 | Auth, fixtures, idempotency-key tests, contract-style response checks |
 | 3 | [[Framework structure - fixtures and test data]] | 📘 | Build reusable fixtures and deterministic, isolated test data |
 | 4 | [[Testcontainers for Kafka and RabbitMQ (Java and Go)]] | 📘 | Real brokers + Postgres in tests, Spring Boot `@ServiceConnection`, testcontainers-go |
-| 5 | Async waits without sleeps | ⏳ | Awaitility, Playwright `expect.poll` / `toPass`, Testcontainers wait strategies |
+| 5 | [[Async waits without sleeps]] | 📘 | Awaitility, Playwright `expect.poll` / `toPass`, Testcontainers wait strategies |
 | 6 | CI with flaky-test control | ⏳ | GitHub Actions + Docker, retries with reporting, quarantine, traces |
 
 ## Suggested pacing (for Jacob)
