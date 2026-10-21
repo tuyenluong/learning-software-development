@@ -12,7 +12,7 @@ Source: docs (Playwright 1.64 Fixtures, TestInfo, Parallelism; JUnit 6.1 user gu
 ----
 # QA Lesson 3: Framework structure: fixtures and test data
 
-> **Source type: official docs.** Checked 2026-10-21 against Playwright **1.64.1**, JUnit **6.1.3** (JUnit 6 is the current major; Jupiter API is the same `org.junit.jupiter.api`), AssertJ **3.27.7**, Faker.js **10.6.0**. Builds on lesson 2's tests: same idea, organised so 200 tests stay readable and don't step on each other.
+> **Source type: official docs.** Checked 2026-10-21 against Playwright **1.64.1** (Node; Java 1.63.0), TestNG **7.12.0**, JUnit **6.1.3** (JUnit 6 is the current major; Jupiter API is the same `org.junit.jupiter.api`), AssertJ **3.27.7**, Faker.js **10.6.0**. Builds on lesson 2's tests: same idea, organised so 200 tests stay readable and don't step on each other.
 
 ## The idea
 A good test framework has three layers:
@@ -67,11 +67,13 @@ test('another user cannot read my order', async ({ order, asOtherUser }) => {
 });
 ```
 
-## JUnit 6 / Java side
-JUnit has no `use()`; the same ideas map to:
+## JUnit 6 / TestNG / Java side (your daily stack)
+JUnit has no `use()`; the same ideas map to (TestNG in brackets: `@BeforeMethod`/`@AfterMethod`, `@BeforeClass`, `@DataProvider`, `ITestListener`):
 - `@BeforeEach` / `@AfterEach` for per-test setup/teardown; `@BeforeAll` (static) for per-class.
 - **Extensions** (`@ExtendWith`, `BeforeEachCallback`, `ParameterResolver`) for reusable fixtures that inject objects into test parameters, which is how Testcontainers and Spring's test support plug in (lesson 4).
-- `@TempDir` for throw-away files; `@RepeatedTest(n)` for race tests ([JUnit User Guide](https://docs.junit.org/current/user-guide/)).
+- `@TempDir` for throw-away files; `@RepeatedTest(n)` for race tests [TestNG: `@Test(invocationCount = n, threadPoolSize = k)`] ([JUnit User Guide](https://docs.junit.org/current/user-guide/), [TestNG docs](https://testng.org/)).
+- **Playwright for Java:** `@UsePlaywright` (experimental) injects `Page`, `BrowserContext` or `APIRequestContext` per test, configured through an `OptionsFactory` (`setApiRequestOptions(new APIRequest.NewContextOptions().setBaseURL(...))`) ([Playwright Java: JUnit](https://playwright.dev/java/docs/junit)). With TestNG, build the same thing yourself in `@BeforeMethod`/`@AfterMethod`, one `Playwright` per thread.
+- **Cucumber:** keep fixtures in hooks / dependency injection (PicoContainer or Spring) and data builders in plain classes, so step definitions stay thin.
 
 **Test data builder** (plain Java, works with any framework):
 ```java
