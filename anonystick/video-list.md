@@ -75,7 +75,6 @@ Notes on the data:
 | # | Upload (approx.) | Title | Duration | Views | Link |
 |---|---|---|---|---|---|
 | 1 | 2026-10 | Kafka (10): KAFKA 4.0 QUEUES \| SHARE GROUPS & CRITICAL NOTES (⭐⭐⭐⭐⭐) | 15:06 | 593 | https://www.youtube.com/watch?v=aJ5kLfn8AtI |
-| 17 | 2026-07 | JAVA DDD Source Code: Saga, outbox, idempotency, kafka \| System Manager \| How to run() | 6:35 | ? | https://www.youtube.com/watch?v=45dfqu_jexA |
 | 25 | 2026-06 | 100K QPS with Kafka + Outbox + Saga: How Senior Backend Engineers Prevent Data Loss? \| Part 2 | 11:56 | 3500 | https://www.youtube.com/watch?v=DQN0pRV8RnU |
 | 26 | 2026-05 | ULTIMATE solution for system errors when switching from SAGA-OUTBOX Pattern to SAGA-CDC... | 16:51 | 5300 | https://www.youtube.com/watch?v=2TBqQBEI56A |
 | 30 | 2026-05 | Kafka reduced performance by 60% due to a misunderstanding of the threading of a senior in an IoT... | 16:33 | 7700 | https://www.youtube.com/watch?v=ykIKPK6b3G4 |
@@ -102,8 +101,6 @@ Notes on the data:
 
 | # | Upload (approx.) | Title | Duration | Views | Link |
 |---|---|---|---|---|---|
-| 7 | 2026-08 | JAVA DDD (33): Automatic Order Cancellation for Overdue Payments with High Concurrency \| Redis \| ... | 9:16 | ? | https://www.youtube.com/watch?v=yDixCurikHg |
-| 19 | 2026-06 | JAVA DDD (32): Handling Duplicate Order Payments with High Concurrent Data | 8:23 | ? | https://www.youtube.com/watch?v=mvLjvh1RfqQ |
 | 20 | 2026-06 | Why Do Banking Jobs Always Ask Senior Backend Developers How to Detect and Fix Deadlocks in Multi... | 16:27 | 4700 | https://www.youtube.com/watch?v=9kpISaXHBvM |
 | 35 | 2026-04 | INTERVIEWER ASK (2): How is Idempotency designed in your API in a high-concurrency project? | 21:02 | ? | https://www.youtube.com/watch?v=XXqDOTHTQFw |
 | 42 | 2026-04 | DEV SENIOR: Atomic Update vs Optimistic Lock trừ hàng tồn kho sự khác biệt tình huống Concurrency | 15:36 | 5900 | https://www.youtube.com/watch?v=Zes0Glt8cT0 |
@@ -161,7 +158,6 @@ Notes on the data:
 |---|---|---|---|---|---|
 | 21 | 2026-06 | INSERT INTO vs. INSERT IGNORE: Lessons from Stripe (Payments) on Preventing Duplicate Data | 14:49 | 2400 | https://www.youtube.com/watch?v=G4-_ckYTtvo |
 | 22 | 2026-06 | How to implement Stripe's simple and effective API Idempotency. I'll show you how to apply it. | 13:09 | 3400 | https://www.youtube.com/watch?v=A9gqa8q-l1w |
-| 24 | 2026-06 | JAVA DDD (31): DONE Implementing the Outbox Pattern to Prevent Message Loss | 8:49 | ? | https://www.youtube.com/watch?v=KGjgbx9vTos |
 | 36 | 2026-04 | System Design: How is Idempotency implemented when duplicate payments occur simultaneously at hig... | 18:31 | 7200 | https://www.youtube.com/watch?v=inUimYVAGv0 |
 | 40 | 2026-04 | Phỏng vấn lần 2 với 4TECH: Cách đảm bảo tính nhất quán khi ghi dữ liệu vào cả Redis và MySQL? | 14:28 | 6300 | https://www.youtube.com/watch?v=piN--APNE98 |
 | 97 | 2025-10 | NestJS (32): System to implement WRITE CACHE and MYSQL data consistency with the following 4 comp... | 14:15 | ? | https://www.youtube.com/watch?v=MMczVW-4jb4 |

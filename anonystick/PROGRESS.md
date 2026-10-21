@@ -526,7 +526,6 @@ Then write notes for 📝 rows: read `transcripts/<id>.vi.txt` and write `<id>.m
 | 498 | ⬜ pending | [[Kafka]] | Kafka (06): ONE PARTITION vs MULTI THREAD (⭐⭐⭐) | https://www.youtube.com/watch?v=fZafqe9yZNI |  |  |
 | 499 | ⬜ pending | [[Kafka]] | Kafka (08): SCALE PARTTION / x3 PERFORMANCE (⭐⭐⭐⭐⭐) | https://www.youtube.com/watch?v=7TO7ogwgWss |  |  |
 | 500 | ⬜ pending | [[Kafka]] | Kafka (09): HASH KEY PARTITIONS IN KAFKA (⭐⭐⭐⭐⭐) | https://www.youtube.com/watch?v=NrM4ldZHZ2E |  |  |
-| 501 | ⬜ pending | [[Kafka]] | JAVA DDD Source Code: Saga, outbox, idempotency, kafka / System Manager / How to run() | https://www.youtube.com/watch?v=45dfqu_jexA |  |  |
 | 502 | ⬜ pending | [[Transactions_and_Concurrency]] | Section 36: Transaction Redis / How to use in BIG projects | https://www.youtube.com/watch?v=63x7fIW5CkQ |  |  |
 | 503 | ⬜ pending | [[Transactions_and_Concurrency]] | Section 110: LÀM CHỦ MYSQL - Nguyên tắc ACID, sự cô lập vs cơ chế trong transaction HIỂU SÂU | https://www.youtube.com/watch?v=ylidVS4HvtE |  |  |
 | 504 | ⬜ pending | [[Transactions_and_Concurrency]] | Section 116: MASTERING MYSQL - When do DEADLOCKS happen??? | https://www.youtube.com/watch?v=JDbKCDj3pMs |  |  |
@@ -551,8 +550,6 @@ Then write notes for 📝 rows: read `transcripts/<id>.vi.txt` and write `<id>.m
 | 523 | ⬜ pending | [[Transactions_and_Concurrency]] | Ecommerce Microservices NestJS (43): Choose PostgreSQL for Inventory instead of MySQL Let me show... | https://www.youtube.com/watch?v=V1Dg1nSouUc |  |  |
 | 524 | ⬜ pending | [[Transactions_and_Concurrency]] | Ecommerce Microservices NestJS (45): Share Source ERP  Microservices / order, payment, inventory... | https://www.youtube.com/watch?v=Ub1DbRUi43w |  |  |
 | 525 | ⬜ pending | [[Transactions_and_Concurrency]] | INTERVIEWER ASK (2): How is Idempotency designed in your API in a high-concurrency project? | https://www.youtube.com/watch?v=XXqDOTHTQFw |  |  |
-| 526 | ⬜ pending | [[Transactions_and_Concurrency]] | JAVA DDD (32): Handling Duplicate Order Payments with High Concurrent Data | https://www.youtube.com/watch?v=mvLjvh1RfqQ |  |  |
-| 527 | ⬜ pending | [[Transactions_and_Concurrency]] | JAVA DDD (33): Automatic Order Cancellation for Overdue Payments with High Concurrency / Redis / ... | https://www.youtube.com/watch?v=yDixCurikHg |  |  |
 | 528 | ⬜ pending | [[Idempotency_and_Distributed_Transactions]] | JAVA DDD 05: Distributed Cache - Second Line of Defense API (Online Ticketing) - LUA vs Redisson | https://www.youtube.com/watch?v=GqCohsho54s |  |  |
 | 529 | ⬜ pending | [[Idempotency_and_Distributed_Transactions]] | JAVA DDD 06: Tâm sự DEV và vì sao tôi lại không sử dụng LUA Redis trong kịch bản Distributed Cache! | https://www.youtube.com/watch?v=zQWWGnhyZ0s |  |  |
 | 530 | ⬜ pending | [[Idempotency_and_Distributed_Transactions]] | JAVA DDD 10: Hệ thống giám sát Connects vs Performance Distributed Redis như thế nào? Chưa ngủ ngon | https://www.youtube.com/watch?v=5IuSc2NAM60 |  |  |
@@ -563,7 +560,6 @@ Then write notes for 📝 rows: read `transcripts/<id>.vi.txt` and write `<id>.m
 | 535 | ⬜ pending | [[Idempotency_and_Distributed_Transactions]] | JAVA DDD (25): SAGA PATTERN - Order, Payment is DONE ✅ ✅ ✅ | https://www.youtube.com/watch?v=CMapX0yC7zM |  |  |
 | 536 | ⬜ pending | [[Idempotency_and_Distributed_Transactions]] | SOURCE[04/27/25]: Tet Train Ticket System - Scaling APIs to 40,000 req/s with a Distributed System | https://www.youtube.com/watch?v=Y7TnDNYuROI |  |  |
 | 537 | ⬜ pending | [[Idempotency_and_Distributed_Transactions]] | NestJS (32): System to implement WRITE CACHE and MYSQL data consistency with the following 4 comp... | https://www.youtube.com/watch?v=MMczVW-4jb4 |  |  |
-| 538 | ⬜ pending | [[Idempotency_and_Distributed_Transactions]] | JAVA DDD (31): DONE Implementing the Outbox Pattern to Prevent Message Loss | https://www.youtube.com/watch?v=KGjgbx9vTos |  |  |
 | 539 | ⬜ pending | [[Redis]] | Section 26: Order service Part 2 / Tiếp đến là Redis chuyên sâu. | https://www.youtube.com/watch?v=mswayRA-870 |  |  |
 | 540 | ⬜ pending | [[Redis]] | Section 27: Học Redis vui lòng xem qua mẩu chuyện này của Antirez cha đẻ nguồn cảm hứng. | https://www.youtube.com/watch?v=QEUQsBXRFJk |  |  |
 | 541 | ⬜ pending | [[Redis]] | Section 29: String Redis / Data structures, common commands and what scenarios to use? / Redis ba... | https://www.youtube.com/watch?v=X7NiSVo_NHE |  |  |

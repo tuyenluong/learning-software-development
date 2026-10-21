@@ -8,3 +8,4 @@ anonystick/tools/*.wav
 *.wav
 anonystick/subs/
 __pycache__/
+anonystick/tools/AUDIO-README.md

@@ -3000,12 +3000,6 @@
 "members_guess": true
 },
 {
-"id": "45dfqu_jexA",
-"topic": "kafka",
-"title": "JAVA DDD Source Code: Saga, outbox, idempotency, kafka | System Manager | How to run()",
-"members_guess": true
-},
-{
 "id": "63x7fIW5CkQ",
 "topic": "tx",
 "title": "Section 36: Transaction Redis | How to use in BIG projects",
@@ -3150,18 +3144,6 @@
 "members_guess": true
 },
 {
-"id": "mvLjvh1RfqQ",
-"topic": "tx",
-"title": "JAVA DDD (32): Handling Duplicate Order Payments with High Concurrent Data",
-"members_guess": true
-},
-{
-"id": "yDixCurikHg",
-"topic": "tx",
-"title": "JAVA DDD (33): Automatic Order Cancellation for Overdue Payments with High Concurrency | Redis | ...",
-"members_guess": true
-},
-{
 "id": "GqCohsho54s",
 "topic": "dist",
 "title": "JAVA DDD 05: Distributed Cache - Second Line of Defense API (Online Ticketing) - LUA vs Redisson",
@@ -3219,12 +3201,6 @@
 "id": "MMczVW-4jb4",
 "topic": "dist",
 "title": "NestJS (32): System to implement WRITE CACHE and MYSQL data consistency with the following 4 comp...",
-"members_guess": true
-},
-{
-"id": "KGjgbx9vTos",
-"topic": "dist",
-"title": "JAVA DDD (31): DONE Implementing the Outbox Pattern to Prevent Message Loss",
 "members_guess": true
 },
 {
