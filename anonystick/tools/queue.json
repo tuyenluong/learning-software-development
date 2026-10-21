@@ -1,0 +1,4718 @@
+[
+{
+"id": "aJ5kLfn8AtI",
+"topic": "kafka",
+"title": "Kafka (10): KAFKA 4.0 QUEUES | SHARE GROUPS & CRITICAL NOTES (⭐⭐⭐⭐⭐)",
+"members_guess": false
+},
+{
+"id": "inUimYVAGv0",
+"topic": "dist",
+"title": "System Design: How is Idempotency implemented when duplicate payments occur simultaneously at hig...",
+"members_guess": false
+},
+{
+"id": "DQN0pRV8RnU",
+"topic": "kafka",
+"title": "100K QPS with Kafka + Outbox + Saga: How Senior Backend Engineers Prevent Data Loss? | Part 2",
+"members_guess": false
+},
+{
+"id": "9kpISaXHBvM",
+"topic": "tx",
+"title": "Why Do Banking Jobs Always Ask Senior Backend Developers How to Detect and Fix Deadlocks in Multi...",
+"members_guess": false
+},
+{
+"id": "GLqyIqWtRiA",
+"topic": "tx",
+"title": "Dev Senior họ giải thích và xử lý tình huống đồng thời cao như thế nào? Race Condition | Mysql ACID",
+"members_guess": false
+},
+{
+"id": "7M_6_jKTSS0",
+"topic": "mq",
+"title": "Nodejs microservice rabbitmq || ecommerce microservice || part 2",
+"members_guess": false
+},
+{
+"id": "DQRj7I3PcuM",
+"topic": "mq",
+"title": "Chính xác là tôi nên sử dụng MQ khi nào? Giờ bạn đã hiểu về Message Queue | Series RabbitMQ Node.js",
+"members_guess": false
+},
+{
+"id": "WVPNHLNu5m4",
+"topic": "mq",
+"title": "RabbitMQ (2) bỏ qua cơ bản giờ đến lúc phải THÀNH THẠO tính năng Dashboard với CLOUD FREE và DOCKER",
+"members_guess": false
+},
+{
+"id": "--8OCUUqzTk",
+"topic": "mq",
+"title": "RabbitMQ (3) Cách Send và Receive một Message vào QUEUE với NODEJS Và tôi đã thấy một số vấn đề sau.",
+"members_guess": false
+},
+{
+"id": "az2VNMgNFrk",
+"topic": "mq",
+"title": "RabbitMQ (4) Giải quyết vấn đề độ tin cậy trong queue (noAck, ttl, durable, persistent) phía Backend",
+"members_guess": false
+},
+{
+"id": "IMAzNKNUpZc",
+"topic": "mq",
+"title": "RabbitMQ (5) Đỉnh cao mô hình Publish Subscribe với Node.js và so sánh với mô hình của Redis.",
+"members_guess": false
+},
+{
+"id": "lNs-wtsyBu8",
+"topic": "mq",
+"title": "Tại sao 80% lập trình viên tìm đến RabbitMQ cũng chỉ để sử dụng mô hình này NHANH GỌN LẸ.",
+"members_guess": false
+},
+{
+"id": "zeHD8cqK52I",
+"topic": "mq",
+"title": "Khám phá kiến trúc Notifications điển hình của các ứng dụng và áp dụng vào ecommerce shopDEV",
+"members_guess": false
+},
+{
+"id": "f1DY031XXPc",
+"topic": "mq",
+"title": "How to build application architecture with BE to send notifications to millions of users | Part 2...",
+"members_guess": false
+},
+{
+"id": "hrSP7UocdJ8",
+"topic": "mq",
+"title": "How shopDEV Handles Message Errors in High-Concurrency Architectures with RabbitMQ | Message Queue",
+"members_guess": false
+},
+{
+"id": "wdV-XUcM2us",
+"topic": "mq",
+"title": "INTERN đánh bại SENIOR: GOOD CV - Với dự án tài chính thì bạn sử dụng Kafka hay là RabbitMQ? WHY?",
+"members_guess": false
+},
+{
+"id": "mYa4c-VyGS4",
+"topic": "mq",
+"title": "How to deploy a budget-friendly Notification System that runs smoothly under high concurrency?",
+"members_guess": false
+},
+{
+"id": "HnQ0Wt6YyO0",
+"topic": "mq",
+"title": "Showcasing How Large Companies Send Millions of Emails | AWS SQS, Lambda & SES",
+"members_guess": false
+},
+{
+"id": "Ccbx5ItsSSQ",
+"topic": "mq",
+"title": "Simple Queue Service (SQS) FOR BACKEND: AWS Cloud Computing Tutorial",
+"members_guess": false
+},
+{
+"id": "yK4T7Myi9N4",
+"topic": "kafka",
+"title": "Kafka đã thay đổi hệ thống eCommerce trở nên mạnh mẽ như thế nào so với cách cũ",
+"members_guess": false
+},
+{
+"id": "a7lmP5hdgB0",
+"topic": "kafka",
+"title": "Kafka: Here are 7 things that are enough to start the war between TOPIC, PARTITIONS and Consumer ...",
+"members_guess": false
+},
+{
+"id": "UIFWVisug1M",
+"topic": "kafka",
+"title": "Kafka: Practical application of BUYING AND SELLING system Backend API",
+"members_guess": false
+},
+{
+"id": "yiXL052rNNI",
+"topic": "kafka",
+"title": "KafKa (05): MISTAKE MSG ORDER IS WRONG (⭐⭐⭐)",
+"members_guess": false
+},
+{
+"id": "-JUCzDDHOmo",
+"topic": "kafka",
+"title": "Kafka (07): TEST BENCHMARK BENCHMARK TEST MILIONS DATA vs ORDERED (⭐⭐⭐⭐)",
+"members_guess": false
+},
+{
+"id": "ykIKPK6b3G4",
+"topic": "kafka",
+"title": "Kafka reduced performance by 60% due to a misunderstanding of the threading of a senior in an IoT...",
+"members_guess": false
+},
+{
+"id": "2TBqQBEI56A",
+"topic": "kafka",
+"title": "ULTIMATE solution for system errors when switching from SAGA-OUTBOX Pattern to SAGA-CDC...",
+"members_guess": false
+},
+{
+"id": "qxRtMizGvWE",
+"topic": "tx",
+"title": "The problem is that there is 1 item left in inventory but many USERS are buying at the same time ...",
+"members_guess": false
+},
+{
+"id": "spdyW-ANgJw",
+"topic": "tx",
+"title": "Using Transactions to send and receive money in Banking with MongoDB (1) | Transaction MongoDB No...",
+"members_guess": false
+},
+{
+"id": "fQPB5TPqcGM",
+"topic": "tx",
+"title": "Setup Mongodb Replication hoàn tiền lại tài khoản nếu giao dịch lỗi (2) | Transaction Mongodb Nodejs",
+"members_guess": false
+},
+{
+"id": "_tBWQ8JaFOs",
+"topic": "tx",
+"title": "Nodejs có thể chịu tải được 100k/s test với 100 users đồng thời ? | Autocannon Load Test Nodejs",
+"members_guess": false
+},
+{
+"id": "qHqMB47liwQ",
+"topic": "tx",
+"title": "Bạn muốn biết 2 cách quản lý tồn kho mà Tiki Shopee đang sử dụng | Kiến trúc backend eCommerce",
+"members_guess": false
+},
+{
+"id": "OQcAhKwF2oI",
+"topic": "tx",
+"title": "Giải pháp này giúp aliconcon.com giải quyết bán không vượt hàng tồn kho trong eCommerce Rest api p-6",
+"members_guess": false
+},
+{
+"id": "HXMJD4mN4bY",
+"topic": "tx",
+"title": "Block API replay attacks for non-Backend task HACKERS | Nonce vs timestamp",
+"members_guess": false
+},
+{
+"id": "pK3oBX0vB38",
+"topic": "tx",
+"title": "How to implement an algorithm to BLOCK HACKERS from stealing JWT even if they steal KEYSECRET fro...",
+"members_guess": false
+},
+{
+"id": "9VBRHwYDY7A",
+"topic": "tx",
+"title": "Thật tốt để CODE về nguyên tắc lập trình tuần tự, song song và đồng thời theo cách đường CAO TỐC",
+"members_guess": false
+},
+{
+"id": "CBhPFo3Lz4M",
+"topic": "tx",
+"title": "Xem 3 cách CODE này bạn mới thấy được sự lợi hại về lập trình parallel và concurrent | Nodejs",
+"members_guess": false
+},
+{
+"id": "UjiGO37qugY",
+"topic": "tx",
+"title": "Distributed locking (Optimistic and Pessimistic) Where to deploy LARGE SYSTEMS? Use CODE like this!",
+"members_guess": false
+},
+{
+"id": "zZHFxVGgmrU",
+"topic": "tx",
+"title": "Test về MEMORY cho 1.000.000 task đồng thời giữa các ngôn ngữ Rust, Go, Node.js, Java, C#, Python",
+"members_guess": false
+},
+{
+"id": "nuHM_dP8wJ4",
+"topic": "tx",
+"title": "NO CODE - What good options can Programmers have? Say no to Stocks with too many losses.",
+"members_guess": false
+},
+{
+"id": "vfxKrC6w34g",
+"topic": "tx",
+"title": "How FrontEnd Helped Backend Manage High Concurrency with 1000 Requests Like a Pro...",
+"members_guess": false
+},
+{
+"id": "GqH8Ez1O8pc",
+"topic": "tx",
+"title": "NoCODE: Backend chú ý về CAP có thể gây rắc rối trong các kịch bản có tính ĐỒNG THỜI cao",
+"members_guess": false
+},
+{
+"id": "WKGIz5ViT7Y",
+"topic": "tx",
+"title": "MVCC xử lý các vấn đề đồng thời của MySQL như thế nào? Câu hỏi đã được giải đáp?",
+"members_guess": false
+},
+{
+"id": "VWXZUWzT46U",
+"topic": "tx",
+"title": "Section 112: MASTERING MYSQL - 4 levels of isolation in Transaction, performance is FAST or SLOW ...",
+"members_guess": false
+},
+{
+"id": "jA8w2MoH4SA",
+"topic": "tx",
+"title": "My 9th Mistake (MYSQL): SELECT FOR UPDATE and the Midnight Crash | Locking the Whole Table",
+"members_guess": false
+},
+{
+"id": "RI3i8s16384",
+"topic": "tx",
+"title": "NestJS (40): Thực hành Order Process (payment, reward, inventory) trong Microservices | 2 NodeA, B",
+"members_guess": false
+},
+{
+"id": "SyhJdieqXm0",
+"topic": "tx",
+"title": "A programmer entrusted $500,000 to 5 LLMs to invest in the stock market – what happened to Grok, ...",
+"members_guess": false
+},
+{
+"id": "kQeL3ORphFs",
+"topic": "tx",
+"title": "Decoding JD Java 33M-80M Gross: Why is Multithreading/Concurrency Necessary? Strong Tech Team | (01)",
+"members_guess": false
+},
+{
+"id": "bttCAxwH1GI",
+"topic": "tx",
+"title": "A deadlock, a layoff, a language change... WHAT kind of change this year? In my opinion, it would...",
+"members_guess": false
+},
+{
+"id": "Zes0Glt8cT0",
+"topic": "tx",
+"title": "DEV SENIOR: Atomic Update vs Optimistic Lock trừ hàng tồn kho sự khác biệt tình huống Concurrency",
+"members_guess": false
+},
+{
+"id": "uuaST5OhCx4",
+"topic": "dist",
+"title": "Backend vs FrontEnd: Error 5xx at midnight, when using retryAble, retryDelay I slept very WELL!",
+"members_guess": false
+},
+{
+"id": "gyaoxeCKkRY",
+"topic": "dist",
+"title": "Backend vs FrontEnd: Retry API Carefully | HOT FIX",
+"members_guess": false
+},
+{
+"id": "1pGuG5S68zM",
+"topic": "dist",
+"title": "SHOCK: Distributed Cache Redis has betrayed us, $1 billion lost on the second day of ticket sales.",
+"members_guess": false
+},
+{
+"id": "XBwGeRSo20A",
+"topic": "dist",
+"title": "Data consistency: Have you ever encountered this issue when booking a flight?",
+"members_guess": false
+},
+{
+"id": "piN--APNE98",
+"topic": "dist",
+"title": "Phỏng vấn lần 2 với 4TECH: Cách đảm bảo tính nhất quán khi ghi dữ liệu vào cả Redis và MySQL?",
+"members_guess": false
+},
+{
+"id": "A9gqa8q-l1w",
+"topic": "dist",
+"title": "How to implement Stripe's simple and effective API Idempotency. I'll show you how to apply it.",
+"members_guess": false
+},
+{
+"id": "G4-_ckYTtvo",
+"topic": "dist",
+"title": "INSERT INTO vs. INSERT IGNORE: Lessons from Stripe (Payments) on Preventing Duplicate Data",
+"members_guess": false
+},
+{
+"id": "0oJCzoMSEw4",
+"topic": "redis",
+"title": "Caching in nodejs with redis",
+"members_guess": false
+},
+{
+"id": "Pqv8_q-620Q",
+"topic": "redis",
+"title": "install redisearch ubuntu 20.04",
+"members_guess": false
+},
+{
+"id": "83tSHafdsHU",
+"topic": "redis",
+"title": "Full-text search with RediSearch Nodejs",
+"members_guess": false
+},
+{
+"id": "ORkgL1SURhg",
+"topic": "redis",
+"title": "Using redis, redis-commander and create a redis client Nodejs (10) | NODE.JS API Authentication",
+"members_guess": false
+},
+{
+"id": "PP_7AvltBBM",
+"topic": "redis",
+"title": "Blacklist and Refresh Tokens (JWT) with Redis (12) | NODE.JS API Authentication | ANONYSTICK",
+"members_guess": false
+},
+{
+"id": "OF97evA4JVI",
+"topic": "redis",
+"title": "Redis string | Redis CLI Tutorial | Complete Course",
+"members_guess": false
+},
+{
+"id": "_inbcP9batQ",
+"topic": "redis",
+"title": "Redis lists | Redis CLI Tutorial | Complete Course",
+"members_guess": false
+},
+{
+"id": "qgoYBqmSjko",
+"topic": "redis",
+"title": "Redis sets | Redis CLI Tutorial | Complete Course",
+"members_guess": false
+},
+{
+"id": "_9J3HyhVv5k",
+"topic": "redis",
+"title": "Cách hạn chế User Requests N lần trên X phút trong Rest API | Nodejs Redis",
+"members_guess": false
+},
+{
+"id": "wzZXRoeYFPw",
+"topic": "redis",
+"title": "Thiết kế microservices với nodejs và redis pub sub ai cũng hiểu | REDIS VS NODEJS MICROSERVICES",
+"members_guess": false
+},
+{
+"id": "OUGfEleDGaE",
+"topic": "redis",
+"title": "Cách khắc phục kho còn 1 nhưng có nhiều USERS mua hàng cùng một lúc (2) | Microservices redis nodejs",
+"members_guess": false
+},
+{
+"id": "tIuUXU2Zf04",
+"topic": "redis",
+"title": "Services tự động hủy đơn hàng nếu chưa thanh toán N phút như Traveloka | Microservices redis nodejs",
+"members_guess": false
+},
+{
+"id": "d04M8IYiOGE",
+"topic": "redis",
+"title": "LRUCache là gì? Cách triển khai và khi nào nên áp dụng | Performance Backend Services | Microservice",
+"members_guess": false
+},
+{
+"id": "d7hbNHy5ToM",
+"topic": "redis",
+"title": "Vì sao lại sử dụng RedisStore với Express Session, nếu không sử dụng thì sao? | EXPRESS SESSION NODE",
+"members_guess": false
+},
+{
+"id": "lMf0tBKfgPw",
+"topic": "redis",
+"title": "Sử dụng redis làm Shopping CART tăng hiệu suất GIỜ CAO ĐIỂM cho hệ thống eCommerce | Series Redis",
+"members_guess": false
+},
+{
+"id": "HSknuSIoK6A",
+"topic": "redis",
+"title": "Redis là gì? Bài học này đủ để bắt đầu | Là một Backend bạn đã từng gặp những trường hợp này chưa?",
+"members_guess": false
+},
+{
+"id": "VE1oTBR0gig",
+"topic": "redis",
+"title": "REDIS and 3 common problems when using nodejs | Cache avalanche | Cache breakdown | Cache penetra...",
+"members_guess": false
+},
+{
+"id": "bkSdxT1Vk4s",
+"topic": "redis",
+"title": "Redis and Nodejs Practice | Using Redis Cloud FREE with Redisinsight | Redis Tutorial | Part 1",
+"members_guess": false
+},
+{
+"id": "dpDGXbe_LeE",
+"topic": "redis",
+"title": "Redis vs MySQL Để check QPS (query per second) tôi phải đến năm thứ 4 lập trình mới biết về sysbench",
+"members_guess": false
+},
+{
+"id": "EXv_NCNXH7c",
+"topic": "redis",
+"title": "Connect Nodejs Redis async await với 3 level khác nhau và cách nào hiệu quả hơn | redis tutorial",
+"members_guess": false
+},
+{
+"id": "jDJ46aQrRWs",
+"topic": "redis",
+"title": "Thử nghiệm VOICER ROBO AI giới thiệu 3 cuốn sách nổi tiếng về REDIS mà các Developers nên ĐỌC FREE",
+"members_guess": false
+},
+{
+"id": "u5-flcmINc4",
+"topic": "redis",
+"title": "Section 28: Hôm nay tôi đi phỏng vấn về Redis có 5 câu hỏi dành cho tôi và bạn | Node.js backend",
+"members_guess": false
+},
+{
+"id": "mw-DdAPKV_A",
+"topic": "redis",
+"title": "RediSearch | SEARCH trong eCommerce backend sử dụng công nghệ tìm kiếm mạnh mẽ như thế này?",
+"members_guess": false
+},
+{
+"id": "q8d6An4a60E",
+"topic": "redis",
+"title": "How to Connect Redis and Node.js with Reliability and Timeout Monitoring",
+"members_guess": false
+},
+{
+"id": "_15A-fkBP7o",
+"topic": "redis",
+"title": "Redis Cache Penetration: How Did Outstanding Backends Handle 100 Million Requests? (Pitfall 1)",
+"members_guess": false
+},
+{
+"id": "mco-hXkHqjY",
+"topic": "redis",
+"title": "Redis Cache Breakdown: Thử thách 2 khi xử lý Dữ liệu NÓNG hàng TRIỆU dữ liệu của Backend | Cạm bẫy 2",
+"members_guess": false
+},
+{
+"id": "IR03bajM_ig",
+"topic": "redis",
+"title": "OpenSource: Valkey Redis competitor, stop using redis?",
+"members_guess": false
+},
+{
+"id": "Dpl8p2nyffw",
+"topic": "db",
+"title": "part 3 - Setup project using nodejs, expressjs, mongodb",
+"members_guess": false
+},
+{
+"id": "x66LimqLa-g",
+"topic": "db",
+"title": "Part 4: Tạo chức năng login và register sử dụng nodejs, expressjs, mongodb",
+"members_guess": false
+},
+{
+"id": "76Q7rEnfzRU",
+"topic": "db",
+"title": "How to backup MongoDb on Linux",
+"members_guess": false
+},
+{
+"id": "tlfixElrlcM",
+"topic": "db",
+"title": "Uninstall mongodb mac brew",
+"members_guess": false
+},
+{
+"id": "p8CZ2H5rt8U",
+"topic": "db",
+"title": "Setup replica set mongodb in 3 mins",
+"members_guess": false
+},
+{
+"id": "ktGj1Swi0w8",
+"topic": "db",
+"title": "Install elasticsearch and kibana using docker compose",
+"members_guess": false
+},
+{
+"id": "APrTeibWidw",
+"topic": "db",
+"title": "Install mongodb docker WITH 5 mins",
+"members_guess": false
+},
+{
+"id": "YVY0qLLz5Qk",
+"topic": "db",
+"title": "Connect and create model using mongoose in Node.js (2) | Node and express course | ANONYSTICK",
+"members_guess": false
+},
+{
+"id": "JJirK21iaf8",
+"topic": "db",
+"title": "User Registration Mongodb with Node.js Express (3) | Node and express course | ANONYSTICK",
+"members_guess": false
+},
+{
+"id": "iYf9YVJERxU",
+"topic": "db",
+"title": "Khởi tạo và install những middleware cần thiết | Series Social Media REST API | Node.js Mongodb (2)",
+"members_guess": false
+},
+{
+"id": "eQxboSVmM6U",
+"topic": "db",
+"title": "Connecting mongoose và create users model chuẩn và hiện đại | Series Social Media REST API (4)",
+"members_guess": false
+},
+{
+"id": "BwEIMkQMui4",
+"topic": "db",
+"title": "Install mysql docker this article is just a premise for BACKEND PRO | nodejs performance best pra...",
+"members_guess": false
+},
+{
+"id": "vjHWkHm4cqo",
+"topic": "db",
+"title": "CreatePool: How to connect MySQL and Node.js 3x faster than the standard createConnection method",
+"members_guess": false
+},
+{
+"id": "IZlfBvp75zI",
+"topic": "db",
+"title": "How effective is Populate in Mongoose? Explained with an example",
+"members_guess": false
+},
+{
+"id": "pizW1-xacBE",
+"topic": "db",
+"title": "Stackoverflow CLONE || Website built using MySQL, Express, React, Node, Sequelize",
+"members_guess": false
+},
+{
+"id": "KMtPfRYWmjU",
+"topic": "db",
+"title": "PassportJS là gì? Cách xác thực API thông qua nodejs mongoose và expressjs | node js tutorial",
+"members_guess": false
+},
+{
+"id": "Q4jR42L9UlA",
+"topic": "db",
+"title": "E2E là gì? Vì sao ZALO lại nâng cấp | Cách triển khai thuật toán trong NODE.JS vs MONGODB",
+"members_guess": false
+},
+{
+"id": "yXbz-DRvFRk",
+"topic": "db",
+"title": "Học Mongodb quan trọng nhất là bài học này | MongoDB Schema Design Best Practices | Nodejs Tutorial",
+"members_guess": false
+},
+{
+"id": "EVACo8bfU48",
+"topic": "db",
+"title": "Understand atomic in mongodb and see in practice how to use findOneAndUpdate which is a prerequis...",
+"members_guess": false
+},
+{
+"id": "4DwqZPTtUpE",
+"topic": "db",
+"title": "Bucket Pattern Mongodb -  Cách phân trang và tìm hiểu ưu và nhược của mô hình này | Phù hợp với IoT",
+"members_guess": false
+},
+{
+"id": "xEh1ggoU8zI",
+"topic": "db",
+"title": "Statics methods virtual in mongoose - node.js |  eCommerce ALICONCON | Hooks in Mongoose",
+"members_guess": false
+},
+{
+"id": "tMAe893baIs",
+"topic": "db",
+"title": "Design 4 models mongodb quan trọng orders, carts, products, inventories trong System eCommerce P - 5",
+"members_guess": false
+},
+{
+"id": "qblPthhsqR4",
+"topic": "db",
+"title": "If you use MySQL to design the Products model, my colleague has found this method to be as effect...",
+"members_guess": false
+},
+{
+"id": "3vOiXwI4AVQ",
+"topic": "db",
+"title": "BackEnd Programming: 4 Ways to Improve Query Performance When Order Databases Get Too Large!",
+"members_guess": false
+},
+{
+"id": "Bs41dR_Kf-0",
+"topic": "db",
+"title": "ELK Stack là gì? Tôi đã bắt đầu tìm hiểu Elasticsearch và Kibana với thao tác nhanh gọn lẹ như sau",
+"members_guess": false
+},
+{
+"id": "HrGVCCjRDZQ",
+"topic": "db",
+"title": "Thực hành Kinaba cách tạo Index, Mapping thao tác CRUD trong Elasticsearch (2) | Search Engine",
+"members_guess": false
+},
+{
+"id": "hUOgRS6dEVQ",
+"topic": "db",
+"title": "Elasticsearch Bạn có CHẮC là bạn sử dụng ĐÚNG những lệnh SEARCH dữ liệu của các tình huống SAU ĐÂY ?",
+"members_guess": false
+},
+{
+"id": "XPtlC1YeRwU",
+"topic": "db",
+"title": "Index Database thì lời khuyên nên xem CẤU TRÚC này? Và không phải index nào cũng nhanh?",
+"members_guess": false
+},
+{
+"id": "_kYOxnAK9J8",
+"topic": "db",
+"title": "Câu trả lời quá BẤT NGỜ: Tôi hỏi con CHAT GPT: \"Thiết kế cho tao một model comments with MongoDB?\"",
+"members_guess": false
+},
+{
+"id": "7ki7uw46Flw",
+"topic": "db",
+"title": "Time to Use the MongoDB Bucket Pattern to Design a Comment System and It's Truly OPTIMIZED (3)",
+"members_guess": false
+},
+{
+"id": "mfuQjkqdbNA",
+"topic": "db",
+"title": "(4) Cách kết nối multiple database trong Nodejs một cách Thanh lịch | Node.js Backend Architecture",
+"members_guess": false
+},
+{
+"id": "nzighSNJM6M",
+"topic": "db",
+"title": "(5) SQL Injection Mongodb Chỉ đơn giản thế này là XONG PHIM và cách phòng chống  | Node.js Backend",
+"members_guess": false
+},
+{
+"id": "TlxWi81Z4Y0",
+"topic": "db",
+"title": "We already have MySQL, why do we need MongoDB? How to solve massive data problems with MongoDB | ...",
+"members_guess": false
+},
+{
+"id": "n3yRC2HBrPw",
+"topic": "db",
+"title": "Index Database: Nếu trả lời được câu hỏi này, vui lòng gửi CV cho Tips | Mongodb Design Patterns (2)",
+"members_guess": false
+},
+{
+"id": "9fBNtR6yU98",
+"topic": "db",
+"title": "Polymorphic Pattern in MongoDB: Designing Products to Overcome Application Limitations",
+"members_guess": false
+},
+{
+"id": "48RTknpjmkk",
+"topic": "db",
+"title": "Attribute Pattern Mongodb: Khi Sếp chỉ cách đánh INDEX, tiết kiệm sizeStoreINDEX và truy vấn NHANH",
+"members_guess": false
+},
+{
+"id": "CQzxsR8hnHQ",
+"topic": "db",
+"title": "Subset Pattern MongoDB: What will the big app do? They take the solution and put it into practice...",
+"members_guess": false
+},
+{
+"id": "AjzeZ8nzJ8E",
+"topic": "db",
+"title": "Testing MySQL PoolConnect Config: Are 96 connections 50x faster than 1000? (With GIT)",
+"members_guess": false
+},
+{
+"id": "6Oln-40kOq0",
+"topic": "db",
+"title": "How to properly handle high MongoDB CPU usage beyond optimizing indexes? | The Programmer's Path",
+"members_guess": false
+},
+{
+"id": "PE6f66u7KBQ",
+"topic": "db",
+"title": "Reduce Query Time from 3s to 0.2s for Nested Comments: See How My Boss Stores Data to Understand",
+"members_guess": false
+},
+{
+"id": "uvkZjU2LBIs",
+"topic": "db",
+"title": "Phỏng vấn RẤT OK! NHƯNG làm thế nào để phân biệt trình độ của một lập trình viên khi JOIN TEAM mới?",
+"members_guess": false
+},
+{
+"id": "-UX_bz376UA",
+"topic": "db",
+"title": "Docker MySQL setup: Front-end (FE) engineers should understand this too, not just back-end (BE)",
+"members_guess": false
+},
+{
+"id": "I8xq5Phu2h0",
+"topic": "db",
+"title": "2 of 4 ways to FAST data sync between MySQL (Mongob) vs ElasticSearch | DBS",
+"members_guess": false
+},
+{
+"id": "aY8SiBuFLPw",
+"topic": "db",
+"title": "MySQL task to optimize Orders table with tens of millions of data per MONTH in eCommerce ShopDEV",
+"members_guess": false
+},
+{
+"id": "DQ77JGebNQE",
+"topic": "db",
+"title": "Sự thật về cú pháp SQL trong Next.js 14, tôi đã tìm thấy một điều tuyệt vời.",
+"members_guess": false
+},
+{
+"id": "uo_OjJQ0q5s",
+"topic": "db",
+"title": "How to Implement Role-Based Access Control (RBAC) in eCommerce Systems and Design Efficient MySQL...",
+"members_guess": false
+},
+{
+"id": "ZbJmxu33-Gc",
+"topic": "db",
+"title": "RBAC database design with 4 Mysql tables and 3 Mongodb collections",
+"members_guess": false
+},
+{
+"id": "7Y0ii_QjlKM",
+"topic": "db",
+"title": "A thorough understanding of MySQL architecture: Designing database tables in 1NF form (1)",
+"members_guess": false
+},
+{
+"id": "L9tOHpxlnMA",
+"topic": "db",
+"title": "Hiểu biết đầy đủ về kiến trúc MySQL: Thiết kế bảng cơ sở dữ liệu theo dạng 2NF (2)",
+"members_guess": false
+},
+{
+"id": "-N3x7ESpHrQ",
+"topic": "db",
+"title": "Hiểu biết đầy đủ về kiến trúc MySQL: Thiết kế bảng cơ sở dữ liệu theo dạng 3NF (3)",
+"members_guess": false
+},
+{
+"id": "902xL7t3cX8",
+"topic": "db",
+"title": "Understanding SKUs and SPUs: Designing Product Data with MySQL and MongoDB for Seniors | Members ...",
+"members_guess": false
+},
+{
+"id": "ccxuHMGKX3U",
+"topic": "db",
+"title": "I don't know when to use Elaticsearch instead of MySQL, Mongodb?",
+"members_guess": false
+},
+{
+"id": "QaHvavpqxMU",
+"topic": "db",
+"title": "Giải thích chi tiết về ElasticSearch cho các câu lệnh truy vấn cho DÂN BACKEND nhà mình.",
+"members_guess": false
+},
+{
+"id": "L5q2xNIQQrc",
+"topic": "db",
+"title": "ElasticSearch (3) Kỹ năng cần thiết sử dụng API REST trong môi trường làm việc",
+"members_guess": false
+},
+{
+"id": "UYmCFPVx-XY",
+"topic": "db",
+"title": "MySQL - Are INDEXES actually being used incorrectly? An interviewer shares the best OPTIMIZATION ...",
+"members_guess": false
+},
+{
+"id": "tjT4O5HGIEU",
+"topic": "db",
+"title": "MYSQL BACKEND: Optimizing Pagination from 7s to 1s with a 10,000,000-Row Table, Get a Raise...",
+"members_guess": false
+},
+{
+"id": "O3tTBcEmpWA",
+"topic": "db",
+"title": "MYSQL BACKEND: Tại sao sử dụng SELECT * sẽ làm chậm hiệu suất và không hiệu quả, Tôi tiếp tục thử...",
+"members_guess": false
+},
+{
+"id": "1dYbhikXnkw",
+"topic": "db",
+"title": "MYSQL BACKEND: Cùng một câu QUERY nhưng đồng nghiệp tôi hiệu suất CAO HƠN rất nhiều",
+"members_guess": false
+},
+{
+"id": "tnUBjJJnwn0",
+"topic": "db",
+"title": "MYSQL BACKEND: Why choose MONGODB, can't MYSQL do it too? 2/8 criteria worth pondering",
+"members_guess": false
+},
+{
+"id": "Oe_AcOyUnVs",
+"topic": "db",
+"title": "MYSQL BACKEND: When using JOINS, REMEMBER the principle that they must be CLOSE and INCLUSIVE to ...",
+"members_guess": false
+},
+{
+"id": "ls6vJLO4otA",
+"topic": "db",
+"title": "Database Backend: If you feel SLOW QUERIES, see how smart MYSQL optimization is?",
+"members_guess": false
+},
+{
+"id": "JwbQKBhmrC4",
+"topic": "db",
+"title": "Which time data type in MySQL is the best: DateTime, Timestamp, or bigInt?",
+"members_guess": false
+},
+{
+"id": "d8vMgg32juU",
+"topic": "db",
+"title": "MySQL BE: Điều gì xảy ra nếu khai báo int(10) thay vì int(1)? Performance có thay đổi hay không?",
+"members_guess": false
+},
+{
+"id": "xya2ClZWbNM",
+"topic": "db",
+"title": "KHI NÀO SHARDING TABLE LỚN trong MYSQL? Đây là 2 cách, VẤN ĐỀ phiền toái bắt đầu từ đây",
+"members_guess": false
+},
+{
+"id": "1GTak-ifAnQ",
+"topic": "db",
+"title": "Intern beats Senior: Stop using LIKE in SEARCH MYSQL we improved from 6s to 0.1s",
+"members_guess": false
+},
+{
+"id": "dxNr51KxwUQ",
+"topic": "db",
+"title": "Export Data SQL to Excel: VERY HIGH performance with millions of data I have tried the following ...",
+"members_guess": false
+},
+{
+"id": "hicWEOfMPn8",
+"topic": "db",
+"title": "9 INDISPENSABLE PRINCIPLES with MYSQL Table before initializing with Backend Programming | SHOULD...",
+"members_guess": false
+},
+{
+"id": "ikH6_39OF7k",
+"topic": "db",
+"title": "Section 54: MySQL Setup master slave | SQL",
+"members_guess": false
+},
+{
+"id": "DvT_6USVg1k",
+"topic": "db",
+"title": "How is the eCommerce Products search API designed to STANDARDIZE data when using ElasticSearch?",
+"members_guess": false
+},
+{
+"id": "h0Y9oaBQv9w",
+"topic": "db",
+"title": "Solving N + 1 Problem, besides JOIN, this is how BIG systems like FB or Netflix use it!",
+"members_guess": false
+},
+{
+"id": "rETG8-x_XFo",
+"topic": "db",
+"title": "MySQL Backend: I APOLOGIZE for the confusion about the 3 concepts PARTITION, SHARDING, REPLICATION",
+"members_guess": false
+},
+{
+"id": "WaexBdjw_ic",
+"topic": "db",
+"title": "MYSQL sync ELASTCISEARCH: Chọn 1 trong 4 cách đồng bộ hiệu suất cao REALTIME | Best Practice Binlog",
+"members_guess": false
+},
+{
+"id": "ReQZtMHTdbA",
+"topic": "db",
+"title": "In Microservices architecture: How is the problem of integrating multiple databases handled?",
+"members_guess": false
+},
+{
+"id": "Brc-yvUL57Q",
+"topic": "db",
+"title": "Is PostgreSQL a Better Choice than MySQL for High PERFORMANCE Application Deployment? A Multi-Thr...",
+"members_guess": false
+},
+{
+"id": "LHv4oFFPCdE",
+"topic": "db",
+"title": "Vấn đề query CHẬM khi tách Monolith qua Microservices đã được FIX thế nào? #microservices #backend",
+"members_guess": false
+},
+{
+"id": "rF08XXh9klw",
+"topic": "db",
+"title": "MYSQL BACKEND: Tối ưu hoá UNION từ 3.3s còn 0.45s với 2 tables 6.000.000 dữ liệu? Share kinh nghiệm",
+"members_guess": false
+},
+{
+"id": "1u5YbRBb9ls",
+"topic": "db",
+"title": "Senior Backend: Dữ liệu đã được mã hoá trong MYSQL, làm thế nào tìm kiếm NUMPHONE đây SẾP?",
+"members_guess": false
+},
+{
+"id": "lKpSn7q-oEA",
+"topic": "db",
+"title": "Claude Code | How to Deploy MCP for Optimal Database Connection BUT Stay Secure with These 5 Gold...",
+"members_guess": false
+},
+{
+"id": "kRXoK02KJow",
+"topic": "db",
+"title": "Vector Databases: Understanding the Evolution from Software Engineer to AI Engineer",
+"members_guess": false
+},
+{
+"id": "mD7tf2a8mug",
+"topic": "sd",
+"title": "Điều gì xảy ra khi User nhập một Url | Phỏng vấn Backend",
+"members_guess": false
+},
+{
+"id": "0bvwcq_W4gg",
+"topic": "sd",
+"title": "Popular interview question: What is the difference between Process and Thread? 10 seconds a day",
+"members_guess": false
+},
+{
+"id": "l84-JRQ95V4",
+"topic": "sd",
+"title": "DESIGN PATTERNS | Bạn có dám chắc trả lời được 5 Câu hỏi này không? | Hướng dẫn cách học 23 patterns",
+"members_guess": false
+},
+{
+"id": "sheV2IBlQkU",
+"topic": "sd",
+"title": "Strategy Pattern: Level 1 vs. Level 4 Usage | From Rome's Strategy to Shopee | Design Patterns",
+"members_guess": false
+},
+{
+"id": "M4AFU8CNtk4",
+"topic": "sd",
+"title": "The BACKEND Developer roadmap I committed to after seeing this system architecture - 01",
+"members_guess": false
+},
+{
+"id": "zdOVvu3RGOo",
+"topic": "sd",
+"title": "Developer Interview Series: Backend (1) Forward Proxy vs Reverse Proxy Trăm nghe không bằng một thấy",
+"members_guess": false
+},
+{
+"id": "noxqc_CpVLQ",
+"topic": "sd",
+"title": "Developer Interview (2): Cookie vs Session, time to clarify the relationship with SessionID",
+"members_guess": false
+},
+{
+"id": "yv9vCIhfZEk",
+"topic": "sd",
+"title": "Developer Interview Series (3) Token (jwt) sinh ra thay cho Session với tình huống nào??Gợi ý 3 cách",
+"members_guess": false
+},
+{
+"id": "VLquzZ3hPqQ",
+"topic": "sd",
+"title": "Khi Lập Trình Viên phỏng vấn Designer tương lai | Funny Dev - Videos",
+"members_guess": false
+},
+{
+"id": "a0wDsf9YjSw",
+"topic": "sd",
+"title": "Applying SOLID principles to eCommerce projects | What is the S here? | Part 1 | SOLID Javascript...",
+"members_guess": false
+},
+{
+"id": "uZhe6O_JXM8",
+"topic": "sd",
+"title": "Hệ thống BackEnd tắc nghẽn ở giờ CAO ĐIỂM Tôi dựa vào công thức tính QPS và bài toán định luật 80/20",
+"members_guess": false
+},
+{
+"id": "rejhP-hKnKc",
+"topic": "sd",
+"title": "Kiến trúc quy trình ủy quyền đăng nhập (auth) | Schema and comments (replies) | Video 30 seconds",
+"members_guess": false
+},
+{
+"id": "FxpXlZz-dh8",
+"topic": "sd",
+"title": "(3) Build Node.js Backend Architecture PRO: Vì sao Router phải được triển khai bởi LEADER thực hành",
+"members_guess": false
+},
+{
+"id": "54-rJHUM2L8",
+"topic": "sd",
+"title": "Factory Method Pattern - Why is it so popular but easy to learn | Design Patterns | (6)",
+"members_guess": false
+},
+{
+"id": "gQVWGj3h1pM",
+"topic": "sd",
+"title": "Kubernetes vs Docker: Hiểu trước sau đó là cách triển khai hoạt động giữa thực tế và microservices",
+"members_guess": false
+},
+{
+"id": "EINOE9z3sLE",
+"topic": "sd",
+"title": "Load Balancers giải thích 5 thuật toán bằng hình ảnh và cùng nhau vào dự án lớn | architecture notes",
+"members_guess": false
+},
+{
+"id": "UybOa4xiW_c",
+"topic": "sd",
+"title": "Singleton Pattern triển khai thuật toán Round-Robin trong kiến trúc load balancing | Design Patterns",
+"members_guess": false
+},
+{
+"id": "jUQQ7WPjqnI",
+"topic": "sd",
+"title": "Api-gateway vs load balancing cách tối ưu hệ thống eCommerce | Systems Architecture | #22",
+"members_guess": false
+},
+{
+"id": "dSgXDKiLLvw",
+"topic": "sd",
+"title": "How to design WEB API security for your system? | Systems Architecture | 23",
+"members_guess": false
+},
+{
+"id": "EXzaoPWo7sk",
+"topic": "sd",
+"title": "Bucket pattern: Bí mật trong e-Commerce hay IoT được giải quyết NHANH GỌN | Mongdb Design Patterns",
+"members_guess": false
+},
+{
+"id": "cUNoGD7sR-g",
+"topic": "sd",
+"title": "Adapter Pattern: module exports MoMo to Visa Card để đăng ký HỘI VIÊN trên YOUTUBE | Design Patterns",
+"members_guess": false
+},
+{
+"id": "NbJ45r9sbiE",
+"topic": "sd",
+"title": "Docker, Dockerfile, Docker Compose: An FE Engineer Explained EXCELLENTLY in a Senior Interview",
+"members_guess": false
+},
+{
+"id": "VvAZeHNRGJI",
+"topic": "sd",
+"title": "13 Node.js Programming Interview Questions for Fresher and Intern | Beginner Level | Level 0, 1",
+"members_guess": false
+},
+{
+"id": "4yiE_1Bts9U",
+"topic": "sd",
+"title": "Backend architecture: How did the app grow from 0 to 14 million users in just one year?",
+"members_guess": false
+},
+{
+"id": "-uz1lKVdKZ8",
+"topic": "sd",
+"title": "Quy trình backend đăng ký Shop và các thao tác send Token Email, verify Token | Kiến Trúc ShopDEV",
+"members_guess": false
+},
+{
+"id": "XM5qmMZRrjE",
+"topic": "sd",
+"title": "BackEnd Interview: Now I Understand Synchronous and Asynchronous Through a Reality-Based Question #1",
+"members_guess": false
+},
+{
+"id": "3JdFrh1ZvRA",
+"topic": "sd",
+"title": "Phỏng vấn BackEnd: Trong LINUX chúng ta nên lo lắng về MỨC TẢI TRUNG BÌNH của hệ thống (2)",
+"members_guess": false
+},
+{
+"id": "D6-xKguNpWg",
+"topic": "sd",
+"title": "Phỏng vấn về Hash thành công - Giúp Lập Trình Viên được trả lương cao",
+"members_guess": false
+},
+{
+"id": "OYACAk1QqLE",
+"topic": "sd",
+"title": "DESIGN PATTERN vs SOLID: What's the difference? Which should I learn first? I'm anti-S in SOLID.",
+"members_guess": false
+},
+{
+"id": "n2GI_4Rbzwg",
+"topic": "sd",
+"title": "gRPC vs Rest API When? Where? See colleague explain",
+"members_guess": false
+},
+{
+"id": "Pbpq4Re1REQ",
+"topic": "sd",
+"title": "SOLID: Open Closes Principle OCP - Mức độ khó (★★★☆☆) | Mức độ phổ biến (★★★★★) | Nguyên tắc (2)",
+"members_guess": false
+},
+{
+"id": "SThv5ApvD8M",
+"topic": "sd",
+"title": "Từ MÔNG LUNG tới Back-End vs Front-End Developer tiết kiệm THỜI GIAN (Kiến trúc và Source)",
+"members_guess": false
+},
+{
+"id": "x5ZVWiJIuSM",
+"topic": "sd",
+"title": "Cách sử dụng gRPC: Triển khai Order Service Go, Java! Độ trễ gần như KHÔNG CÓ | Từng bước...",
+"members_guess": false
+},
+{
+"id": "oOPuYa9PgEM",
+"topic": "sd",
+"title": "BACKEND INTERVIEW 02: How to optimize a system for sending millions of emails? Junior level...",
+"members_guess": false
+},
+{
+"id": "Lx-Okh4Z0us",
+"topic": "sd",
+"title": "PHỎNG VẤN BE 03: Hệ thống bán vé đã xây dựng gửi 1.000.000 emails thế nào? Tỷ lệ lỗi được kiểm soát?",
+"members_guess": false
+},
+{
+"id": "WFlIoNHD_Yo",
+"topic": "sd",
+"title": "JAVA DDD 01: HOW TO BUILD A DDD DEPLOYMENT PROJECT FOR SELLING TRAIN TICKETS AND MUSIC WITH HIGH-...",
+"members_guess": false
+},
+{
+"id": "agO2UhMX6pk",
+"topic": "sd",
+"title": "How to Scale API Handling from 6,000 to 20,000 req/s Thanks to the BOSS's Email (Without Using Re...",
+"members_guess": false
+},
+{
+"id": "Xp92z9DeGf4",
+"topic": "sd",
+"title": "How Intern Beats Senior Interviewer? Real Interview Scenarios and Answers",
+"members_guess": false
+},
+{
+"id": "rR9AUwEk4OA",
+"topic": "sd",
+"title": "Like a Senior: Service Authentication in Microservices | Eureka and Java Spring Boot",
+"members_guess": false
+},
+{
+"id": "wuyak_clfmU",
+"topic": "sd",
+"title": "NVIDIA Interview: Tips use Docker và Kubernetes để triển khai quá trình triển khai dự án từ 0 đến 1?",
+"members_guess": false
+},
+{
+"id": "CR4yiNTSEKg",
+"topic": "sd",
+"title": "NVIDIA Phỏng vấn Intern KHÓ thế này? Tiết lộ ask interview và giải pháp vượt qua như thế này...",
+"members_guess": false
+},
+{
+"id": "op2eUV20Ggg",
+"topic": "sd",
+"title": "TIPS nhảy việc: Đã kinh qua DDD và Microservice, nhưng vẫn thất bại với câu hỏi phỏng vấn thế này?",
+"members_guess": false
+},
+{
+"id": "G9_9Wj_01RM",
+"topic": "sd",
+"title": "I got an SA (Solution Architect) interview: Estimate a server for 30 billion requests. Why do SAs...",
+"members_guess": false
+},
+{
+"id": "uuX3zCCr1-8",
+"topic": "sd",
+"title": "HOT - CHÍNH THỨC: Cơ hội làm REMOTE nhiều hơn khi PHỎNG VẤN TIẾNG ANH sẽ không còn như trước! TUYỆT",
+"members_guess": false
+},
+{
+"id": "tJMd2rNkt0M",
+"topic": "sd",
+"title": "Solution Architecture: How to OPTIMIZE CHAT GROUP Messages data with 10,000 members in the Group?",
+"members_guess": false
+},
+{
+"id": "4LcRTajOUs0",
+"topic": "sd",
+"title": "Rate Limiter System Design: Token Bucket, Leaky Bucket | It's simple but very effective, right?",
+"members_guess": false
+},
+{
+"id": "OhBPuI1ylhY",
+"topic": "sd",
+"title": "Why do people with good programming skills often fail interviews? Looking for a Remote Senior...",
+"members_guess": false
+},
+{
+"id": "u5smNti5cwE",
+"topic": "sd",
+"title": "Senior Backend: How did my colleague prepare for the second round of interviews after failing the...",
+"members_guess": false
+},
+{
+"id": "z2WsQIlS9gc",
+"topic": "sd",
+"title": "YouTube's data structure, GitHub helped me 'flex' in my Senior interview | Bloom Filters",
+"members_guess": false
+},
+{
+"id": "NJmRdgftBTA",
+"topic": "sd",
+"title": "Build hệ thống bán vé với FULLSTACK: JAVA DDD Backend vs React Vite Frontend chịu tải 30.000 Req/S",
+"members_guess": false
+},
+{
+"id": "BAC6xTit6NY",
+"topic": "sd",
+"title": "Tôi phát hiện vì sao tôi gửi một đống CV mà không nhận được lời phỏng vấn nào? Mặc dù rất tự tin...",
+"members_guess": false
+},
+{
+"id": "IWeb4Gkvx1I",
+"topic": "sd",
+"title": "I have no experience, is there a way to pass interviews? Yes, this video is for you...",
+"members_guess": false
+},
+{
+"id": "3OK0bYhayXI",
+"topic": "sd",
+"title": "System Design: How Big Tech Automatically Cancels Orders After 15 Minutes? 3 Methods, I Chose Met...",
+"members_guess": false
+},
+{
+"id": "95vD_r9hsY0",
+"topic": "sd",
+"title": "System Design Interview: Eliminating 80% of surrounding backend developers isn't as hard as you t...",
+"members_guess": false
+},
+{
+"id": "lY8inZOeQhw",
+"topic": "go",
+"title": "Loggin Users with bcrypt Node.js (6) | Node and express course | ANONYSTICK",
+"members_guess": false
+},
+{
+"id": "7fKjiBcBj3E",
+"topic": "go",
+"title": "Nhận AccessToken mới khi Token hết hạn mà người dùng không cần login lại như Facebook | Axios API",
+"members_guess": false
+},
+{
+"id": "c4Sn3vGyfhw",
+"topic": "go",
+"title": "Speaking of SALARY, how about Node.js and Go? Is this a quick way to switch from NODE.JS to GOLANG?",
+"members_guess": false
+},
+{
+"id": "80vgCpHXs98",
+"topic": "go",
+"title": "Go và CON ĐƯỜNG lập trình toàn diện cho nhiều level khác nhau (1) | Series Golang | Source vs Book",
+"members_guess": false
+},
+{
+"id": "oUvTfcMSbqw",
+"topic": "go",
+"title": "GO FRESHER INTRO: Nói về Golang để xem nhân viên GOOGLE nói gì?",
+"members_guess": false
+},
+{
+"id": "m4f_b9PNwT8",
+"topic": "go",
+"title": "GO FRESHER TIPS: TOOLS TỐT NHẤT khởi tạo dự án trong vòng 3 giây (NÊN DÙNG)",
+"members_guess": false
+},
+{
+"id": "KeiFxYXRTh0",
+"topic": "go",
+"title": "Java, Go, NodeJS: NẾU chọn lại TÔI sẽ không LÃNG PHÍ thời gian chọn SAI ngôn ngữ",
+"members_guess": false
+},
+{
+"id": "rZ2shLV6BqI",
+"topic": "go",
+"title": "Trying out 100 million with goroutine go, Java threads, and Node.js eventloop on my NEW M3 phone :v",
+"members_guess": false
+},
+{
+"id": "w33dg6EoWl0",
+"topic": "go",
+"title": "2025: Vị trí HOT (BE, FS) GO trả lương cao nhất và 4 ngôn ngữ lập trình năm 2025 tại Việt Nam",
+"members_guess": false
+},
+{
+"id": "aUybpn3T4hg",
+"topic": "go",
+"title": "Virtual Threads JAVA: Can the Big Brother Surpass Goroutine Go? x16 times? This example is enough...",
+"members_guess": false
+},
+{
+"id": "d7j_ErLsNqg",
+"topic": "go",
+"title": "Thực hành vì sao WhatsApp user LOGIN với việc đồng bộ List Friends, Groups cấp triệu rất NHANH",
+"members_guess": false
+},
+{
+"id": "frT-R9hc42Q",
+"topic": "go",
+"title": "LẬP TRÌNH GO CHO NGƯỜI MỚI (or JAVA to GO) | Intern - Fresher - Junior - Senior | Lộ trình này là đủ",
+"members_guess": false
+},
+{
+"id": "sS6iQBMaj84",
+"topic": "java",
+"title": "Speech recognition api javascript Example - Anonystick.com",
+"members_guess": false
+},
+{
+"id": "sK9b5h22Fx8",
+"topic": "java",
+"title": "Example autocomplete search javascript",
+"members_guess": false
+},
+{
+"id": "7R73T8YKTLo",
+"topic": "java",
+"title": "fireworks javascript code",
+"members_guess": false
+},
+{
+"id": "Z3LUDahthQo",
+"topic": "java",
+"title": "Debounce là gì? Ngăn chặn User click liên tục vào một chức năng | Javascript debounce example",
+"members_guess": false
+},
+{
+"id": "PLCrpMgaaeg",
+"topic": "java",
+"title": "Cách tăng tốc ỨNG DỤNG NODE.JS lên x3 với ThreadPool | PERFORMANCE NODEJS",
+"members_guess": false
+},
+{
+"id": "OMpCldR3XsU",
+"topic": "java",
+"title": "Xem cách Senior họ hander error async await như thế nào? | Async await javascript",
+"members_guess": false
+},
+{
+"id": "Ujyal1dzCms",
+"topic": "java",
+"title": "4 Useful VS Code Extensions for JavaScript Tips to Save Coding Time | VS Code Extensions",
+"members_guess": false
+},
+{
+"id": "HhWDDG52M1E",
+"topic": "java",
+"title": "Sơ lược vòng đời của Event loop callback promise async await trong Javascript qua chuyện tăng lương",
+"members_guess": false
+},
+{
+"id": "kPRyWBzzUJE",
+"topic": "java",
+"title": "Stop sử dụng typeof trong javascript và đây là giải pháp | JavaScript check data type",
+"members_guess": false
+},
+{
+"id": "qDHyuV209Fo",
+"topic": "java",
+"title": "Detect When Users Switch Tabs using JavaScript | Tutorials Javascript | SHORT VIDEOS",
+"members_guess": false
+},
+{
+"id": "lHSwa7pBPD4",
+"topic": "java",
+"title": "Browser In The Browser (BITB) Attack | Tips Javascript",
+"members_guess": false
+},
+{
+"id": "BmcGtkABKu0",
+"topic": "java",
+"title": "ECMAScript 2022 (ES13) Những tính năng được tuyệt vời FrontEnd hay Backend cần học trong Javascript.",
+"members_guess": false
+},
+{
+"id": "x2xkzvG1NDg",
+"topic": "java",
+"title": "Tips Javascript - Tổng hợp những tính năng 80% lập trình Javascript thường được sử dụng trong DỰ ÁN",
+"members_guess": false
+},
+{
+"id": "9uuebwAOqsY",
+"topic": "java",
+"title": "Tips Javascript - Một dòng CODE CSS để thay đổi site GITHUB thành đen trắng | Video 45 seconds",
+"members_guess": false
+},
+{
+"id": "6594tqArXkA",
+"topic": "java",
+"title": "Delete a node from nested model set với thuật toán sau đây, áp dụng cho PHP, JAVA, JAVASCRIPT",
+"members_guess": false
+},
+{
+"id": "5tZZe_rXM2s",
+"topic": "java",
+"title": "canParse() - Đề xuất xác thực URL trong JavaScript mới nhất | Tools vs Methods backend",
+"members_guess": false
+},
+{
+"id": "cUV6uckeG6k",
+"topic": "java",
+"title": "SPRING SECURTY 6 | FULL | JWT, RBAC, CSRF, Persistent Token, Rememer-Me | HackToken",
+"members_guess": false
+},
+{
+"id": "sgMGwdP5pdM",
+"topic": "java",
+"title": "Spring Boot vs NestJS: Không nên kết hợp DTO vs Entity | Tôi chọn NestJS nói về DTO hơn MapStruct",
+"members_guess": false
+},
+{
+"id": "bpHYSYBuqyU",
+"topic": "java",
+"title": "HOW TO LEARN JAVA FOR BEGINNERS (or CAREER CHANGERS) - Don't digress — Please focus on these aspe...",
+"members_guess": false
+},
+{
+"id": "g8tolSSWe3c",
+"topic": "java",
+"title": "Java Excel | Why our team switched from EasyExcel to Apache POI (Real Data) | Spring",
+"members_guess": false
+},
+{
+"id": "O4Pobbwt0Ds",
+"topic": "node",
+"title": "Get Metadata from url with nodejs",
+"members_guess": false
+},
+{
+"id": "ssJb1PQ-D_E",
+"topic": "node",
+"title": "Build a simple chat app with node.js, firebase and Heroku",
+"members_guess": false
+},
+{
+"id": "yaLm4l_EzJU",
+"topic": "node",
+"title": "Authentication services Nodejs with JsonWebToken",
+"members_guess": false
+},
+{
+"id": "xBUxZw0w0Fg",
+"topic": "node",
+"title": "How To Write and Run Your First Program in Node.js",
+"members_guess": false
+},
+{
+"id": "oaTYX01pk-M",
+"topic": "node",
+"title": "Helmet NodeJS | Middleware NodeJS",
+"members_guess": false
+},
+{
+"id": "cCYneHh6DLw",
+"topic": "node",
+"title": "Dotenv là gì? Cách sử dụng trong Nodejs | Tự học Nodejs",
+"members_guess": false
+},
+{
+"id": "gDo-I9YgZTQ",
+"topic": "node",
+"title": "Setting express with error handler (1) | Node and express course for beginner tutorial | ANONYSTICK",
+"members_guess": false
+},
+{
+"id": "jYFcmcessNE",
+"topic": "node",
+"title": "Joi awesome code validation for Node.js and Express (4) |  | Node and express course | ANONYSTICK",
+"members_guess": false
+},
+{
+"id": "KTmLRBhVGNo",
+"topic": "node",
+"title": "Bcrypt hash password in Node.js (5) | Node and express course | ANONYSTICK",
+"members_guess": false
+},
+{
+"id": "5eQmHXx-ayw",
+"topic": "node",
+"title": "Generator JWT Access Token (7) | Node and express course | ANONYSTICK",
+"members_guess": false
+},
+{
+"id": "baiyWCJUhWM",
+"topic": "node",
+"title": "Verify access token Node.js ( 8 ) | Nodejs and Express.js API Authentication | ANONYSTICK",
+"members_guess": false
+},
+{
+"id": "A7YeZOEPquw",
+"topic": "node",
+"title": "Generating Refresh Tokens (9) | Node.js API Authentication | ANONYSTICK",
+"members_guess": false
+},
+{
+"id": "-_fxOtzK44U",
+"topic": "node",
+"title": "Using refresh token create new token (11) | NODE.JS API Authentication | ANONYSTICK",
+"members_guess": false
+},
+{
+"id": "bJYoUOt6QWk",
+"topic": "node",
+"title": "Google drive api upload file with Node.js | Google API | Anonystick",
+"members_guess": false
+},
+{
+"id": "Mk60ETaiTeg",
+"topic": "node",
+"title": "Logout User (13) | Node JS API Authentication",
+"members_guess": false
+},
+{
+"id": "m4Ev3M_4jK0",
+"topic": "node",
+"title": "Add Controller pattern vs Complete Course (14) | NODEJS API AUTHENTICATION | ANONYSTICK",
+"members_guess": false
+},
+{
+"id": "aqMPRCNzkbg",
+"topic": "node",
+"title": "How to send emails with Node.js with Nodemailer | GMAIL | OAUTH2",
+"members_guess": false
+},
+{
+"id": "f-Gb91Sc_rY",
+"topic": "node",
+"title": "Phân quyền User với Rest API trong Nodejs |  NodeJS Authorization",
+"members_guess": false
+},
+{
+"id": "CX_BGViLEoM",
+"topic": "node",
+"title": "9 Principles and Best Practices for Designing REST APIs When Developing a Backend for shopDEV",
+"members_guess": false
+},
+{
+"id": "W2h0dUdILj4",
+"topic": "node",
+"title": "Route Express có thể bạn chưa biết điều này | Series Social Media REST API Nodejs| Phần 3",
+"members_guess": false
+},
+{
+"id": "XiUnYr6Iijg",
+"topic": "node",
+"title": "Convert text to speech (audio Mp3) Node.js with gTTS | Useful NPM Packages Node.js | ANONYSTICK",
+"members_guess": false
+},
+{
+"id": "mJWg96W2YE4",
+"topic": "node",
+"title": "Bắt đến chết API ERROR và EXPRESS ERROR | Series Social Media REST API NODE.JS (5)",
+"members_guess": false
+},
+{
+"id": "Fb2W_GBx3QY",
+"topic": "node",
+"title": "Nodejs write log to file | Series Social Media REST API NODE.JS (6) | ANONYSTICK",
+"members_guess": false
+},
+{
+"id": "jbd71z2Gdo4",
+"topic": "node",
+"title": "Docker là gì? Cách tạo một docker đơn giản cho node.js video quá đầy đủ | NODEJS WITH DOCKER",
+"members_guess": false
+},
+{
+"id": "bIFq0fxNLoE",
+"topic": "node",
+"title": "Boost Your Node.js App Speed with Compression | Node.js Performance",
+"members_guess": false
+},
+{
+"id": "SNU0QTWTXvM",
+"topic": "node",
+"title": "What are Event Emitters? Useful features of Nodejs in 5 command lines | Nodejs Tutorial",
+"members_guess": false
+},
+{
+"id": "01YdaPRVNYQ",
+"topic": "node",
+"title": "Node.js 17 phát hành NÊN học tính nằng này không cần phải nhiều?| What's new in Node v17?",
+"members_guess": false
+},
+{
+"id": "OWS7h5Mm-v8",
+"topic": "node",
+"title": "Comprehensive Guide to Amazon Cloud (AWS): Setting up a Server with domain, https, nginx, node, a...",
+"members_guess": false
+},
+{
+"id": "LvlUsIwYLW4",
+"topic": "node",
+"title": "Cookie là gì? Tìm hiểu Cookie hoạt động HTTPOnly, Secure với EXPRESS NODEJS",
+"members_guess": false
+},
+{
+"id": "a66kWREgnr4",
+"topic": "node",
+"title": "Node.js 18 Release SHOULD I learn this feature without much effort?| What's new in Node v18?",
+"members_guess": false
+},
+{
+"id": "i4Pr81apfnU",
+"topic": "node",
+"title": "Cấu trúc dự án API REST từ lv1 đến lv4 | APIStructure Your Nodejs REST API for beginner to Advanced",
+"members_guess": false
+},
+{
+"id": "7U71q1GLEro",
+"topic": "node",
+"title": "Parsing request RESTful api | Express.js vs Node.js",
+"members_guess": false
+},
+{
+"id": "0OTmTe5EnpQ",
+"topic": "node",
+"title": "Config routes trong express thế nào khi có 1000 routes và nhiều thành viện tham gia dự án",
+"members_guess": false
+},
+{
+"id": "VuXakfARDC4",
+"topic": "node",
+"title": "What is CORS? Fix it with a few lines of code | Using CORS in Express | Nodejs Tutorial",
+"members_guess": false
+},
+{
+"id": "jY3aDAYNq_Q",
+"topic": "node",
+"title": "Socket.io triển khai theo MVC Express | Best practice question involving Socket.io and MVC | Nodejs",
+"members_guess": false
+},
+{
+"id": "OcskWwBV0j0",
+"topic": "node",
+"title": "Socket.io authentication express | Socket io jwt | Nodejs tutorial",
+"members_guess": false
+},
+{
+"id": "0WJK4rWlw_0",
+"topic": "node",
+"title": "Lợi ích của Promise so với async-await đa số người chưa biết về 3 cách  | Promises or async-await",
+"members_guess": false
+},
+{
+"id": "NzzcRHpmhJk",
+"topic": "node",
+"title": "Difference between returning await and not using await in Promises | Async Await | Node.js tutorial",
+"members_guess": false
+},
+{
+"id": "luzg3zpN0SY",
+"topic": "node",
+"title": "Ai nói forEach là xấu khi làm việc với Loops with Async / Await | Nodejs tutorial | Cách tôi FIX",
+"members_guess": false
+},
+{
+"id": "8YE_waVWa7A",
+"topic": "node",
+"title": "Node.js developer roadmap | Backend Service",
+"members_guess": false
+},
+{
+"id": "rdvjxRRvVF0",
+"topic": "node",
+"title": "Send OTP hiệu quả và ALICONCON đã dùng cách này | E-COMMERCE ALICONCON | Part - 3 | Node.js Tutorial",
+"members_guess": false
+},
+{
+"id": "so0myCu8EGY",
+"topic": "node",
+"title": "Backend Nodejs vs thuật toán trao đổi KEY API Diffie Hellman và 2 ví dụ mã hóa của bác PHẠM XUÂN ẨN",
+"members_guess": false
+},
+{
+"id": "z8qrSG2j1fo",
+"topic": "node",
+"title": "Hóa ra đây là phần hoàn chỉnh về bảo mật REST API nếu bạn là một Backend sử dụng NodeJS build API",
+"members_guess": false
+},
+{
+"id": "MBs9BmArgCc",
+"topic": "node",
+"title": "Node.js 19  phát hành NÊN học tính nằng này không cần phải nhiều?| What's new in Node v19?",
+"members_guess": false
+},
+{
+"id": "hk8TVn3Y9Is",
+"topic": "node",
+"title": "CHATGPT vs Node.js - Build a Service app CHAT in my COMPANY use OpenAI - (1)",
+"members_guess": false
+},
+{
+"id": "sQj2c7dEj2o",
+"topic": "node",
+"title": "13 tips cần BIẾT của một BackEnd khi Building a Project REST API with Node.js and Express - Phần 1",
+"members_guess": false
+},
+{
+"id": "aXBZjId5XEE",
+"topic": "node",
+"title": "Phần 2 - 13 tips cần BIẾT của một BackEnd khi Building a Project REST API with Node.js and Express",
+"members_guess": false
+},
+{
+"id": "wAyQ0Q2NpGQ",
+"topic": "node",
+"title": "Triển Khai CODE: Bảo mật giữa Postman(FE) và Node.js(BE) sử dụng thuật toán HMAC | Phần 23",
+"members_guess": false
+},
+{
+"id": "SnFxlqFPjtQ",
+"topic": "node",
+"title": "Node.js 20  phát hành NÊN học tính nằng này không cần phải nhiều?| What's new in Node v20?",
+"members_guess": false
+},
+{
+"id": "vqPqf7GQE3s",
+"topic": "node",
+"title": "Tập trung 3 tính năng này của NODE.JS vậy tôi hỏi các bạn tôi có sai không? | Podcast Lập Trình Viên",
+"members_guess": false
+},
+{
+"id": "AiPuHlyP8qM",
+"topic": "node",
+"title": "Stream Nodejs - See the following two examples to see the core of the programmer using the Stream...",
+"members_guess": false
+},
+{
+"id": "GVx47SJYZhI",
+"topic": "node",
+"title": "Nodejs Event Loop - Last explanation for those who are still DOUBTING through two classic EXAMPLES",
+"members_guess": false
+},
+{
+"id": "Keoyg8GRIE0",
+"topic": "node",
+"title": "ES14 (ECMAScript 2023) đã xuất phát những TÍNH NĂNG này bạn đã thử? Học nhanh thôi.",
+"members_guess": false
+},
+{
+"id": "c6-ZDgz7SCo",
+"topic": "node",
+"title": "Section 32: Xây dựng hệ thống loggers sử dụng Discord vào dự án eCommerce Backend Node.js | Auto Bot",
+"members_guess": false
+},
+{
+"id": "aBiVefqfuR0",
+"topic": "node",
+"title": "Section 33: Export Service Push Log Router backend lên Discord với Postman eCommerce Backend Node.js",
+"members_guess": false
+},
+{
+"id": "gI6FkHZam5Y",
+"topic": "node",
+"title": "Lần đầu TEAM với dự án ShopDEV (eCommerce) show CODE về việc triển khai comments parent và child",
+"members_guess": false
+},
+{
+"id": "b4-58Ass58A",
+"topic": "node",
+"title": "Why Learn Algorithms? Why Does My shopDEV Feed Show Products My Wife Buys?",
+"members_guess": false
+},
+{
+"id": "0haeS2SpdTo",
+"topic": "node",
+"title": "Node.js (20.6.0) mới phát hành với tính năng NÀY tôi và Anh Em đã mong chờ từ lâu.",
+"members_guess": false
+},
+{
+"id": "JcMr866DJ-o",
+"topic": "node",
+"title": "I tried Bun and then looked back at Node.js and...",
+"members_guess": false
+},
+{
+"id": "YmTGDn4ttAA",
+"topic": "node",
+"title": "Bun vs Node.js tôi test performance, sự thật không phải như cộng đồng lập trình nói ???",
+"members_guess": false
+},
+{
+"id": "cqY_z0fkMfs",
+"topic": "node",
+"title": "Bảo mật API Keys như thế nào trong shopDEV ?? Hỏi đáp..",
+"members_guess": false
+},
+{
+"id": "m6mcXjnqFFo",
+"topic": "node",
+"title": "Tạm biệt TypeScript, các dự án LỚN đành hẹn gặp lại !",
+"members_guess": false
+},
+{
+"id": "BBdXwmPbSdA",
+"topic": "node",
+"title": "Anh em Coder hóng chức năng này đã quá LÂU rồi | New chrome | Learn Nodejs",
+"members_guess": false
+},
+{
+"id": "fnOg4DF-t7U",
+"topic": "node",
+"title": "Promise sử dụng khi nào với từng trường hợp all, race, any và allSettled trong  ứng dụng Nodejs",
+"members_guess": false
+},
+{
+"id": "6u7B54FGpGA",
+"topic": "node",
+"title": "Stream trong NodeJS: Kinh nghiệm của 2 Lập Trình Viên xử lý tối ưu FILE LỚN như thế nào?",
+"members_guess": false
+},
+{
+"id": "6_DJEZ7285Q",
+"topic": "node",
+"title": "Node.js Logging: How to Write Logs Like a Pro!",
+"members_guess": false
+},
+{
+"id": "OcvW7Vglfyg",
+"topic": "node",
+"title": "ECMAScript2025: Promise được nâng cấp với try() vs tính năng từ Python được áp dụng Nodejs 2025",
+"members_guess": false
+},
+{
+"id": "p8hCqqGWBmU",
+"topic": "node",
+"title": "Node.js 24 mới RELEASE: 6 Tính Năng bạn chưa từng trải nghiệm đúng không? Dự án mới có thể sử dụng",
+"members_guess": false
+},
+{
+"id": "aLOcO8qT7k0",
+"topic": "ops",
+"title": "Toàn diện về Amazon Cloud (AWS): EC2 (VPS) Đăng Ký Free cho Lập Trình Viên mới bắt đầu | (1)",
+"members_guess": false
+},
+{
+"id": "qu3Lc2evkTw",
+"topic": "ops",
+"title": "Which technology stack, Push or Pull, did Facebook and Instagram choose to develop their news feed?",
+"members_guess": false
+},
+{
+"id": "O6TsDdKtyz0",
+"topic": "ops",
+"title": "Simple factory pattern sử dụng trong ứng dụng Logistics như thế nào giữa Level 0 và Level xxx?",
+"members_guess": false
+},
+{
+"id": "8HSiwP92aPw",
+"topic": "ops",
+"title": "Docker trong con mắt của một Backend là phải thao tác nhanh gọn và dứt khoát phải giống như DevOps",
+"members_guess": false
+},
+{
+"id": "qb49coRptls",
+"topic": "ops",
+"title": "Oh No, 100% CPU! How Do I Fix This?",
+"members_guess": false
+},
+{
+"id": "ghIltBUCyns",
+"topic": "ops",
+"title": "Từng bước xây dựng CI/CD và phát hành tự động Backend Api dựa trên GitHub và EC2 (AWS), PM2",
+"members_guess": false
+},
+{
+"id": "ZwDpGJmGGb8",
+"topic": "ops",
+"title": "Why do COMPANIES log Backend API data this way? What's the professional approach?",
+"members_guess": false
+},
+{
+"id": "4oi3VqKfHkc",
+"topic": "ops",
+"title": "Docker vs Kubernetes API: Testing DevOPS Locations - This video is sufficient for deploying Apple...",
+"members_guess": false
+},
+{
+"id": "HZAXNSkAQqA",
+"topic": "ops",
+"title": "Docker vs Kubernetes API Backend: Accomplishing DevOPS Missions",
+"members_guess": false
+},
+{
+"id": "T5MHC7WeU5Y",
+"topic": "ops",
+"title": "Intern beats Senior: How to optimize Docker? And the result is a Docker image from 500MB to 100MB",
+"members_guess": false
+},
+{
+"id": "IEEdKxXk3SQ",
+"topic": "ops",
+"title": "Đánh bại Senior: JWT Logout đơn giản - mà không làm ảnh hưởng đến các thiết bị khác cùng tài khoản.",
+"members_guess": false
+},
+{
+"id": "Rhu0KBw1068",
+"topic": "ops",
+"title": "AWS: 6 sai lầm cần tránh trước khi trở thành kỹ sư Cloud.",
+"members_guess": false
+},
+{
+"id": "nONm8yu_9gE",
+"topic": "sec",
+"title": "REST Security với JWT có lẽ đây là phương pháp tốt nhất AccessToken hết hạn hiện nay | JWT Secure",
+"members_guess": false
+},
+{
+"id": "EOqKXH8Ztrg",
+"topic": "sec",
+"title": "Triển khai 3 cách phân trang APIs với hệ thống Stackoverflow, reddit, facebook và hack news",
+"members_guess": false
+},
+{
+"id": "TWSWymrSmiE",
+"topic": "sec",
+"title": "SECURITY MESSAGE: Nói về việc bảo mật nội dung CHAT, MEMBERs....",
+"members_guess": false
+},
+{
+"id": "93fTk16-st0",
+"topic": "sec",
+"title": "Token (JWT) How to revoke a hacked token and some questions about the safety of using tokens",
+"members_guess": false
+},
+{
+"id": "1HHvCfAu008",
+"topic": "sec",
+"title": "Token (JWT) Triển khai hệ thống tự động phát hiện Token đã được sử dụng bởi Hacker và cách xử lý!",
+"members_guess": false
+},
+{
+"id": "j_ObF0lCeDU",
+"topic": "sec",
+"title": "CHATGPT Share tài khoản OpenAI miễn phí hàng tuần (Email + password ) đính kèm trong video |Tuần 3",
+"members_guess": false
+},
+{
+"id": "i8WLvdbF_W8",
+"topic": "sec",
+"title": "(2) Shopee vs Hack news đã triển khai hệ thống Comments như thế này với Rest Api? Dành cho Level 1",
+"members_guess": false
+},
+{
+"id": "VYCaAyVA0cQ",
+"topic": "sec",
+"title": "Đề xuất Tools cho DEV: Liệu có cần FrontEnd nữa hay không? Khi tạo youtube, hack news chỉ với 1 phút",
+"members_guess": false
+},
+{
+"id": "UtRisKVCYIE",
+"topic": "sec",
+"title": "What Programmers Should Do Now That Third-Party Cookies Are Being Phased Out: Important Reminder ...",
+"members_guess": false
+},
+{
+"id": "2KqZJDf7uQI",
+"topic": "sec",
+"title": "I LOST (was hacked) my account like this? What is IDOR?",
+"members_guess": false
+},
+{
+"id": "_9O0eyRM-eE",
+"topic": "sec",
+"title": "INTERN đánh bại SENIOR: Làm thế nào để bảo vệ Server khi action SPAM vào FORGOT PASSWORD API ?",
+"members_guess": false
+},
+{
+"id": "z84fkObC5Pw",
+"topic": "sec",
+"title": "Họ nói JWT không thể thu hồi  - Cách TỐT nhất vô hiệu hoá nhiều devices khi changePassword",
+"members_guess": false
+},
+{
+"id": "M9sVMHtnJTo",
+"topic": "ai",
+"title": "Hướng dẫn sử dụng ESLINT với VSCODE",
+"members_guess": false
+},
+{
+"id": "Q4EQTrpLB1k",
+"topic": "ai",
+"title": "Hướng dẫn sử dụng Github và Git | Installing Git (1/08) | Tự học GIT",
+"members_guess": false
+},
+{
+"id": "prFUvdqasK4",
+"topic": "ai",
+"title": "Hướng dẫn sử dụng Github và Git | Clone Git (2/08) | Tự học GIT",
+"members_guess": false
+},
+{
+"id": "DGfixYOBdVU",
+"topic": "ai",
+"title": "Hướng dẫn sử dụng Github và Git | Setting Global (3/08) | Tự học GIT",
+"members_guess": false
+},
+{
+"id": "wHEntKYM1yM",
+"topic": "ai",
+"title": "Git vs Github - Commit and Push (4/08) | Tự học GIT",
+"members_guess": false
+},
+{
+"id": "cs27QEkg08k",
+"topic": "ai",
+"title": "Git vs Github pull changes (5/08) | Tự học GIT",
+"members_guess": false
+},
+{
+"id": "5b9_Y9hZJOU",
+"topic": "ai",
+"title": "Git vs. GitHub - Branching (8/6) | Learning GIT",
+"members_guess": false
+},
+{
+"id": "Xv152mjrPxo",
+"topic": "ai",
+"title": "Git vs GitHub - .gitignore file (08/07) | Self-learn GIT",
+"members_guess": false
+},
+{
+"id": "oDTaOtvlnzY",
+"topic": "ai",
+"title": "How to Copy Variable from Chrome Dev Tools Console",
+"members_guess": false
+},
+{
+"id": "vQgcl8VouLU",
+"topic": "ai",
+"title": "Comprehensive summary of Git usage and GitFlow workflow and my boss asked me to learn",
+"members_guess": false
+},
+{
+"id": "l0VtRcPz1ME",
+"topic": "ai",
+"title": "Tôi chưa bao giờ hiểu Git Rebase và Git Merge cho đến khi Sếp giải thích cho tôi như thế này | Git",
+"members_guess": false
+},
+{
+"id": "41KMhNTq5tA",
+"topic": "ai",
+"title": "Biết GIT chỉ là học việc quan trọng Fix Git mới là bậc thầy l Git cherry pick l Git stash Git reset",
+"members_guess": false
+},
+{
+"id": "77m4cQN35G8",
+"topic": "ai",
+"title": "CDN là gì? Với 1 PHÚT ai cũng hiểu vì sao lại sử dụng CDN và nếu không có CDN thì sao?",
+"members_guess": false
+},
+{
+"id": "qnn8bqRsijk",
+"topic": "ai",
+"title": "Autocomplete terminal - This is a TOOL that I and the BIG BROTHERS cannot do without, now I share...",
+"members_guess": false
+},
+{
+"id": "eFaKfXY5pTs",
+"topic": "ai",
+"title": "Lập trình viên LƯƠNG CAO? Ai hỏi như vậy vui lòng đưa họ video này?",
+"members_guess": false
+},
+{
+"id": "rfXHa6DA4Do",
+"topic": "ai",
+"title": "VS Code với 5 phím tắt cho kỹ năng từ sự lười biếng haha",
+"members_guess": false
+},
+{
+"id": "82oFC6cO5lg",
+"topic": "ai",
+"title": "Guide for Programmers to participate in PR in the high-quality OpenSource GitHub community",
+"members_guess": false
+},
+{
+"id": "DJHNLI6nuCs",
+"topic": "ai",
+"title": "Tool System Administration mà các bạn hỏi là đây...",
+"members_guess": false
+},
+{
+"id": "8O68zxJICBA",
+"topic": "ai",
+"title": "SỰ UY TÍN CỦA Leaderboard AI  vs LẬP TRÌNH VIÊN \"MÙ CODE\"",
+"members_guess": false
+},
+{
+"id": "otk_1EdYdRk",
+"topic": "ai",
+"title": "NotebookLM: Google is beyond imagination now, you REALLY should give it a try, Oh my God...",
+"members_guess": false
+},
+{
+"id": "rMuH9ZR7rvo",
+"topic": "ai",
+"title": "Backend AI AGENT: BUILD training OpenAI Assistant API - BOSS Increase Revenue (With Source + Docu...",
+"members_guess": false
+},
+{
+"id": "sqZAjzI9P7o",
+"topic": "ai",
+"title": "CLAUDE CODE: A guide to obtaining the CLAUDE CODE certification and completing 8 levels of AI pro...",
+"members_guess": false
+},
+{
+"id": "aSEhzM23-Ek",
+"topic": "ai",
+"title": "Claude Code – This One Video Is Enough for Plugins, Goals, MCP, Skills, and Setup | So Good!",
+"members_guess": false
+},
+{
+"id": "NFkfrVG_IVI",
+"topic": "career",
+"title": "How to fix create-react-app: command not found",
+"members_guess": false
+},
+{
+"id": "m2KjazaHmSs",
+"topic": "career",
+"title": "How to rename Alias short name in Terminal On MacBook OS X",
+"members_guess": false
+},
+{
+"id": "mKG9AVCklik",
+"topic": "career",
+"title": "Configure Apache Virtual Hosts in Ubuntu 18.04 LTS",
+"members_guess": false
+},
+{
+"id": "YQGOyeic_c8",
+"topic": "career",
+"title": "Install ohmyzsh in 1 minute",
+"members_guess": false
+},
+{
+"id": "ngqwsfMMEEA",
+"topic": "career",
+"title": "What is HATEOAS? It's a pity to do Rest APIs without it | Social Media REST API Series (2)",
+"members_guess": false
+},
+{
+"id": "vsl4my0Ot-s",
+"topic": "career",
+"title": "What is Throttle Technique? Implement and Understand Through 2 Classic Examples in Programming | ...",
+"members_guess": false
+},
+{
+"id": "tf1ko6sBoLY",
+"topic": "career",
+"title": "Senior sử dụng async await fetch api thực sự pro nhu thế nào? | FETCH API",
+"members_guess": false
+},
+{
+"id": "uLBwJpPGBw4",
+"topic": "career",
+"title": "WebGL Water Demo",
+"members_guess": false
+},
+{
+"id": "HqqV2aSLwqg",
+"topic": "career",
+"title": "A DEV.to clone using MERN stack by Eknoorpreet",
+"members_guess": false
+},
+{
+"id": "tHgAXlWLvmI",
+"topic": "career",
+"title": "9 nguồn tin công nghệ mà các Lập Trình Viên và Tôi dành 30 phút mỗi ngày để bước tiếp...",
+"members_guess": false
+},
+{
+"id": "IOorKo7qLYc",
+"topic": "career",
+"title": "Build An eCommerce ALICONCON Using An API, Setup #1",
+"members_guess": false
+},
+{
+"id": "Ig6vJWcm_JI",
+"topic": "career",
+"title": "How Facebook encodes Videos | Become a better developer in 10 seconds a day",
+"members_guess": false
+},
+{
+"id": "1sTAklCy4zk",
+"topic": "career",
+"title": "Design product model | 90% trang TMĐT đều triển khai theo cách này | Performance 99% | app aliconcon",
+"members_guess": false
+},
+{
+"id": "BKuNdc92ltI",
+"topic": "career",
+"title": "How accurately do systems calculate views if multiple IPs watch videos at the same time | Backend",
+"members_guess": false
+},
+{
+"id": "-YgvJwcrCrI",
+"topic": "career",
+"title": "Dùng IF ELSE hay SWITCH thế này cho tôi hỏi các bạn LẬP TRÌNH VIÊN, cách CODE của tôi có sai không?",
+"members_guess": false
+},
+{
+"id": "7J5pRc2vzWk",
+"topic": "career",
+"title": "Observer pattern được sử dụng triển khai news feed trong facebook và cách triển khai DOTA 2 vs IP 14",
+"members_guess": false
+},
+{
+"id": "zK_sNkfzugs",
+"topic": "career",
+"title": "Facade pattern Vì sao các KỸ SƯ LV4 luôn sử dụng? Còn LV1, 2 hầu như chưa nghe dù chỉ là một lần ???",
+"members_guess": false
+},
+{
+"id": "Z3mPTWuFw00",
+"topic": "career",
+"title": "Proxy Pattern: If you want a raise, give this Pattern to your Boss's Proxy | Who is this Proxy?",
+"members_guess": false
+},
+{
+"id": "QAW9YFidqn8",
+"topic": "career",
+"title": "Cách thiết kế hệ thống BackEnd mở rộng hàng triệu người sử dụng (2)",
+"members_guess": false
+},
+{
+"id": "EKLVEQs3USA",
+"topic": "career",
+"title": "High Availability là gì? Tiết lộ CÔNG THỨC tính cho phép hệ thống DIE mỗi NĂM  vs 3 cách triển khai",
+"members_guess": false
+},
+{
+"id": "_KE9VYR8rXE",
+"topic": "career",
+"title": "Api Gateway kết hợp Backend for FrontEnd (BFF) như HỔ mọc thêm CÁNH | Lộ trình trở thành Backend.",
+"members_guess": false
+},
+{
+"id": "uCu5F7FBA1A",
+"topic": "career",
+"title": "Show doanh thu KHỦNG trên youtube khi đạt 10.000 Subscribers và LỜI CẢM ƠN ANH CHỊ DEVELOPERS.",
+"members_guess": false
+},
+{
+"id": "mtQGdn1Y3WQ",
+"topic": "career",
+"title": "What is your SALARY expectation? And my 3 answers that will make the Recruiter think?",
+"members_guess": false
+},
+{
+"id": "hR6nUoP_sj0",
+"topic": "career",
+"title": "Elon Musk Just leaving Twitter HQ code review and redraw by ANONYSTICK.COM",
+"members_guess": false
+},
+{
+"id": "jSWkGTvZeco",
+"topic": "career",
+"title": "Hai phương pháp hay nhất quản lý Your Version API Backend một cách hiệu quả nếu bạn là một Dev BE.",
+"members_guess": false
+},
+{
+"id": "ICB80lXwcwQ",
+"topic": "career",
+"title": "ChatGPT nó quá thông minh có thể lập trình viên  và một số ngành khác sẽ thất nghiệp ???",
+"members_guess": false
+},
+{
+"id": "th3WJqnryoc",
+"topic": "career",
+"title": "5 dấu hiệu cho thấy LẬP TRÌNH VIÊN nên thay đổi môi trường MỚI và thời điểm thích hợp",
+"members_guess": false
+},
+{
+"id": "OvUliuwLJMg",
+"topic": "career",
+"title": "CHATGPT (Microsoft) vs BARD (Google) Cùng HỎI một CÂU nhưng CÓ sự khác biệt? Lần này BARD ghi điểm ?",
+"members_guess": false
+},
+{
+"id": "j0dchuY2DSk",
+"topic": "career",
+"title": "5 chiến lược triển khai NÂNG CAO khi di chuyển hệ thống BackEnd CŨ sang MỚI: Hướng dẫn toàn diện.",
+"members_guess": false
+},
+{
+"id": "dQAXlR77cEk",
+"topic": "career",
+"title": "Implementing the best code with load balancing and API gateways | The Programmer's Path | 22",
+"members_guess": false
+},
+{
+"id": "boOhNAhgOk8",
+"topic": "career",
+"title": "Sau khi lướt qua 100 CV thì tôi nghĩ Lập Trình Viên nên theo PHƯƠNG PHÁP này (Mẫu CV đính kèm)",
+"members_guess": false
+},
+{
+"id": "8y-DSOnMnO0",
+"topic": "career",
+"title": "GPT-4 - How to use GPT-4 for FREE without limits and NO REGISTRATION REQUIRED | CHAT GPT-4",
+"members_guess": false
+},
+{
+"id": "CP4Xc1lbKCk",
+"topic": "career",
+"title": "Lập trình viên có thể làm gì khác sau 40? 3 lối thoát mà bạn tôi (U50) đạt được thật kỳ lạ.",
+"members_guess": false
+},
+{
+"id": "ki3s9-zjbbc",
+"topic": "career",
+"title": "Share Source: Sử dụng CHAT GPT 3.5 tự động làm SHORT VIDEO  (tiktok, youtube) |  Kèm account FREE",
+"members_guess": false
+},
+{
+"id": "Wn2Bwi4qHl0",
+"topic": "career",
+"title": "Prototype Pattern: Tìm hiểu và học cách CODE triển khai các cầu thủ trong GAME FiFaOnline 4",
+"members_guess": false
+},
+{
+"id": "-khw4pjvdYE",
+"topic": "career",
+"title": "Tại sao một công ty lại quy định tất cả các giao diện UPDATE đều sử dụng  PATCH mà không PUT, POST?",
+"members_guess": false
+},
+{
+"id": "j-oCmwWggjY",
+"topic": "career",
+"title": "Builder Pattern: Code thanh lịch là khi phức tạp trở thành đơn giản đó là khi Dev lên LEVEL.",
+"members_guess": false
+},
+{
+"id": "0CuTOeCKbjM",
+"topic": "career",
+"title": "Bridge Pattern: Có thể triển khai hệ thống thanh toán giống YOUTUBE | Khó (★★★☆☆) - Phổ biến (★★★☆☆)",
+"members_guess": false
+},
+{
+"id": "sr8Y65_epz0",
+"topic": "career",
+"title": "AUDIO - NO CODE | Hidden Skills of a Senior Programmer | The Path to Programmer (28)",
+"members_guess": false
+},
+{
+"id": "WTmhaKrIK44",
+"topic": "career",
+"title": "What is Process nextTick? I will prove my class IF not using it will crash the Server?",
+"members_guess": false
+},
+{
+"id": "_7SDtcl4_cg",
+"topic": "career",
+"title": "NO CODE | Lương thế nào với khối lượng công việc của kinh nghiệm nghề Lập Trình Viên không nên nói",
+"members_guess": false
+},
+{
+"id": "XX0_6PLkoXI",
+"topic": "career",
+"title": "In the code in the project I often use the following features? Let me explain in detail (1)",
+"members_guess": false
+},
+{
+"id": "TuOaN_lAphg",
+"topic": "career",
+"title": "NO CODE | Level của lập trình viên đáng giá bao nhiêu? Nhiều hay ít thùy thuộc vào hằng số này?",
+"members_guess": false
+},
+{
+"id": "f8_t_Ck2vHI",
+"topic": "career",
+"title": "Talking about MASTER application PERFORMANCE I have question 3.1x + 4 = 13 how to find (x)?",
+"members_guess": false
+},
+{
+"id": "V3_BDlQB-ng",
+"topic": "career",
+"title": "Tôi đã thay đổi cấu trúc dữ liệu GIA PHẢ như thế nào để nâng cấp hiệu suất CAO cho một dòng họ lớn?",
+"members_guess": false
+},
+{
+"id": "JQGXPwATWKw",
+"topic": "career",
+"title": "NO CODE | When talking about SALARY INCREASE with LEADERSHIP, I said this? Do you think it's right?",
+"members_guess": false
+},
+{
+"id": "O12TkHGWYB0",
+"topic": "career",
+"title": "Call Bind Apply | If anyone asks you, please show them this video | Programmer's Path",
+"members_guess": false
+},
+{
+"id": "fULWtp6iyes",
+"topic": "career",
+"title": "Tại sao TÔI rời CÔNG TY CŨ? | Podcast Lập Trình Viên Già",
+"members_guess": false
+},
+{
+"id": "B5OwJ-C05pk",
+"topic": "career",
+"title": "My wife says many developers will be rich in the future, right? How do I answer that!",
+"members_guess": false
+},
+{
+"id": "o4DI0a0TWws",
+"topic": "career",
+"title": "Các Lập trình viên hiện tại nói về khả năng cạnh tranh cốt lõi chính xác là gì? Vị trí đạt được...",
+"members_guess": false
+},
+{
+"id": "IA1MYI66vi4",
+"topic": "career",
+"title": "Top 8 Solutions to Secure Data API INTERFACE with a BACKEND Programming and How Are You?",
+"members_guess": false
+},
+{
+"id": "dCr9Rctt74I",
+"topic": "career",
+"title": "Data Structures and Algorithms My TEACHER once taught me about designing and building an economic...",
+"members_guess": false
+},
+{
+"id": "LKz_Fs3mcsg",
+"topic": "career",
+"title": "New Data Structures Guide and Best Tips for Mastering Algorithms – Free Download!",
+"members_guess": false
+},
+{
+"id": "lXsCVwf4SW8",
+"topic": "career",
+"title": "Should you proactively ask your boss for a raise if you're unsure? Let's examine whether this is ...",
+"members_guess": false
+},
+{
+"id": "EG0cr7eYR-Q",
+"topic": "career",
+"title": "Where are you in the Programmer Levels? The last level is really I don't know!",
+"members_guess": false
+},
+{
+"id": "A0D6BPcEb0w",
+"topic": "career",
+"title": "API vs SDK: If a car is an SDK, what is an API? By the way, here's a picture from Tips | The Prog...",
+"members_guess": false
+},
+{
+"id": "YR_hHPGAE-o",
+"topic": "career",
+"title": "Backend vs FrontEnd: Một số lỗi của BE làm FE gánh đạn và tổng hợp cách fixed của anh em FE.",
+"members_guess": false
+},
+{
+"id": "KCylCGATTO0",
+"topic": "career",
+"title": "FrontEnd to Backend: Pressure, Skills, Salary, and Starting Point? | The Programmer's Path",
+"members_guess": false
+},
+{
+"id": "tGwx3d8yuTI",
+"topic": "career",
+"title": "The Fullstack Developer Role: One Path, Two Destinies?",
+"members_guess": false
+},
+{
+"id": "oObzpOkfBUw",
+"topic": "career",
+"title": "Lập Trình Viên Già nói chuyện với Tân Lập Trình Viên... Tôi cũng từng là sinh viên.",
+"members_guess": false
+},
+{
+"id": "xCPX2QnZtno",
+"topic": "career",
+"title": "Hãy nắm bắt 6 đặc điểm của Lập Trình Viên xuất sắc, tôi chưa làm được điều 4!",
+"members_guess": false
+},
+{
+"id": "UYP3BPRvMAA",
+"topic": "career",
+"title": "Why do programmers submit their CVs to more than 10 companies but still haven't received an offer...",
+"members_guess": false
+},
+{
+"id": "thLNxhmLPW8",
+"topic": "career",
+"title": "Builders (I am 100%) switched to Programmers for these reasons...",
+"members_guess": false
+},
+{
+"id": "HE3ROI9f7gQ",
+"topic": "career",
+"title": "Lập trình viên có sự khác biệt khi nhìn công thức TÀI CHÍNH cho bản thân như thế nào?",
+"members_guess": false
+},
+{
+"id": "ABs-U21GQXQ",
+"topic": "career",
+"title": "No Code: Lập Trình Viên TAY TRÁI vs TAY PHẢI thu nhập tài chính cùng đơn vị THỜI GiAN",
+"members_guess": false
+},
+{
+"id": "xJj_klgABTE",
+"topic": "career",
+"title": "NO CODE - Làn sóng sa thải ngành phần mềm và đây là cách Lập Trình Viên nên làm?",
+"members_guess": false
+},
+{
+"id": "kCzRVyc9CxI",
+"topic": "career",
+"title": "Top 3 vị trí tuyển dụng (BE, SA)  trả lương cao nhất và 4 ngôn ngữ lập trình năm 2024 tại Việt Nam",
+"members_guess": false
+},
+{
+"id": "yuMMqpbSzsg",
+"topic": "career",
+"title": "End of 2023 summary of my years as a programmer vs Welcome 2024...",
+"members_guess": false
+},
+{
+"id": "Ttg9hezH-V0",
+"topic": "career",
+"title": "This is How I Learned BackEnd Faster and Gained a Deeper Understanding of Systems | Attached Reso...",
+"members_guess": false
+},
+{
+"id": "QfmEYbd3Dp0",
+"topic": "career",
+"title": "How Should Developers Choose a Company? Two Options Every Graduate Faces...",
+"members_guess": false
+},
+{
+"id": "_MtfJwJW7lc",
+"topic": "career",
+"title": "Performance APIs - A profound way to accelerate backend performance that should be implemented in...",
+"members_guess": false
+},
+{
+"id": "j1clD8XDYyw",
+"topic": "career",
+"title": "Solving Memory Leaks: Using WeakMap vs. Map in Engineering | Senior vs. Middle",
+"members_guess": false
+},
+{
+"id": "pc8Hs2iukko",
+"topic": "career",
+"title": "Share hệ thống nền tảng thương mại điện tử eCommerce bao gồm WEB REACT vs APP MOBILE | Link download",
+"members_guess": false
+},
+{
+"id": "O_YxCOw5kwA",
+"topic": "career",
+"title": "NoCODE - Programmers show 2 competitive abilities? Which way should companies CHOOSE when intervi...",
+"members_guess": false
+},
+{
+"id": "wGsYVgNeEAs",
+"topic": "career",
+"title": "Một BackEnd TẠI SAO bạn không biết 5 LỖ HỔNG máy chủ phổ biến NÀY CHỨ?",
+"members_guess": false
+},
+{
+"id": "ozSPsZh_b5Y",
+"topic": "career",
+"title": "Cách sử dụng và các kịch bản dùng với các trường hợp ?., ??, ??=",
+"members_guess": false
+},
+{
+"id": "VK_--v4FMvQ",
+"topic": "career",
+"title": "NoCODE - Tại sao TÔI nên học nhiều ngôn ngữ lập trình cùng một lúc?",
+"members_guess": false
+},
+{
+"id": "_74_z2-uOys",
+"topic": "career",
+"title": "Nói về Cluster: Càng nhiều process thì càng tốt, theo bạn phải không?",
+"members_guess": false
+},
+{
+"id": "c4Y_Q59FgTQ",
+"topic": "career",
+"title": "NoCODE: 3 vấn đề CẦN giải quyết trong mỗi cá nhân nhất định phải trong 30 năm ?",
+"members_guess": false
+},
+{
+"id": "UvAX36Mh7Dk",
+"topic": "career",
+"title": "The BEST way to learn how to simplify complex programming code",
+"members_guess": false
+},
+{
+"id": "oZ6m3aUPoC4",
+"topic": "career",
+"title": "5 available WEAPONS ensure optimal performance to handle tens of millions of access requests that...",
+"members_guess": false
+},
+{
+"id": "EQ4WTurq5I0",
+"topic": "career",
+"title": "Project bán vé TÀU TẾT: API sập ngày đầu bán vé (CODE TEST) Review CODE với thấy có vấn đề SAI SÓT.",
+"members_guess": false
+},
+{
+"id": "1p7dxud9FkQ",
+"topic": "career",
+"title": "API bán vé TÀU TẾT: Ngày thứ hai bán vé API USER đã truy cập TỐT nhờ kinh nghiệm của TEAM BACKEND.",
+"members_guess": false
+},
+{
+"id": "5iq4h1KwaGc",
+"topic": "career",
+"title": "Senior asks Intern: What do you think is the best way to check if a user exists among 100 million...",
+"members_guess": false
+},
+{
+"id": "mqgsV5Oo4cE",
+"topic": "career",
+"title": "Upstream - Only after watching did I realize why a notorious R&D LEAD had to choose that delivery...",
+"members_guess": false
+},
+{
+"id": "wOz9YrsAtbM",
+"topic": "career",
+"title": "NEW - U50 có offer về Rust Backend, cách học ngôn ngữ mới NHANH và HIỆU QUẢ... yeah...",
+"members_guess": false
+},
+{
+"id": "k7zAUmZgdjA",
+"topic": "career",
+"title": "ShareScreen Độ Trễ Thấp, Chất Lượng Cao với Open Source - Tốt nhất hiện tại - OpenSource (07)",
+"members_guess": false
+},
+{
+"id": "2sfOGqLKXq8",
+"topic": "career",
+"title": "Improve SELECT COUNT(*) from 4.2s to 0.002s with 13 MILLION records, what is the DATA TRADE-OFF? ...",
+"members_guess": false
+},
+{
+"id": "YZzuHqyjmT0",
+"topic": "career",
+"title": "NOCODE: LAYOFF - Approaching 50 and I still don't dare to take a PM role...",
+"members_guess": false
+},
+{
+"id": "OEc8RKElPaE",
+"topic": "career",
+"title": "I get an OUTSIDE project and how do I get PAY and complete it? Can I share?",
+"members_guess": false
+},
+{
+"id": "8ANuWk9KWcA",
+"topic": "career",
+"title": "OK x10 hiệu suất UPLOAD LARGE FILE hệ thống. Cái bắt tay FE + BE. Tối ưu Web workers thế nào đây.",
+"members_guess": false
+},
+{
+"id": "n4YeMrw3nKY",
+"topic": "career",
+"title": "Why should projects use npx? What is the difference between npm and npx? Do you remember pnpm?",
+"members_guess": false
+},
+{
+"id": "pSjnGaB1OmM",
+"topic": "career",
+"title": "Thiết kế triển khai APP CHAT MESSAGE với cấp triệu USERs thay thế Telegram với hiệu suất khả thi.",
+"members_guess": false
+},
+{
+"id": "s0f8dNtJnt8",
+"topic": "career",
+"title": "NoCode: Long time no see HAPPINESS - CHAT APP: Data design with BILLIONS OF MESSAGES... Next...",
+"members_guess": false
+},
+{
+"id": "0VLtpaFWAYo",
+"topic": "career",
+"title": "Not using TypeORM when you have Prisma ??? Not good at all...",
+"members_guess": false
+},
+{
+"id": "QBdoOPGToRY",
+"topic": "career",
+"title": "Backend vs Frontend: There's a discussion about which position is HARDER here, would you like to ...",
+"members_guess": false
+},
+{
+"id": "QY7gkhb65Zk",
+"topic": "career",
+"title": "NoCODE: SENIOR passed? And I think you might need the answer! Detailed question...",
+"members_guess": false
+},
+{
+"id": "uHPh5uxE5mo",
+"topic": "career",
+"title": "Stop Using ModelMapper. Use ??? Instead! Why?",
+"members_guess": false
+},
+{
+"id": "PKMlPmO0UQA",
+"topic": "career",
+"title": "IT Industry 2026: Freelancing Reigns Supreme, Top 3 Languages, 3 Skills Retained | New Directions...",
+"members_guess": false
+},
+{
+"id": "mYfOAMzazOA",
+"topic": "career",
+"title": "IT Industry 2026 - These programmers need to shift their goals to be more realistic. (A British q...",
+"members_guess": false
+},
+{
+"id": "1y9e1IsiZP4",
+"topic": "career",
+"title": "Khi nào dev nên nhảy việc? Tôi nhận ra 3 điều đó là khi không còn học được gì ở môi trường cũ!",
+"members_guess": false
+},
+{
+"id": "v0F8-5fL4HQ",
+"topic": "career",
+"title": "NoCODE: I watched an awards ceremony and saw an OVER-THE-HILL programmer who’s still writing CODE...",
+"members_guess": false
+},
+{
+"id": "Tf1YdIb_fnw",
+"topic": "career",
+"title": "Programmer: A New Milestone in the Journey | SILVER PLAY BUTTON | Thank You All",
+"members_guess": false
+},
+{
+"id": "h5Nc6ehIzNM",
+"topic": "career",
+"title": "NoCode | Nhóm (Referral job...) gần 100 người. Giới thiệu remote cho FE, QA, Tester và U40 Backend.",
+"members_guess": false
+},
+{
+"id": "U_Zy4ec_Kes",
+"topic": "mq",
+"title": "Section 37: Pub/Sub (Publish/Subscribe) | Redis | Application to shopDEV",
+"members_guess": true
+},
+{
+"id": "HCTET_WQR1I",
+"topic": "mq",
+"title": "Section 40: Triển khai hệ thống Notifications eCommerce ShopDEV | Phần 1",
+"members_guess": true
+},
+{
+"id": "7vFWLGBihhE",
+"topic": "mq",
+"title": "Section 41: Phân tích hành vi User áp dụng PUSH or PULL trong task Notification System (quan trọng).",
+"members_guess": true
+},
+{
+"id": "dAefZUW3fOQ",
+"topic": "mq",
+"title": "Section 42: Notifications Service  | Tiếp đến là tách Message Queue System",
+"members_guess": true
+},
+{
+"id": "_YT0MsFszhY",
+"topic": "mq",
+"title": "Section 43: Kafka Message Queue | Microservice System",
+"members_guess": true
+},
+{
+"id": "DWr5zV_TmF8",
+"topic": "mq",
+"title": "Section 44: RabbitMQ Message Queue | Microservice System",
+"members_guess": true
+},
+{
+"id": "eo6RJsQTOqI",
+"topic": "mq",
+"title": "Section 45: Tách dự án với kiến trúc Microservice System, test rabbitmq vs jest | Level Nâng cao",
+"members_guess": true
+},
+{
+"id": "qw1z8hJRzuc",
+"topic": "mq",
+"title": "Section 47: [start server] First step in Microservice vs Message Queue | Microservice System | Lvxx",
+"members_guess": true
+},
+{
+"id": "nDxAiAB4UJg",
+"topic": "mq",
+"title": "Section 48: Xử lý Message Error or TTL (Time To Live) trong Message Queue thế nào? | Kiến trúc MQ",
+"members_guess": true
+},
+{
+"id": "muR4HURM0k4",
+"topic": "mq",
+"title": "Section 49: Handling messages when encountering problems MQ server die (TTL) practice",
+"members_guess": true
+},
+{
+"id": "lZXkli4AhGA",
+"topic": "mq",
+"title": "Section 50: CRITICAL and Advanced Level Guide to Handling Error Messages in MQ Architecture",
+"members_guess": true
+},
+{
+"id": "tVawGVrJPak",
+"topic": "mq",
+"title": "Section 51: Message Ordering in Pub/Sub or Queues | Microservices Backend",
+"members_guess": true
+},
+{
+"id": "nrFEJLiU-l0",
+"topic": "mq",
+"title": "Section 52: Message Ordering | Microservice Backend | #2",
+"members_guess": true
+},
+{
+"id": "XPaqZek9q-A",
+"topic": "mq",
+"title": "Section 53: Practice on Message Ordering with Two Scenarios | RabbitMQ | Microservice Backend",
+"members_guess": true
+},
+{
+"id": "YgZb7q1Z0Dg",
+"topic": "mq",
+"title": "Advanced RabbitMQ (01): Why RabbitMQ? I'm not using it? (⭐⭐)",
+"members_guess": true
+},
+{
+"id": "S5A2pwixCWk",
+"topic": "mq",
+"title": "Advanced RabbitMQ (02): New Instance (Docker, Cloud) | Add User | Add Permission | Virtual host (⭐⭐)",
+"members_guess": true
+},
+{
+"id": "pIm7KOdzPFI",
+"topic": "mq",
+"title": "Advanced RabbitMQ (03): Hello Queue | When Messages are Lost?? (⭐⭐)",
+"members_guess": true
+},
+{
+"id": "HOuJBE8cskc",
+"topic": "mq",
+"title": "Advanced RabbitMQ (04): Work Queue | The Power MQ | Place Order Event (⭐⭐⭐)",
+"members_guess": true
+},
+{
+"id": "ps_P4haORpc",
+"topic": "mq",
+"title": "Advanced RabbitMQ (05): Fanout Exchange in Microservices System (⭐⭐⭐⭐) | Up source",
+"members_guess": true
+},
+{
+"id": "x5lrfB_KAMc",
+"topic": "mq",
+"title": "Ecommerce Microservices NestJS (41): Scale PlaceOrder() sử dụng MQ với Fanout Exchange | Junior...",
+"members_guess": true
+},
+{
+"id": "Os0XnqOlUe0",
+"topic": "mq",
+"title": "JAVA DDD Source Code: Place Order With MQ (RPS: ~6000) | FE | BE | System Manager | How to run()",
+"members_guess": true
+},
+{
+"id": "GFGp9jZQcmI",
+"topic": "kafka",
+"title": "GO Fresher (15): Kafka thực hành về mua bán cổ phiếu với các tình huống",
+"members_guess": true
+},
+{
+"id": "KqLzls2xCnQ",
+"topic": "kafka",
+"title": "SENIOR ENGINEER: How to Sync Mysql Data to Kafka Using Debezium with N Tables at REALTIME Speed",
+"members_guess": true
+},
+{
+"id": "uq3OvTC-LJA",
+"topic": "kafka",
+"title": "GO Backend (06): Deploying Kafka Microservices",
+"members_guess": true
+},
+{
+"id": "9AGeQCwJCAs",
+"topic": "kafka",
+"title": "JAVA Fresher 11: Làm việc với Kafka Service kết hợp TEAM GO",
+"members_guess": true
+},
+{
+"id": "q5leZEPVSkU",
+"topic": "kafka",
+"title": "Kafka (1): GUIDE and INSTANCE BROKER vs PARTITION (⭐⭐⭐)",
+"members_guess": true
+},
+{
+"id": "71Bx0Qfs4JQ",
+"topic": "kafka",
+"title": "Kafka (2): SEND MULTIPLE ORDERS ON SALE DAYS (⭐⭐⭐)",
+"members_guess": true
+},
+{
+"id": "OAPiWUYy9BQ",
+"topic": "kafka",
+"title": "Kafka (3): OPTIMIZING PRODUCER THROUGHPUT FOR MULTIPLE CONCURRENT MESSAGES (⭐⭐⭐⭐)",
+"members_guess": true
+},
+{
+"id": "z3TPi-UDmeY",
+"topic": "kafka",
+"title": "KafKa(4): HI BOSS, LAG IN KAFA CONSUMER (⭐⭐⭐)",
+"members_guess": true
+},
+{
+"id": "HJr4KDqoxxY",
+"topic": "kafka",
+"title": "GO Intern (02): Sync.Once() and Singleton, how to ensure secure MySQL and Kafka connections?",
+"members_guess": true
+},
+{
+"id": "fZafqe9yZNI",
+"topic": "kafka",
+"title": "Kafka (06): ONE PARTITION vs MULTI THREAD (⭐⭐⭐)",
+"members_guess": true
+},
+{
+"id": "7TO7ogwgWss",
+"topic": "kafka",
+"title": "Kafka (08): SCALE PARTTION | x3 PERFORMANCE (⭐⭐⭐⭐⭐)",
+"members_guess": true
+},
+{
+"id": "NrM4ldZHZ2E",
+"topic": "kafka",
+"title": "Kafka (09): HASH KEY PARTITIONS IN KAFKA (⭐⭐⭐⭐⭐)",
+"members_guess": true
+},
+{
+"id": "45dfqu_jexA",
+"topic": "kafka",
+"title": "JAVA DDD Source Code: Saga, outbox, idempotency, kafka | System Manager | How to run()",
+"members_guess": true
+},
+{
+"id": "63x7fIW5CkQ",
+"topic": "tx",
+"title": "Section 36: Transaction Redis | How to use in BIG projects",
+"members_guess": true
+},
+{
+"id": "ylidVS4HvtE",
+"topic": "tx",
+"title": "Section 110: LÀM CHỦ MYSQL - Nguyên tắc ACID, sự cô lập vs cơ chế trong transaction HIỂU SÂU",
+"members_guess": true
+},
+{
+"id": "JDbKCDj3pMs",
+"topic": "tx",
+"title": "Section 116: MASTERING MYSQL - When do DEADLOCKS happen???",
+"members_guess": true
+},
+{
+"id": "1jxHWBbhV5g",
+"topic": "tx",
+"title": "GO Backend (19): Ngăn chặn lượng đồng thời cao 3 lớp của Router GO",
+"members_guess": true
+},
+{
+"id": "PLdLSF0_QQY",
+"topic": "tx",
+"title": "GO Fresher (22): Đến lúc đến phần lập trình đồng thời trong GO - Goroutine Concurrency in golang",
+"members_guess": true
+},
+{
+"id": "S0jeMyqSrVE",
+"topic": "tx",
+"title": "JAVA DDD 15: Proxy Nginx vs 2 server kịch bản mua vé đồng thời CAO StockAvailable không nhất quán",
+"members_guess": true
+},
+{
+"id": "nDik5DZ_lxU",
+"topic": "tx",
+"title": "GO Fresher (24): Xung đột đồng thời khi một goroutine xử lý nhiều channel thì select có mặt",
+"members_guess": true
+},
+{
+"id": "ShLzvtglVjM",
+"topic": "tx",
+"title": "Redis Senior (1): OrderTicket() Must Understand LUA vs TRANSACTION in REDIS",
+"members_guess": true
+},
+{
+"id": "I-dDoxy1sv8",
+"topic": "tx",
+"title": "Redis Senior (2): LUA vs TRANSACTION at enterprise level, senior programmers need to understand A...",
+"members_guess": true
+},
+{
+"id": "4nqpL9fDKyw",
+"topic": "tx",
+"title": "GO SENIOR (01): How the High Concurrency project was started with a backend architecture using GO.",
+"members_guess": true
+},
+{
+"id": "p8T082hUaXI",
+"topic": "tx",
+"title": "JAVA DDD 18: Bán hàng tồn kho (StockDeduction), tôi đã TỪNG đổ máu NHƯNG bạn tuyệt đối KHÔNG!",
+"members_guess": true
+},
+{
+"id": "9Zrxe62vdcs",
+"topic": "tx",
+"title": "JAVA DDD 19: BA CÁCH TRỪ HÀNG TỒN KHO trong MYSQL: Tôi đã dành cho bạn một CÁCH là CÁCH THỨ 3",
+"members_guess": true
+},
+{
+"id": "ROBf8UMAshM",
+"topic": "tx",
+"title": "JAVA DDD 20: High concurrency control and inventory deduction in Senior vetautet",
+"members_guess": true
+},
+{
+"id": "JGiwW24SFz8",
+"topic": "tx",
+"title": "GO SENIOR (02): Hiệu suất của Go gấp 3 lần so với JAVA khi mở bán vé hệ thống High Concurrency",
+"members_guess": true
+},
+{
+"id": "8d2nKa82eTM",
+"topic": "tx",
+"title": "JAVA DDD 21: Sau OpenTicket, api nhất quán dữ liệu về Khấu trừ hàng tồn kho | PlaceOrder()",
+"members_guess": true
+},
+{
+"id": "cGMBfKBYYgI",
+"topic": "tx",
+"title": "JAVA Intern (02): Vì sao bắt đầu lại là Thread cho Lập trình đồng thời?",
+"members_guess": true
+},
+{
+"id": "5zCsCR2TquM",
+"topic": "tx",
+"title": "JAVA Intern (3): ThreadPool ưu điểm NHANH, nhược điểm hệ thống TREO DeadLock",
+"members_guess": true
+},
+{
+"id": "p8ZZY8Zvcgs",
+"topic": "tx",
+"title": "GO SENIOR (07): Giảm 99.99% Query MySQL với Redis Distributed Lock (40K req/s)",
+"members_guess": true
+},
+{
+"id": "CpolDThiuWA",
+"topic": "tx",
+"title": "JAVA DDD (24): SAGA PATTERN - Distributed Transactions - Senior BE",
+"members_guess": true
+},
+{
+"id": "gCic1x2doL4",
+"topic": "tx",
+"title": "NestJS (33): How Feed() System is Built During High-Concurrency Hours",
+"members_guess": true
+},
+{
+"id": "X6ED_5s5onQ",
+"topic": "tx",
+"title": "Ecommerce Microservices NestJS (41): 10.000 req/s khi order call inventory chọn TCP, Rest, Webhook?",
+"members_guess": true
+},
+{
+"id": "V1Dg1nSouUc",
+"topic": "tx",
+"title": "Ecommerce Microservices NestJS (43): Choose PostgreSQL for Inventory instead of MySQL Let me show...",
+"members_guess": true
+},
+{
+"id": "Ub1DbRUi43w",
+"topic": "tx",
+"title": "Ecommerce Microservices NestJS (45): Share Source ERP  Microservices | order, payment, inventory...",
+"members_guess": true
+},
+{
+"id": "XXqDOTHTQFw",
+"topic": "tx",
+"title": "INTERVIEWER ASK (2): How is Idempotency designed in your API in a high-concurrency project?",
+"members_guess": true
+},
+{
+"id": "mvLjvh1RfqQ",
+"topic": "tx",
+"title": "JAVA DDD (32): Handling Duplicate Order Payments with High Concurrent Data",
+"members_guess": true
+},
+{
+"id": "yDixCurikHg",
+"topic": "tx",
+"title": "JAVA DDD (33): Automatic Order Cancellation for Overdue Payments with High Concurrency | Redis | ...",
+"members_guess": true
+},
+{
+"id": "GqCohsho54s",
+"topic": "dist",
+"title": "JAVA DDD 05: Distributed Cache - Second Line of Defense API (Online Ticketing) - LUA vs Redisson",
+"members_guess": true
+},
+{
+"id": "zQWWGnhyZ0s",
+"topic": "dist",
+"title": "JAVA DDD 06: Tâm sự DEV và vì sao tôi lại không sử dụng LUA Redis trong kịch bản Distributed Cache!",
+"members_guess": true
+},
+{
+"id": "5IuSc2NAM60",
+"topic": "dist",
+"title": "JAVA DDD 10: Hệ thống giám sát Connects vs Performance Distributed Redis như thế nào? Chưa ngủ ngon",
+"members_guess": true
+},
+{
+"id": "6DGnzYkK0uQ",
+"topic": "dist",
+"title": "JAVA DDD 13: Triển khai hệ thống phân tán LOGs ELK cho hệ thống LỚN vetautet.com DDD - Project",
+"members_guess": true
+},
+{
+"id": "agIL52ZnQ0o",
+"topic": "dist",
+"title": "JAVA DDD 14: Stop coding for 5 minutes; what kind of consistency do you see in practice?",
+"members_guess": true
+},
+{
+"id": "XKCKnwJ0F9Y",
+"topic": "dist",
+"title": "JAVA DDD 16: DEV SA (Solution Architecture), dữ liệu phân tán giờ đã nhất quán với cách đơn giản",
+"members_guess": true
+},
+{
+"id": "0w-DO4guvRU",
+"topic": "dist",
+"title": "JAVA DDD 17: Implementing the optimal level of consistency for application requirements (2)",
+"members_guess": true
+},
+{
+"id": "CMapX0yC7zM",
+"topic": "dist",
+"title": "JAVA DDD (25): SAGA PATTERN - Order, Payment is DONE ✅ ✅ ✅",
+"members_guess": true
+},
+{
+"id": "Y7TnDNYuROI",
+"topic": "dist",
+"title": "SOURCE[04/27/25]: Tet Train Ticket System - Scaling APIs to 40,000 req/s with a Distributed System",
+"members_guess": true
+},
+{
+"id": "MMczVW-4jb4",
+"topic": "dist",
+"title": "NestJS (32): System to implement WRITE CACHE and MYSQL data consistency with the following 4 comp...",
+"members_guess": true
+},
+{
+"id": "KGjgbx9vTos",
+"topic": "dist",
+"title": "JAVA DDD (31): DONE Implementing the Outbox Pattern to Prevent Message Loss",
+"members_guess": true
+},
+{
+"id": "mswayRA-870",
+"topic": "redis",
+"title": "Section 26: Order service Part 2 | Tiếp đến là Redis chuyên sâu.",
+"members_guess": true
+},
+{
+"id": "QEUQsBXRFJk",
+"topic": "redis",
+"title": "Section 27: Học Redis vui lòng xem qua mẩu chuyện này của Antirez cha đẻ nguồn cảm hứng.",
+"members_guess": true
+},
+{
+"id": "X7NiSVo_NHE",
+"topic": "redis",
+"title": "Section 29: String Redis | Data structures, common commands and what scenarios to use? | Redis ba...",
+"members_guess": true
+},
+{
+"id": "uz73HbycDLM",
+"topic": "redis",
+"title": "Section 30: Hash Redis | Cấu trúc dữ liệu, lệnh phổ biến và kịch bản nào sử dụng? | Redis backend",
+"members_guess": true
+},
+{
+"id": "zwDT1KDlNF8",
+"topic": "redis",
+"title": "Section 31: List Redis | Cấu trúc dữ liệu, lệnh phổ biến và kịch bản nào sử dụng? | Redis backend",
+"members_guess": true
+},
+{
+"id": "SLGE0L-Ndo8",
+"topic": "redis",
+"title": "34| Redis Sets | Used to develop like functions, find common friends like facebook and common com...",
+"members_guess": true
+},
+{
+"id": "8fw-VnP3Zq0",
+"topic": "redis",
+"title": "Section 35: Redis Zset | Common Commands for Tracking Best-Sellers, Views, and Follows",
+"members_guess": true
+},
+{
+"id": "4s3gHFS3aO8",
+"topic": "redis",
+"title": "Section: 84: Phương pháp tốt nhất connect redis vs node.js tin cậy cao trong backend",
+"members_guess": true
+},
+{
+"id": "BLfrJxvA2aY",
+"topic": "redis",
+"title": "Redis: Cạm bẫy đầu tiên khi sử dụng cache mà một backend xuất sắc phải xử lý 100 triệu requests",
+"members_guess": true
+},
+{
+"id": "ZeyO1_DwkfM",
+"topic": "redis",
+"title": "Section 98: Practicing the CACHE PENETRATION pitfall with Redis vs Nodejs",
+"members_guess": true
+},
+{
+"id": "hwXW_2DAdHo",
+"topic": "redis",
+"title": "GO Fresher (13): Redis Pool In Sevice",
+"members_guess": true
+},
+{
+"id": "wNOGLTkEb7I",
+"topic": "redis",
+"title": "Redis Senior (3): Lập trình về LUA vì sao các hệ thống đều sử dụng LUA?",
+"members_guess": true
+},
+{
+"id": "fe6yeDRtD0E",
+"topic": "redis",
+"title": "Redis Senior (4): Hệ thống bây giờ căng quá, Master/Slave đến đây...",
+"members_guess": true
+},
+{
+"id": "OrbVP56w9UA",
+"topic": "redis",
+"title": "Redis Senior (5): Master đã sập, hệ thống tự động chuyển đổi nhờ Sentinel",
+"members_guess": true
+},
+{
+"id": "7vT59QnZigI",
+"topic": "redis",
+"title": "GO SENIOR (03): Boost READ and WRITE performance in APIs with REDIS Standalone vs Sentinel vs Clu...",
+"members_guess": true
+},
+{
+"id": "g2Cii1Sy4kU",
+"topic": "redis",
+"title": "GO SENIOR (5): The secret behind Local Cache in a million-request ticketing system.",
+"members_guess": true
+},
+{
+"id": "gCNccxGuIv0",
+"topic": "redis",
+"title": "SOURCE[21/03/25]: vetautet - Tích hợp cluster, sentinel vs local cache tăng tốc API up 30.000 req/s",
+"members_guess": true
+},
+{
+"id": "2gXttp6tWEM",
+"topic": "redis",
+"title": "NestJS (30): FE + BE project trybuy.com is on the shelf (aws, smtp, elastic, nginx, redis, mysql,...",
+"members_guess": true
+},
+{
+"id": "87eviq_Oz4k",
+"topic": "redis",
+"title": "NestJS (31): Time to integrate Cache to increase QPS, TPS in high traffic systems RIGHT",
+"members_guess": true
+},
+{
+"id": "Qs1d13ZlL6w",
+"topic": "redis",
+"title": "NestJS (35): Why Redis Pipeline is the Secret Weapon for Like/Unlike?",
+"members_guess": true
+},
+{
+"id": "TiMiJazU4Pc",
+"topic": "db",
+"title": "Section 3: Connect MongoDB to Node.js Using Mongoose and 7 things to implement in the system.",
+"members_guess": true
+},
+{
+"id": "0pgx_XUjddo",
+"topic": "db",
+"title": "Section 46: Integration Testing with Jest vs Mongodb | Microservice System",
+"members_guess": true
+},
+{
+"id": "UjVTDWdPL0U",
+"topic": "db",
+"title": "Section 55: Hands-on Tutorial: Generating 10,000,000 Test Records in MySQL for Beginners",
+"members_guess": true
+},
+{
+"id": "UFfn1dHbfCs",
+"topic": "db",
+"title": "Section 56: Practice creating test data of 10,000,000 records in MySQL for level 2,3 | Part 2",
+"members_guess": true
+},
+{
+"id": "KZ199lfI7N0",
+"topic": "db",
+"title": "Section 58: Database Partitioning, Highly Important (1)",
+"members_guess": true
+},
+{
+"id": "eEt3yuz3S_I",
+"topic": "db",
+"title": "Section 59: Partition Database dành cho Level cao, DBA | Phần 2",
+"members_guess": true
+},
+{
+"id": "GSonUVsFFJ8",
+"topic": "db",
+"title": "Section 60: Index MySQL những sai lầm nên tránh",
+"members_guess": true
+},
+{
+"id": "QxB3ifUaLDA",
+"topic": "db",
+"title": "Section 71: Setup EC2 + Mysql với Linux. Tạo quyền, quản lý database bảo mật...",
+"members_guess": true
+},
+{
+"id": "XvbqDLfbczo",
+"topic": "db",
+"title": "Section 72: Import Mysql local to EC2 và cho phép truy cập mysql từ xa | Làm chủ AWS",
+"members_guess": true
+},
+{
+"id": "lmCaDqakf6o",
+"topic": "db",
+"title": "Section 76: Thiết kế CSDL MySQL về phân quyền và cách query như thế nào trong shopDEV ecommerce.",
+"members_guess": true
+},
+{
+"id": "61LBcDdpCr4",
+"topic": "db",
+"title": "Section 90: Tư duy kiến trúc elasticsearch cho kỹ sư BE (1)",
+"members_guess": true
+},
+{
+"id": "nG8DOtbNO0k",
+"topic": "db",
+"title": "Section 91: Giờ hãy thêm elasticSearch vào CV để chuẩn bị cuộc phỏng vấn chất lượng CAO",
+"members_guess": true
+},
+{
+"id": "7vnSdxvIwQY",
+"topic": "db",
+"title": "Section 100: Best Practices for Connecting Elasticsearch with Node.js and Implementing CRUD Opera...",
+"members_guess": true
+},
+{
+"id": "Jn26PlOEkVE",
+"topic": "db",
+"title": "Section 104: Essential steps to troubleshoot MySQL errors online | MySQL Series",
+"members_guess": true
+},
+{
+"id": "7pfVaIBSZ_U",
+"topic": "db",
+"title": "Section 106: LÀM CHỦ MYSQL (5) - HIỂU NHẦM VỀ INDEX PRIMARY, UNIQUE, FULLTEXT?",
+"members_guess": true
+},
+{
+"id": "BosoW1zMzuw",
+"topic": "db",
+"title": "Section 108: LÀM CHỦ MYSQL - Nguyên tắc sử dụng 6 loại index và công thức tối ưu.",
+"members_guess": true
+},
+{
+"id": "aIHwJCfvNfY",
+"topic": "db",
+"title": "GO Fresher (12): Connect Mysql Pool hiệu quả và Test BenchMark cho 2 trường hợp!",
+"members_guess": true
+},
+{
+"id": "tPDdm3N2Yq0",
+"topic": "db",
+"title": "Section 114: MASTER MYSQL - JSON in MYSQL It's very good, ladies and gentlemen.",
+"members_guess": true
+},
+{
+"id": "EWqsyxVKj18",
+"topic": "db",
+"title": "GO Fresher (19): Migrating Schema with GORM to MYSQL and DUMP Database",
+"members_guess": true
+},
+{
+"id": "j8pfNFX7rs8",
+"topic": "db",
+"title": "GO Backend (01) - JOIN TEAM vs CÔNG TY ĐỀ NGHỊ chuyển GORM sang SQLC như thế nào?",
+"members_guess": true
+},
+{
+"id": "GTeu_vX2NWU",
+"topic": "db",
+"title": "GO Backend (02): Goose (A database migration tool) hiệu suất cao của dân BACKEND",
+"members_guess": true
+},
+{
+"id": "pDKVqwN4fLg",
+"topic": "db",
+"title": "JAVA Fresher 07: Getting familiar with pageable pagination with Spring Data JPA",
+"members_guess": true
+},
+{
+"id": "jqspVKUye9M",
+"topic": "db",
+"title": "JAVA DDD 09: Giám sát MYSQL ONLINE qua hệ thống API",
+"members_guess": true
+},
+{
+"id": "YDtWZnm-QT0",
+"topic": "db",
+"title": "JAVA Fresher (18): MySQL vs MyBatis-Plus",
+"members_guess": true
+},
+{
+"id": "Q8yU105xCx0",
+"topic": "db",
+"title": "GO SENIOR (06): From MySQL DOWN to stable at 17,000 req/s — A System Design Lesson",
+"members_guess": true
+},
+{
+"id": "AGZIx1syYrE",
+"topic": "db",
+"title": "JAVA DDD (26): Triển khai TINH TẾ một TABLE có dữ liệu tăng lên CHỤC TRIỆU order mỗi tháng",
+"members_guess": true
+},
+{
+"id": "ES-hUowEVMo",
+"topic": "db",
+"title": "GO Fresher (25): Export MySQL to Excel với 1.000.000 rows từ 10s còn 3s. Tuyệt vời lắm GO + STREAM",
+"members_guess": true
+},
+{
+"id": "sQb9aHBOVvs",
+"topic": "db",
+"title": "NestJS (25): BUID API to search BILLION products on eCommerce with standard design in ELASTICSEARCH",
+"members_guess": true
+},
+{
+"id": "CgEz7QeKe9c",
+"topic": "db",
+"title": "NestJS (26): Source Code: API Search MySQL vs ElasticSearch",
+"members_guess": true
+},
+{
+"id": "eIYVH2irhF4",
+"topic": "db",
+"title": "NestJS (27): Security vs Permission JWT MySQL TypeORM",
+"members_guess": true
+},
+{
+"id": "zHYpL-Hizx0",
+"topic": "db",
+"title": "JAVA Fresher (21): Spring Security Designs Shopee Decentralization with RBAC, MySQL and MyBatis-Plus",
+"members_guess": true
+},
+{
+"id": "p745Za1JbTA",
+"topic": "db",
+"title": "Migration DATABASE Trick from OLD to NEW | When API is still ONLINE to ensure no data is missed?",
+"members_guess": true
+},
+{
+"id": "fSkWLqXUtJI",
+"topic": "db",
+"title": "Solving problem (1): DELETING MESSAGES IN GROUP CHAT vs DESIGNING A CHAT DATABASE | System Design",
+"members_guess": true
+},
+{
+"id": "rdAYZKiwnQk",
+"topic": "sd",
+"title": "(6) The Essential Backend API Key for Routers | Build Node.js Backend Architecture PRO",
+"members_guess": true
+},
+{
+"id": "5keK7PRH9pE",
+"topic": "sd",
+"title": "Course: Node.js Backend Architecture - Project introduction, experience, skills and confidences C...",
+"members_guess": true
+},
+{
+"id": "qpIfPitAIX0",
+"topic": "sd",
+"title": "Section 2: Node.js Backend Architecture - Những folders và packages cần thiết khi khởi tạo Project!",
+"members_guess": true
+},
+{
+"id": "hyF1S0nFS7A",
+"topic": "sd",
+"title": "Section 7: Xử lý ErrorHandler trong API | Course Node.js Backend Architecture",
+"members_guess": true
+},
+{
+"id": "mvMEn5ofnlQ",
+"topic": "sd",
+"title": "Section 8:  Make Your API Response use class |  Course Node.js Backend Architecture",
+"members_guess": true
+},
+{
+"id": "z6FN492XwDw",
+"topic": "sd",
+"title": "GO Backend (05): Working with Microservices, Go OTP Handler, Java Sending OTP to AWS",
+"members_guess": true
+},
+{
+"id": "bFp_D9r0NVc",
+"topic": "sd",
+"title": "JAVA Fresher 17: Xác minh quyền RBAC - Chèn Phỏng vấn Backend",
+"members_guess": true
+},
+{
+"id": "hux9dtGQL7w",
+"topic": "sd",
+"title": "JAVA DDD 02: BÁN VÉ TÀU TẾT với DDD Structure Project - Phần 02",
+"members_guess": true
+},
+{
+"id": "IcDiMkb7_TA",
+"topic": "sd",
+"title": "JAVA DDD 3: Complete SETUP Project according to Microservice architecture",
+"members_guess": true
+},
+{
+"id": "tK7NDEr_vtE",
+"topic": "sd",
+"title": "JAVA DDD 04:  Circuit Breaker vs RateLimiter - Tuyến phòng thủ đầu tiên cho DDD (bán vé trực tuyến)",
+"members_guess": true
+},
+{
+"id": "nXmppGlu4hw",
+"topic": "sd",
+"title": "JAVA DDD Source Code ~ 1.000 QPS: DDD Project - Bán Vé Từ Video 0 - 4 - How to run()",
+"members_guess": true
+},
+{
+"id": "MGQrPOrtKhE",
+"topic": "sd",
+"title": "JAVA DDD 07: Setup hệ thống giám sát API Prometheus Service giúp DEV ngủ ngon",
+"members_guess": true
+},
+{
+"id": "NSpHw9tUFjs",
+"topic": "sd",
+"title": "JAVA DDD 08: Big Brother Graphana - System Monitoring - Helps DEV Sleep Well",
+"members_guess": true
+},
+{
+"id": "zoZu10avosY",
+"topic": "sd",
+"title": "JAVA DDD Source Code ~ 5.000 QPS: Bán Vé Từ Video Section 4 - 10 vs How to run()",
+"members_guess": true
+},
+{
+"id": "gv_XHpOigbk",
+"topic": "sd",
+"title": "JAVA DDD 11: Họp TEAM vũ khí cho việc tăng tốc 20.000 req/s phải đạt 5 tiêu chí sau. DDD - Project",
+"members_guess": true
+},
+{
+"id": "akl14joFf2A",
+"topic": "sd",
+"title": "JAVA DDD 12: Không những 20.000 mà là 25.000 req/s chúng tôi nhận thưởng",
+"members_guess": true
+},
+{
+"id": "_4KTlUvdXoM",
+"topic": "sd",
+"title": "JAVA DDD Source Code ~ 15,000 QPS: Selling Tickets From Video Section 5-17 How to run()",
+"members_guess": true
+},
+{
+"id": "jrs2zlyC3Pc",
+"topic": "sd",
+"title": "JAVA DDD 22: Luận bàn về 100 trung tâm bán 5000 ticket mỗi ngày và việc chia dữ liệu Order",
+"members_guess": true
+},
+{
+"id": "vB5Ch-dNHbQ",
+"topic": "sd",
+"title": "GO SENIOR (4): The precise method to ACCELERATE API performance to 30,000 req/second with a small...",
+"members_guess": true
+},
+{
+"id": "UKL0x9jijak",
+"topic": "sd",
+"title": "JAVA DDD 23: How Seniors can store data for vetautet efficiently and with good performance.",
+"members_guess": true
+},
+{
+"id": "edtCrXCcO8c",
+"topic": "sd",
+"title": "GO Interview: Phỏng vấn 1 ??? là gì và cách fix ??? thế nào trong Uber?",
+"members_guess": true
+},
+{
+"id": "WSVFQ24mGac",
+"topic": "sd",
+"title": "JAVA DDD Source Code ~ 30,000 QPS: Ticket Sales System Video Section 17 - 26 How to run()",
+"members_guess": true
+},
+{
+"id": "Z0sHzUhjFjI",
+"topic": "sd",
+"title": "JAVA DDD (27): CORRECT Formula When Configuring Thread Based on CPU Cores - Video Worthy of $1000",
+"members_guess": true
+},
+{
+"id": "ZV7Bxfo7l0Y",
+"topic": "sd",
+"title": "NestJS (16): Scale App Microservice using PM2",
+"members_guess": true
+},
+{
+"id": "e-5S8t5mKoc",
+"topic": "sd",
+"title": "GO FRESHER (28): Refactoring CODE from MVC to DDD Project (Source MVC - FEAT)",
+"members_guess": true
+},
+{
+"id": "snyL0mdkqKo",
+"topic": "sd",
+"title": "System Design Interview: TƯỜNG THUẬT NGỒI GHẾ NÓNG với 15 câu hỏi về BACKEND vs SYSTEM..",
+"members_guess": true
+},
+{
+"id": "091fhIvj23g",
+"topic": "sd",
+"title": "System Design Interview: Part 2 - HOT SEAT REPORT with 15 questions about BACKEND vs SYSTEM...",
+"members_guess": true
+},
+{
+"id": "2JsWOsEGgBs",
+"topic": "sd",
+"title": "NestJS (36): Microservice System | How to split Monolith into Microservice? TCP or GRPC communica...",
+"members_guess": true
+},
+{
+"id": "AE9CTCbrG2w",
+"topic": "sd",
+"title": "NestJS (37): Microservice System | Git Code Management and What to Do When Multiple Services Are ...",
+"members_guess": true
+},
+{
+"id": "7Dide2Cw3PQ",
+"topic": "sd",
+"title": "NestJS (38): Microservice System | To manage secure Config Files, use Etcd, K8s",
+"members_guess": true
+},
+{
+"id": "_bwRXZx0Fk4",
+"topic": "sd",
+"title": "NestJS (39)  | Microservices: Authenticate Multiple Service",
+"members_guess": true
+},
+{
+"id": "tAFMP5-TbcA",
+"topic": "sd",
+"title": "Ecommerce Microservices NestJS (44): Sourcecode trybuy | order, payment, user, product, chat",
+"members_guess": true
+},
+{
+"id": "1YJdusUzLF0",
+"topic": "sd",
+"title": "Ecommerce Microservices NestJS (46): Gateway Service | Security 01",
+"members_guess": true
+},
+{
+"id": "3Mc3HNiFywc",
+"topic": "sd",
+"title": "Ecommerce Microservices NestJS (47): Gateway Service | Security JTW | 02",
+"members_guess": true
+},
+{
+"id": "zKv3c4Aiu5I",
+"topic": "sd",
+"title": "Ecommerce Microservices (48): Gateway Service | Security OneToken | Time to delete RefreshToken | 03",
+"members_guess": true
+},
+{
+"id": "0r0F_u3Lrlo",
+"topic": "sd",
+"title": "JAVA DDD (28): Thực sự dự án Senior được code, build, run bởi những vũ khí hạng nặng thế nào?",
+"members_guess": true
+},
+{
+"id": "T55PVOAKNbI",
+"topic": "sd",
+"title": "INTERVIEWER ASK (1): Dữ liệu đã được mã hoá và lưu trữ, làm thế nào client có thể tìm kiếm nhanh.",
+"members_guess": true
+},
+{
+"id": "xOUFOXwGdfo",
+"topic": "sd",
+"title": "JAVA DDD (29): Scale Order, when \"Big Data\" but queries are FAST? How should vetautet implement it?",
+"members_guess": true
+},
+{
+"id": "BYw5wb8sKyA",
+"topic": "sd",
+"title": "INTERVIEWER ASK (3): Vẽ được sơ đồ này, bạn đã chứng minh được năng lực làm việc thực tế của một BE",
+"members_guess": true
+},
+{
+"id": "ZXSCqkFpa_g",
+"topic": "sd",
+"title": "JAVA DDD (30): Cancel Order là quá trình ngược lại với việc PlaceOrder nhưng nó phức tạp hơn...",
+"members_guess": true
+},
+{
+"id": "zvElcHduPw8",
+"topic": "sd",
+"title": "GO DDD Source Code: SaaS | System Management | How to run()",
+"members_guess": true
+},
+{
+"id": "iDiAj-7Sqw0",
+"topic": "sd",
+"title": "System Design Interview: Essential Study Guide | Tips Before You Start (Get the Guide in the Desc...",
+"members_guess": true
+},
+{
+"id": "0O1PlClhmIc",
+"topic": "go",
+"title": "Section 9: Login Shop Api | Course Node.js Backend eCommerce",
+"members_guess": true
+},
+{
+"id": "L_kqWi7U2E0",
+"topic": "go",
+"title": "GO Fresher (01): Giới thiệu những cấu trúc dự án Backend Project Structure",
+"members_guess": true
+},
+{
+"id": "x5-YICJ9YyY",
+"topic": "go",
+"title": "GO Fresher (02): Setup Backend Project",
+"members_guess": true
+},
+{
+"id": "EF8Sp03O_sk",
+"topic": "go",
+"title": "GO Fresher (03): GIN vs ROUTER",
+"members_guess": true
+},
+{
+"id": "uOwcqwC4Ni8",
+"topic": "go",
+"title": "GO Fresher (4): GIN and the MVC Pattern",
+"members_guess": true
+},
+{
+"id": "dhj4MqYqpqU",
+"topic": "go",
+"title": "GO Fresher (5): GIN vs Error Handler",
+"members_guess": true
+},
+{
+"id": "vqf-2StTn0Q",
+"topic": "go",
+"title": "GO Fresher (6): GIN vs Logs Handler ZAP",
+"members_guess": true
+},
+{
+"id": "G0YRksaHOFU",
+"topic": "go",
+"title": "GO Fresher (7): GIN vs Viper Config YAML",
+"members_guess": true
+},
+{
+"id": "fMTeKC617KM",
+"topic": "go",
+"title": "GO Fresher (8): GIN vs 5 types of Middleware",
+"members_guess": true
+},
+{
+"id": "6mlM-les3YI",
+"topic": "go",
+"title": "GO Fresher (09):  Unit test Service",
+"members_guess": true
+},
+{
+"id": "mQMCRFrIO9M",
+"topic": "go",
+"title": "GO Fresher (10):  FIX func Main để tạo nhóm kết nối chung (Initialize)",
+"members_guess": true
+},
+{
+"id": "xTjwb6VhEx0",
+"topic": "go",
+"title": "GO Fresher (11): Using Lumberjack to manage LARGE LOG FILES",
+"members_guess": true
+},
+{
+"id": "WLwSdpVB6ts",
+"topic": "go",
+"title": "GO Fresher (14): Triển khai Router cho TEAM LỚN | Cuộc chiến bắt đầu",
+"members_guess": true
+},
+{
+"id": "3HArGaE0Sbs",
+"topic": "go",
+"title": "GO Fresher (17): Interface Cách triển khai và bố trí CODE | THỰC HÀNH",
+"members_guess": true
+},
+{
+"id": "Yc9XnmUvsc4",
+"topic": "go",
+"title": "GO Fresher (18): Wire Dependency Injection",
+"members_guess": true
+},
+{
+"id": "Ng_g2KdXwqU",
+"topic": "go",
+"title": "Go Fresher (20): Chiến đấu DOCKER, sai lầm cách build này Level 0, 1",
+"members_guess": true
+},
+{
+"id": "gBdQgm5tzQ4",
+"topic": "go",
+"title": "GO Fresher (21) :Chiến đấu với Docker Link, Docker Compose build Project",
+"members_guess": true
+},
+{
+"id": "qe5-Q0psiYM",
+"topic": "go",
+"title": "GO Backend (03): User Register Send OTP To Email Template",
+"members_guess": true
+},
+{
+"id": "RLaZs_upIns",
+"topic": "go",
+"title": "GO Backend (04): The GORM boss replaces the GOOSE vs SQLC rookie system, making it powerful.",
+"members_guess": true
+},
+{
+"id": "iSRRM5exThE",
+"topic": "go",
+"title": "JAVA Fresher 10: Send OTP Email Spring With SMTP AWS, GO PUSH OTP",
+"members_guess": true
+},
+{
+"id": "5UVx7TITbXM",
+"topic": "go",
+"title": "GO Backend (07): REFACTOR BROTHERS restructure the project interface after seeing a colleague's CODE",
+"members_guess": true
+},
+{
+"id": "wSdaJ0Oyt8k",
+"topic": "go",
+"title": "GO Backend (08) - Đến lúc trở thành Senior làm việc với  Diagrams Authentication và sử dụng Makefile",
+"members_guess": true
+},
+{
+"id": "iYwOZIy2Dno",
+"topic": "go",
+"title": "GO Backend (09): Implement IUserLogin - Register, CheckOTP, Login (token), UpdatePassRegister",
+"members_guess": true
+},
+{
+"id": "luVb_lvHrKo",
+"topic": "go",
+"title": "GO Backend (10): Tích hợp API SWAGGER DOCUMENTATION",
+"members_guess": true
+},
+{
+"id": "GUViVHAxodc",
+"topic": "go",
+"title": "GO Backend (11): VerifyOTP() method when User REGISTERS successfully",
+"members_guess": true
+},
+{
+"id": "elrgdNIAQEg",
+"topic": "go",
+"title": "GO Backend (12): Update Password Register",
+"members_guess": true
+},
+{
+"id": "CbLYtz4cwLk",
+"topic": "go",
+"title": "GO Backend (13): LOGIN USER - JWT AUTHENTICATION",
+"members_guess": true
+},
+{
+"id": "YbK2cCtjjBY",
+"topic": "go",
+"title": "GO Backend (14): GENERATE TOKEN LOGIN - JWT AUTHENTICATION",
+"members_guess": true
+},
+{
+"id": "-Uuu4AX4SP0",
+"topic": "go",
+"title": "GO Backend (15): Two Factor Authentication - Interface vs SQLC",
+"members_guess": true
+},
+{
+"id": "vzGmZYAOYg4",
+"topic": "go",
+"title": "GO Backend (16): Two Factor Authentication - Implement vs Service",
+"members_guess": true
+},
+{
+"id": "KD4aN-XiXos",
+"topic": "go",
+"title": "GO Backend (17): User setup two-factor authentication",
+"members_guess": true
+},
+{
+"id": "FmWrAPrBZkA",
+"topic": "go",
+"title": "GO Backend (18): User setup two-factor VerifyOTPAuthentication vs Login two-factor",
+"members_guess": true
+},
+{
+"id": "E9-48WT6ix8",
+"topic": "go",
+"title": "GO Backend (20): Triển khai giám sát thời gian thực với Prometheus và Grafana Request Traffic",
+"members_guess": true
+},
+{
+"id": "q1ojLhNxWes",
+"topic": "go",
+"title": "GO Backend (21): Traffic Request thời gian thực với Prometheus và Grafana Phần 2",
+"members_guess": true
+},
+{
+"id": "QdIB0pjXhLw",
+"topic": "go",
+"title": "GO Fresher (23): Master the channel and quickly deploy publishers vs subscribers",
+"members_guess": true
+},
+{
+"id": "g__VyA7RelA",
+"topic": "go",
+"title": "SOURCE GO API [25/02/2025]: How to run project?",
+"members_guess": true
+},
+{
+"id": "CgbMzPudXX4",
+"topic": "go",
+"title": "GO Intern (01): When talking about GO, start with STRUCT",
+"members_guess": true
+},
+{
+"id": "VJYRI_gEylg",
+"topic": "go",
+"title": "NestJS (07): Api Backend vé tàu tết: User Registration và User Login",
+"members_guess": true
+},
+{
+"id": "2KyRvQP728U",
+"topic": "go",
+"title": "GO Intern (03): Vì sao Context đáng giá NHẤT trong GO? Khi nào dùng Background() vs TODO()",
+"members_guess": true
+},
+{
+"id": "Pa_fKmcaCXg",
+"topic": "go",
+"title": "GO intern (04): Security - Validator API REQUEST việc không riêng của FE",
+"members_guess": true
+},
+{
+"id": "30Slk-sq8Ys",
+"topic": "go",
+"title": "GO SENIOR (08): Request Validation với Struct — Best Practice cho Backend Developer",
+"members_guess": true
+},
+{
+"id": "NL2_YsnqPGQ",
+"topic": "go",
+"title": "GO Fresher (26): Implementing Crontab system (System Scheduler) to fix and increase HIGH performance",
+"members_guess": true
+},
+{
+"id": "dYeS4LmT1Q0",
+"topic": "go",
+"title": "GO Fresher(27): I Built 3 Project Structures to Go From Fresher to Senior. Sharing Them With You All",
+"members_guess": true
+},
+{
+"id": "IW-3UGz3h7c",
+"topic": "go",
+"title": "Panic Recover Defer - The magic that GO has for Programmers if they know how to handle ERROR",
+"members_guess": true
+},
+{
+"id": "LjFa5hXooeM",
+"topic": "go",
+"title": "GO Fresher (16): Interface Why I Always Recommend Implementing Large Projects | NOCODE",
+"members_guess": true
+},
+{
+"id": "l6amtaNBKWU",
+"topic": "go",
+"title": "GO SENIOR (09): Những bài học đắt giá khi Refactor và nâng cấp một hệ thống đang chạy production",
+"members_guess": true
+},
+{
+"id": "jdvIhlEZ38w",
+"topic": "go",
+"title": "The Path to Becoming a Backend Developer (256) | Deep Understanding and Examples of CONTEXT in Go...",
+"members_guess": true
+},
+{
+"id": "pNZyzE_9EPM",
+"topic": "java",
+"title": "FULL JAVA: Welcome SpringBoot, the path from Basic, Fresher, Junior. Added NestJS",
+"members_guess": true
+},
+{
+"id": "BpQsIGVrmXs",
+"topic": "java",
+"title": "Java Fresher 01: Install vs Start APP with VSCODE vs Intellij IDEA",
+"members_guess": true
+},
+{
+"id": "PvcIwEkUcEc",
+"topic": "java",
+"title": "Java Fresher 02: Configuring a project with properties, yaml, and .env priority levels",
+"members_guess": true
+},
+{
+"id": "z49Kb4a_cV0",
+"topic": "java",
+"title": "Java Fresher 03: Kỹ năng chuyển đổi PROJECT từ DEV qua TEST, PRE, PRODUCT",
+"members_guess": true
+},
+{
+"id": "jnURsbcOycM",
+"topic": "java",
+"title": "Java Fresher 04: Getting Started with Spring Boot Folder Structure",
+"members_guess": true
+},
+{
+"id": "EwSrtrk7Kq0",
+"topic": "java",
+"title": "JAVA Fresher 05:  Spring Data JPA",
+"members_guess": true
+},
+{
+"id": "0unBab23Kok",
+"topic": "java",
+"title": "JAVA Fresher 06:  Controller vs Spring Data JPA",
+"members_guess": true
+},
+{
+"id": "qkCRcKnvJ70",
+"topic": "java",
+"title": "JAVA Fresher 08: Spring Data JPA, working with OneToOne, OneToMany and ManyToOne",
+"members_guess": true
+},
+{
+"id": "SgMbCgvs2Z8",
+"topic": "java",
+"title": "JAVA Fresher 09: Spring Data JPA, working with ManyToMany",
+"members_guess": true
+},
+{
+"id": "1h7yp9ubWzQ",
+"topic": "java",
+"title": "JAVA Fresher 12: SPRING BOOT SECURITY - Toàn diện về Security dân Backend",
+"members_guess": true
+},
+{
+"id": "jIRyd2tjYSc",
+"topic": "java",
+"title": "JAVA Fresher 13: SPRING BOOT SECURITY - 4 methods of identity authentication?",
+"members_guess": true
+},
+{
+"id": "hXV2rT3dqI0",
+"topic": "java",
+"title": "JAVA Fresher 14:  SPRING BOOT SECURITY - WHO ARE YOU?",
+"members_guess": true
+},
+{
+"id": "_mAvzmgV3ik",
+"topic": "java",
+"title": "JAVA Fresher 15: SPRING BOOT SECURITY - Roles vs Authorities",
+"members_guess": true
+},
+{
+"id": "Hpv6Q56o0-k",
+"topic": "java",
+"title": "JAVA Fresher (16): SPRING BOOT SECURITY - SecurityFilterChain",
+"members_guess": true
+},
+{
+"id": "zqf1LuYTeYo",
+"topic": "java",
+"title": "JAVA Intern (01): Vì sao dev BE lại thích sử dụng Stream()",
+"members_guess": true
+},
+{
+"id": "qqYE9nfXqJo",
+"topic": "java",
+"title": "JAVA Intern (4): How ThreadLocal Works - Memory Leaks",
+"members_guess": true
+},
+{
+"id": "cttaY3UzVws",
+"topic": "java",
+"title": "JAVA Intern (5): Virtual Thread, Platform Thread sự vĩ đại cuối cũng của JAVA JUC",
+"members_guess": true
+},
+{
+"id": "n97s7yxGLoE",
+"topic": "java",
+"title": "JAVA Fresher (19): How to Export Excel files with 1,000,000 records and improve from 10s to 6s...",
+"members_guess": true
+},
+{
+"id": "zUHKsQ3T3Hw",
+"topic": "java",
+"title": "Method 2: Export Excel file with 1,000,000 rows, time reduced from 15s to 5s. Using ThreadPool",
+"members_guess": true
+},
+{
+"id": "2uea3OCz_yk",
+"topic": "java",
+"title": "JAVA Fresher (20): Spring Security is the easiest to understand I have ever learned, NOW I want t...",
+"members_guess": true
+},
+{
+"id": "f__leeKpY7M",
+"topic": "java",
+"title": "JAVA Fresher (22): Remember-Me Authentication - Bảo mật Token Remember #springsecurity #rbac",
+"members_guess": true
+},
+{
+"id": "31pkSHg0pUc",
+"topic": "java",
+"title": "JAVA Fresher (23): Improve CPU performance, THREAD not for Fresher",
+"members_guess": true
+},
+{
+"id": "jnxsMU5hjqs",
+"topic": "node",
+"title": "Section 4: Lịch sử của .env và cách kết hợp env và configs cho dự án nhiều môi trường và Members",
+"members_guess": true
+},
+{
+"id": "mkol2daN7FU",
+"topic": "node",
+"title": "Section 5: Api Sign-up Shop (1)",
+"members_guess": true
+},
+{
+"id": "EkFGhtrXX0w",
+"topic": "node",
+"title": "Section 5: Api Sign-up Shop (FULL) implements RSA and JWT algorithms for two levels. (missing ver...",
+"members_guess": true
+},
+{
+"id": "Ha_LFuZ5x1U",
+"topic": "node",
+"title": "Section 5: Reup Sign-up Shop (FULL) RSA and JWT algorithms for two additional levels keyToken, au...",
+"members_guess": true
+},
+{
+"id": "nQxEwBAcYrI",
+"topic": "node",
+"title": "Section 6:  Custom Dynamic Middleware for ApiKey and Permissions",
+"members_guess": true
+},
+{
+"id": "vXhNEryxP0E",
+"topic": "node",
+"title": "Section 10: Logout vs Authentication | Course Node.js Backend eCommerce",
+"members_guess": true
+},
+{
+"id": "S8yvvRag6Kk",
+"topic": "node",
+"title": "Section 11: Handling Unauthorized Token Use and How to Handle It | RefreshToken",
+"members_guess": true
+},
+{
+"id": "sR3YViTbFJ8",
+"topic": "node",
+"title": "Section 11( version 2 ): FIXED Bug bị sai và tối ưu hơn so với phiên bản cũ",
+"members_guess": true
+},
+{
+"id": "j1Qb_qMNXzE",
+"topic": "node",
+"title": "Section 12: Schema Product Ecommerce How to design millions of products and optimize queries FAST",
+"members_guess": true
+},
+{
+"id": "T5rkuB8ca_g",
+"topic": "node",
+"title": "Section 15: Thiết kế Api Service Product kết hợp giữa Factory và Strategy quá hiệu quả (Video Bonus)",
+"members_guess": true
+},
+{
+"id": "ZD5cWfsZO3A",
+"topic": "node",
+"title": "Section 16: Add isDraft, isPublish, unPublish features and add Product Service API schema",
+"members_guess": true
+},
+{
+"id": "pKbdGrQGVJk",
+"topic": "node",
+"title": "Section 17: Remaining features, findAll, findOne, selectData, unSelectData in Product Service API",
+"members_guess": true
+},
+{
+"id": "w3dpcns7zj4",
+"topic": "node",
+"title": "Section 18: Update với POST, PUT, PATCH trong Product Service API",
+"members_guess": true
+},
+{
+"id": "VYOlDxdcehY",
+"topic": "node",
+"title": "Section 19: Inventories Model vs Services",
+"members_guess": true
+},
+{
+"id": "-jhjxo7TW1g",
+"topic": "node",
+"title": "Section 20: Discount Model in eCommerce",
+"members_guess": true
+},
+{
+"id": "77kTtMdnqek",
+"topic": "node",
+"title": "Section 21: Discount Service in eCommerce with 6 features",
+"members_guess": true
+},
+{
+"id": "nVH56wVEDCg",
+"topic": "node",
+"title": "Section 22: Discount Service in eCommerce Part 2 - FULL",
+"members_guess": true
+},
+{
+"id": "HQkAB2z4OcI",
+"topic": "node",
+"title": "Section 23: Cart Service in eCommerce Part 1 | Cart Model vs add product to cart [User]",
+"members_guess": true
+},
+{
+"id": "Ezf_10SsfWs",
+"topic": "node",
+"title": "Section 24: Cart Service Api | Update, reduce, increase product [User] Part 2",
+"members_guess": true
+},
+{
+"id": "rpoQjTm9In4",
+"topic": "node",
+"title": "Section 25: Order Service Api (part 1)",
+"members_guess": true
+},
+{
+"id": "CVF8QXumS00",
+"topic": "node",
+"title": "Section 38: Implementing Nested Comments system in shopDEV eCommerce | create vs list comments",
+"members_guess": true
+},
+{
+"id": "2rYyw1FSIPc",
+"topic": "node",
+"title": "Section 39: Formula calculation and deleting comments in shopDEV eCommerce | Nested Set Model",
+"members_guess": true
+},
+{
+"id": "--yEOnZBB8o",
+"topic": "node",
+"title": "Section 57: x-api-key You ask, I answer ???",
+"members_guess": true
+},
+{
+"id": "dFIhLYlNXtw",
+"topic": "node",
+"title": "Section 61: Intro Cloud vs Upload Service For Api (1)",
+"members_guess": true
+},
+{
+"id": "fUO6VF394eA",
+"topic": "node",
+"title": "Section 62: Use multer vs cloudinary upload File (2)",
+"members_guess": true
+},
+{
+"id": "x3h4UUUCMnY",
+"topic": "node",
+"title": "Section 63: Y chang Shopee | Use multer vs cloudinary upload Multiple Files (3) | Next AWS",
+"members_guess": true
+},
+{
+"id": "zPMdzBH61PE",
+"topic": "node",
+"title": "Section 64: Amazon Web Service (AWS) Intro and Registration",
+"members_guess": true
+},
+{
+"id": "MDQEu7-GZMY",
+"topic": "node",
+"title": "Section 65: Amazon Web Services (AWS) S3 Bucket Setup and Security (2)",
+"members_guess": true
+},
+{
+"id": "APZCs7lALQk",
+"topic": "node",
+"title": "Section 66: Upload Images to S3 from Node Back End | AWS",
+"members_guess": true
+},
+{
+"id": "HnF6tfUE0gk",
+"topic": "node",
+"title": "Section 67: AWS - S3 Deploying secure S3 link backend service and testing URL performance speed",
+"members_guess": true
+},
+{
+"id": "dFe7jE5Otr4",
+"topic": "node",
+"title": "Section 68: Setup Cloudfront với S3 | AWS Pro",
+"members_guess": true
+},
+{
+"id": "pSwROxV2l8I",
+"topic": "node",
+"title": "Section 69: AWS CloudFront File Security Prevents BackEnd Copying",
+"members_guess": true
+},
+{
+"id": "-k5jfYrtQJo",
+"topic": "node",
+"title": "Section 70: Comprehensive Deployment of EC2 - The Backend's Sharpest Weapon",
+"members_guess": true
+},
+{
+"id": "2ZYH1FuZ0uY",
+"topic": "node",
+"title": "Section 73: Triển khai CI/CD từ GitHub và EC2 (AWS)",
+"members_guess": true
+},
+{
+"id": "UfV1FUtVypc",
+"topic": "node",
+"title": "Section 74: Reverse Proxy Nginx vs EC2 | Next setup Domain Shopdev.com",
+"members_guess": true
+},
+{
+"id": "67cAjD-twoU",
+"topic": "node",
+"title": "Section 75: Add domain shopdev.com to NGINX with SSL port (443)",
+"members_guess": true
+},
+{
+"id": "2w4TQ7EV-84",
+"topic": "node",
+"title": "Section 77: Designing Rights in E-Commerce Systems (Part 1)",
+"members_guess": true
+},
+{
+"id": "2zrU3NAY0jo",
+"topic": "node",
+"title": "Section 78: Designing Rights in E-commerce Systems (Part 2)",
+"members_guess": true
+},
+{
+"id": "3jIDM99037U",
+"topic": "node",
+"title": "Section 79: Thiết kế quyền trong hệ thống thương mại điện tử (Hoàn thành source thực tế)",
+"members_guess": true
+},
+{
+"id": "8LicTFZvPzE",
+"topic": "node",
+"title": "Section 80: Designing TRACKING LOGs in e-commerce systems | Part 2",
+"members_guess": true
+},
+{
+"id": "bzCKJ3HorXc",
+"topic": "node",
+"title": "Section 81: Hoàn thành hệ thống tracking Logs với traceId hoàn chỉnh cho level 4, 5",
+"members_guess": true
+},
+{
+"id": "Y-pqDc3Xl9Q",
+"topic": "node",
+"title": "Section 82: Shop Registration | Email OTP Sending and Verification Workflow via SMTP (AWS) (1)",
+"members_guess": true
+},
+{
+"id": "A78uC7AfZPU",
+"topic": "node",
+"title": "Section 83: Triển khai module đăng ký thành viên ShopDEV thông qua verify Email OTP",
+"members_guess": true
+},
+{
+"id": "A-tXuWpyBss",
+"topic": "node",
+"title": "Section 85: Sharing shopDEV Interface Source Code (React+Vite) and Mobile App (iOS + Android) Dow...",
+"members_guess": true
+},
+{
+"id": "d4Xy6MyaaCI",
+"topic": "node",
+"title": "Section 86: User Registration | Verify OTP vs Create New User (2)",
+"members_guess": true
+},
+{
+"id": "RnhqkmHG4vE",
+"topic": "node",
+"title": "Section 87: Senior - Data Design for SKU and SPU in Product (1)",
+"members_guess": true
+},
+{
+"id": "gLo4guKxgfg",
+"topic": "node",
+"title": "Section 88: Triển khai và giải thích schema spu và sku model [Tối ưu SKU]",
+"members_guess": true
+},
+{
+"id": "f5pK9_A-XTk",
+"topic": "node",
+"title": "Section 89: Deploying Service spu and sku for optimal efficiency | Noisy House hihi",
+"members_guess": true
+},
+{
+"id": "isgh-Pb2_bc",
+"topic": "node",
+"title": "Nest.JS (01): Level Up from Front-End to Full-Stack — Why Nest.JS is the Shortest and Best Path",
+"members_guess": true
+},
+{
+"id": "8EhoEu_kYPU",
+"topic": "node",
+"title": "Nest.JS (02): The Power of IoC in Backend Language",
+"members_guess": true
+},
+{
+"id": "u5j5oQwSFs0",
+"topic": "node",
+"title": "Nest.JS (03): Use CLI",
+"members_guess": true
+},
+{
+"id": "0Tf1BPM9MwY",
+"topic": "node",
+"title": "Nest.JS (04): How to Debug",
+"members_guess": true
+},
+{
+"id": "oYYzfdtZgP0",
+"topic": "node",
+"title": "Nest.JS (05): Use Providers",
+"members_guess": true
+},
+{
+"id": "QmGc7mt7scw",
+"topic": "node",
+"title": "NestJS (06): AOP is the core of BackEnd language proficiency mastering 5 concepts",
+"members_guess": true
+},
+{
+"id": "g4S4rmnAC5w",
+"topic": "node",
+"title": "NestJS (08): Upload File Use Multer - DiskStorage",
+"members_guess": true
+},
+{
+"id": "ScYKoRfS34c",
+"topic": "node",
+"title": "NestJS (09): Upload Large File, FrontEnd chia nhỏ nhiều File và Backend merge file, hiệu suất cao",
+"members_guess": true
+},
+{
+"id": "YredrrdHJA8",
+"topic": "node",
+"title": "NestJS (10): How complete is the Logger system in Nestjs?",
+"members_guess": true
+},
+{
+"id": "TTbaZG6e-mg",
+"topic": "node",
+"title": "NestJS (11): 6 cấp độ ghi LOGs và vì sao Nodejs lại sử dụng Winston một cách mạnh mẽ về Logger",
+"members_guess": true
+},
+{
+"id": "akymw_jIYFk",
+"topic": "node",
+"title": "NestJS (12): Integrate Winston into API - Logger System More Powerful Than Ever | File Search Format",
+"members_guess": true
+},
+{
+"id": "mw1FLun0_7Q",
+"topic": "node",
+"title": "NestJS (13): FrontEnd bắt đầu hình thành FullStack với Docker Desktop, đừng đốt cháy giai đoạn...",
+"members_guess": true
+},
+{
+"id": "8uA1l5kb9e4",
+"topic": "node",
+"title": "NestJS (14): Làm việc với Dockerfile đầu tiên như thế nào đối với FE qua FS và những chú ý của DEV",
+"members_guess": true
+},
+{
+"id": "tVWIAfM4Tbw",
+"topic": "node",
+"title": "NestJS (15): Mẹo tối ưu Dockerfile của dự án, hãy xem kỹ về kỹ thuật này...",
+"members_guess": true
+},
+{
+"id": "I7lVdTBCGFk",
+"topic": "node",
+"title": "NestJS (17): TypeORM - LÀM CHỦ KỸ NĂNG",
+"members_guess": true
+},
+{
+"id": "Sdw3SLu6dZ8",
+"topic": "node",
+"title": "NestJS (18): TypeORM - OneToOne - Vì sao Foreign Key ít được sử dụng với các dự án",
+"members_guess": true
+},
+{
+"id": "UPljKC830qg",
+"topic": "node",
+"title": "NestJS (19): TypeORM - OneToMany, ManyToOne - Người mới thường mắc 3 điều sau",
+"members_guess": true
+},
+{
+"id": "y_gSwrnTTWo",
+"topic": "node",
+"title": "NestJS (20): TypeORM - ManyToMany. Why does this relationship always have to have an Intermediate...",
+"members_guess": true
+},
+{
+"id": "-muckznhxEc",
+"topic": "node",
+"title": "NestJS (21): TypeORM vs Migration - Why not in development? Migration only in PROD",
+"members_guess": true
+},
+{
+"id": "XGoVsC1YLL8",
+"topic": "node",
+"title": "NestJS (22): 5 MINUTES OF EXPERIENCE and How to integrate STANDARD TypeORM into NestJS - Should u...",
+"members_guess": true
+},
+{
+"id": "DHsXjMlLcr8",
+"topic": "node",
+"title": "NestJS (23): Cơ bản đến thành thạo PRISMA. Vì sao có thế thay thế TypeORM ???",
+"members_guess": true
+},
+{
+"id": "i0R0NjmQuqI",
+"topic": "node",
+"title": "NestJS (24): Prisma proficient in Schema, ApiDocs, OnetoOne, OntoMany, ManytoMany",
+"members_guess": true
+},
+{
+"id": "r---B8OW1fI",
+"topic": "node",
+"title": "NestJS (28): How to Decentralize Small and Medium-sized Systems? Implementing Tokens and ACLs",
+"members_guess": true
+},
+{
+"id": "jtFXbo16RmE",
+"topic": "node",
+"title": "NestJS (29): Security RBAC the foundation of every large system: How to implement RBAC in API [AD...",
+"members_guess": true
+},
+{
+"id": "git5LEvshG4",
+"topic": "node",
+"title": "NestJS (34): How do Social platforms implement LIKE/UNLIKE? Are there many pitfalls in this appro...",
+"members_guess": true
+},
+{
+"id": "SM8wWKieViU",
+"topic": "node",
+"title": "Nodejs Backend(76): Resize Images with Node.js and AWS Lambda",
+"members_guess": true
+},
+{
+"id": "57fGKY_zbT4",
+"topic": "career",
+"title": "Section13: API Product use Factory Pattern | Create new Product for level 1,2",
+"members_guess": true
+},
+{
+"id": "SCSCiPRba50",
+"topic": "career",
+"title": "Section14: Api Service Products (Optimal For LV.xxx) | Nâng cao cấu trúc Product",
+"members_guess": true
+},
+{
+"id": "2K3Pk-_pFSc",
+"topic": "career",
+"title": "Urgent: HOT FIX. Anh em trong MEMBER chú ý. Tại hạ nhận lỗi.",
+"members_guess": true
+},
+{
+"id": "hcz1-Srwh6k",
+"topic": "career",
+"title": "👉👉👉: LINK DISCORD FOR MEMBER - UPDATE 01/2025",
+"members_guess": true
+},
+{
+"id": "oK_hvlZ40Zc",
+"topic": "career",
+"title": "SA - APP CHAT (1): Optimize scenario 1, billions of redundant MESSAGES and high WRITE rate...",
+"members_guess": true
+},
+{
+"id": "_nhV5TyL8gM",
+"topic": "career",
+"title": "SA - APP CHAT (2): Optimize scenario 2, message SIZE has been reduced, BUT WRITE performance is s...",
+"members_guess": true
+},
+{
+"id": "MTAUHRg5t3Y",
+"topic": "career",
+"title": "SA - CHAT APP (3): VERSION 3 THE OPTIMAL DATA DESIGN IS HERE, ONE vs ONE AND GROUP",
+"members_guess": true
+},
+{
+"id": "QR4VDr1mT7I",
+"topic": "career",
+"title": "Solving problem (2): REALTIME GROUP MESSAGE vs. WebSocket, Socket.io or Firebase choice??",
+"members_guess": true
+},
+{
+"id": "Xz06iXHHcLU",
+"topic": "career",
+"title": "Solving problem (3): How to list conversions vs synchronize messages for multiple devices?",
+"members_guess": true
+},
+{
+"id": "JlyubT4_KXw",
+"topic": "career",
+"title": "Solve the problem (4): SOURCE CODE 👇👇👇👇👇",
+"members_guess": true
+}
+]

@@ -1,0 +1,609 @@
+{
+"aJ5kLfn8AtI": {
+"status": "transcript",
+"topic": "kafka"
+},
+"inUimYVAGv0": {
+"status": "transcript",
+"topic": "dist"
+},
+"DQN0pRV8RnU": {
+"status": "transcript",
+"topic": "kafka"
+},
+"9kpISaXHBvM": {
+"status": "transcript",
+"topic": "tx"
+},
+"GLqyIqWtRiA": {
+"status": "transcript",
+"topic": "tx"
+},
+"7M_6_jKTSS0": {
+"status": "blocked_retry",
+"topic": "mq",
+"err": "ERROR: Unable to download video subtitles for 'vi': HTTP Error 429: Too Many Requests"
+},
+"vsl4my0Ot-s": {
+"status": "transcript",
+"topic": "mq"
+},
+"DQRj7I3PcuM": {
+"status": "transcript",
+"topic": "mq"
+},
+"WVPNHLNu5m4": {
+"status": "transcript",
+"topic": "mq"
+},
+"--8OCUUqzTk": {
+"status": "transcript",
+"topic": "mq"
+},
+"az2VNMgNFrk": {
+"status": "transcript",
+"topic": "mq"
+},
+"IMAzNKNUpZc": {
+"status": "transcript",
+"topic": "mq"
+},
+"lNs-wtsyBu8": {
+"status": "transcript",
+"topic": "mq"
+},
+"zeHD8cqK52I": {
+"status": "transcript",
+"topic": "mq"
+},
+"f1DY031XXPc": {
+"status": "transcript",
+"topic": "mq"
+},
+"hrSP7UocdJ8": {
+"status": "transcript",
+"topic": "mq"
+},
+"fnOg4DF-t7U": {
+"status": "transcript",
+"topic": "mq"
+},
+"wdV-XUcM2us": {
+"status": "transcript",
+"topic": "mq"
+},
+"mYa4c-VyGS4": {
+"status": "transcript",
+"topic": "mq"
+},
+"HnQ0Wt6YyO0": {
+"status": "transcript",
+"topic": "mq"
+},
+"Ccbx5ItsSSQ": {
+"status": "transcript",
+"topic": "mq"
+},
+"yK4T7Myi9N4": {
+"status": "transcript",
+"topic": "kafka"
+},
+"a7lmP5hdgB0": {
+"status": "blocked_retry",
+"topic": "kafka",
+"err": "ERROR: Unable to download video subtitles for 'vi': HTTP Error 429: Too Many Requests"
+},
+"UIFWVisug1M": {
+"status": "transcript",
+"topic": "kafka"
+},
+"yiXL052rNNI": {
+"status": "transcript",
+"topic": "kafka"
+},
+"-JUCzDDHOmo": {
+"status": "transcript",
+"topic": "kafka"
+},
+"ykIKPK6b3G4": {
+"status": "transcript",
+"topic": "kafka"
+},
+"2TBqQBEI56A": {
+"status": "transcript",
+"topic": "kafka"
+},
+"qxRtMizGvWE": {
+"status": "transcript",
+"topic": "tx"
+},
+"spdyW-ANgJw": {
+"status": "transcript",
+"topic": "tx"
+},
+"fQPB5TPqcGM": {
+"status": "transcript",
+"topic": "tx"
+},
+"_tBWQ8JaFOs": {
+"status": "transcript",
+"topic": "tx"
+},
+"qHqMB47liwQ": {
+"status": "transcript",
+"topic": "tx"
+},
+"OQcAhKwF2oI": {
+"status": "transcript",
+"topic": "tx"
+},
+"HXMJD4mN4bY": {
+"status": "transcript",
+"topic": "tx"
+},
+"pK3oBX0vB38": {
+"status": "transcript",
+"topic": "tx"
+},
+"9VBRHwYDY7A": {
+"status": "transcript",
+"topic": "tx"
+},
+"CBhPFo3Lz4M": {
+"status": "transcript",
+"topic": "tx"
+},
+"UjiGO37qugY": {
+"status": "transcript",
+"topic": "tx"
+},
+"zZHFxVGgmrU": {
+"status": "transcript",
+"topic": "tx"
+},
+"nuHM_dP8wJ4": {
+"status": "transcript",
+"topic": "tx"
+},
+"vfxKrC6w34g": {
+"status": "transcript",
+"topic": "tx"
+},
+"GqH8Ez1O8pc": {
+"status": "transcript",
+"topic": "tx"
+},
+"WKGIz5ViT7Y": {
+"status": "transcript",
+"topic": "tx"
+},
+"VWXZUWzT46U": {
+"status": "transcript",
+"topic": "tx"
+},
+"jA8w2MoH4SA": {
+"status": "transcript",
+"topic": "tx"
+},
+"RI3i8s16384": {
+"status": "transcript",
+"topic": "tx"
+},
+"SyhJdieqXm0": {
+"status": "transcript",
+"topic": "tx"
+},
+"kQeL3ORphFs": {
+"status": "transcript",
+"topic": "tx"
+},
+"bttCAxwH1GI": {
+"status": "transcript",
+"topic": "tx"
+},
+"Zes0Glt8cT0": {
+"status": "transcript",
+"topic": "tx"
+},
+"uuaST5OhCx4": {
+"status": "transcript",
+"topic": "dist"
+},
+"gyaoxeCKkRY": {
+"status": "transcript",
+"topic": "dist"
+},
+"1pGuG5S68zM": {
+"status": "transcript",
+"topic": "dist"
+},
+"XBwGeRSo20A": {
+"status": "transcript",
+"topic": "dist"
+},
+"piN--APNE98": {
+"status": "transcript",
+"topic": "dist"
+},
+"A9gqa8q-l1w": {
+"status": "transcript",
+"topic": "dist"
+},
+"G4-_ckYTtvo": {
+"status": "transcript",
+"topic": "dist"
+},
+"0oJCzoMSEw4": {
+"status": "no_subs",
+"topic": "redis",
+"err": "WARNING: [youtube] 0oJCzoMSEw4: Some android client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See "
+},
+"Pqv8_q-620Q": {
+"status": "no_subs",
+"topic": "redis",
+"err": "WARNING: [youtube] Pqv8_q-620Q: Some android client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See "
+},
+"83tSHafdsHU": {
+"status": "blocked_retry",
+"topic": "redis",
+"err": "ERROR: Unable to download video subtitles for 'vi': HTTP Error 429: Too Many Requests"
+},
+"ORkgL1SURhg": {
+"status": "transcript",
+"topic": "redis"
+},
+"PP_7AvltBBM": {
+"status": "transcript",
+"topic": "redis"
+},
+"OF97evA4JVI": {
+"status": "transcript",
+"topic": "redis"
+},
+"_inbcP9batQ": {
+"status": "transcript",
+"topic": "redis"
+},
+"qgoYBqmSjko": {
+"status": "transcript",
+"topic": "redis"
+},
+"_9J3HyhVv5k": {
+"status": "transcript",
+"topic": "redis"
+},
+"wzZXRoeYFPw": {
+"status": "transcript",
+"topic": "redis"
+},
+"OUGfEleDGaE": {
+"status": "transcript",
+"topic": "redis"
+},
+"tIuUXU2Zf04": {
+"status": "transcript",
+"topic": "redis"
+},
+"d04M8IYiOGE": {
+"status": "transcript",
+"topic": "redis"
+},
+"d7hbNHy5ToM": {
+"status": "transcript",
+"topic": "redis"
+},
+"lMf0tBKfgPw": {
+"status": "transcript",
+"topic": "redis"
+},
+"HSknuSIoK6A": {
+"status": "transcript",
+"topic": "redis"
+},
+"VE1oTBR0gig": {
+"status": "transcript",
+"topic": "redis"
+},
+"bkSdxT1Vk4s": {
+"status": "transcript",
+"topic": "redis"
+},
+"dpDGXbe_LeE": {
+"status": "transcript",
+"topic": "redis"
+},
+"EXv_NCNXH7c": {
+"status": "transcript",
+"topic": "redis"
+},
+"jDJ46aQrRWs": {
+"status": "transcript",
+"topic": "redis"
+},
+"u5-flcmINc4": {
+"status": "transcript",
+"topic": "redis"
+},
+"mw-DdAPKV_A": {
+"status": "transcript",
+"topic": "redis"
+},
+"q8d6An4a60E": {
+"status": "transcript",
+"topic": "redis"
+},
+"_15A-fkBP7o": {
+"status": "transcript",
+"topic": "redis"
+},
+"mco-hXkHqjY": {
+"status": "transcript",
+"topic": "redis"
+},
+"IR03bajM_ig": {
+"status": "transcript",
+"topic": "redis"
+},
+"Dpl8p2nyffw": {
+"status": "no_subs",
+"topic": "db",
+"err": "WARNING: [youtube] Dpl8p2nyffw: Some android client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See "
+},
+"x66LimqLa-g": {
+"status": "no_subs",
+"topic": "db",
+"err": "WARNING: [youtube] x66LimqLa-g: Some android client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See "
+},
+"76Q7rEnfzRU": {
+"status": "no_subs",
+"topic": "db",
+"err": "WARNING: [youtube] 76Q7rEnfzRU: Some android client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See "
+},
+"tlfixElrlcM": {
+"status": "no_subs",
+"topic": "db",
+"err": "WARNING: [youtube] tlfixElrlcM: Some android client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See "
+},
+"p8CZ2H5rt8U": {
+"status": "no_subs",
+"topic": "db",
+"err": "WARNING: [youtube] p8CZ2H5rt8U: Some android client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See "
+},
+"ktGj1Swi0w8": {
+"status": "no_subs",
+"topic": "db",
+"err": "WARNING: [youtube] ktGj1Swi0w8: Some android client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See "
+},
+"APrTeibWidw": {
+"status": "no_subs",
+"topic": "db",
+"err": "WARNING: [youtube] APrTeibWidw: Some android client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See "
+},
+"YVY0qLLz5Qk": {
+"status": "transcript",
+"topic": "db"
+},
+"JJirK21iaf8": {
+"status": "transcript",
+"topic": "db"
+},
+"iYf9YVJERxU": {
+"status": "blocked_retry",
+"topic": "db",
+"err": "ERROR: Unable to download video subtitles for 'vi': HTTP Error 429: Too Many Requests"
+},
+"eQxboSVmM6U": {
+"status": "transcript",
+"topic": "db"
+},
+"BwEIMkQMui4": {
+"status": "transcript",
+"topic": "db"
+},
+"vjHWkHm4cqo": {
+"status": "transcript",
+"topic": "db"
+},
+"IZlfBvp75zI": {
+"status": "transcript",
+"topic": "db"
+},
+"pizW1-xacBE": {
+"status": "no_subs",
+"topic": "db",
+"err": "WARNING: [youtube] pizW1-xacBE: Some android client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See "
+},
+"KMtPfRYWmjU": {
+"status": "transcript",
+"topic": "db"
+},
+"Q4jR42L9UlA": {
+"status": "transcript",
+"topic": "db"
+},
+"yXbz-DRvFRk": {
+"status": "transcript",
+"topic": "db"
+},
+"EVACo8bfU48": {
+"status": "transcript",
+"topic": "db"
+},
+"4DwqZPTtUpE": {
+"status": "transcript",
+"topic": "db"
+},
+"xEh1ggoU8zI": {
+"status": "transcript",
+"topic": "db"
+},
+"tMAe893baIs": {
+"status": "transcript",
+"topic": "db"
+},
+"qblPthhsqR4": {
+"status": "transcript",
+"topic": "db"
+},
+"3vOiXwI4AVQ": {
+"status": "transcript",
+"topic": "db"
+},
+"Bs41dR_Kf-0": {
+"status": "transcript",
+"topic": "db"
+},
+"HrGVCCjRDZQ": {
+"status": "transcript",
+"topic": "db"
+},
+"hUOgRS6dEVQ": {
+"status": "transcript",
+"topic": "db"
+},
+"XPtlC1YeRwU": {
+"status": "transcript",
+"topic": "db"
+},
+"_kYOxnAK9J8": {
+"status": "blocked_retry",
+"topic": "db",
+"err": "ERROR: Unable to download video subtitles for 'vi': HTTP Error 429: Too Many Requests"
+},
+"7ki7uw46Flw": {
+"status": "transcript",
+"topic": "db"
+},
+"mfuQjkqdbNA": {
+"status": "transcript",
+"topic": "db"
+},
+"nzighSNJM6M": {
+"status": "transcript",
+"topic": "db"
+},
+"TlxWi81Z4Y0": {
+"status": "transcript",
+"topic": "db"
+},
+"n3yRC2HBrPw": {
+"status": "transcript",
+"topic": "db"
+},
+"9fBNtR6yU98": {
+"status": "transcript",
+"topic": "db"
+},
+"48RTknpjmkk": {
+"status": "transcript",
+"topic": "db"
+},
+"CQzxsR8hnHQ": {
+"status": "transcript",
+"topic": "db"
+},
+"AjzeZ8nzJ8E": {
+"status": "transcript",
+"topic": "db"
+},
+"6Oln-40kOq0": {
+"status": "transcript",
+"topic": "db"
+},
+"PE6f66u7KBQ": {
+"status": "transcript",
+"topic": "db"
+},
+"uvkZjU2LBIs": {
+"status": "transcript",
+"topic": "db"
+},
+"-UX_bz376UA": {
+"status": "transcript",
+"topic": "db"
+},
+"I8xq5Phu2h0": {
+"status": "transcript",
+"topic": "db"
+},
+"aY8SiBuFLPw": {
+"status": "transcript",
+"topic": "db"
+},
+"DQ77JGebNQE": {
+"status": "transcript",
+"topic": "db"
+},
+"uo_OjJQ0q5s": {
+"status": "transcript",
+"topic": "db"
+},
+"ZbJmxu33-Gc": {
+"status": "transcript",
+"topic": "db"
+},
+"7Y0ii_QjlKM": {
+"status": "transcript",
+"topic": "db"
+},
+"L9tOHpxlnMA": {
+"status": "transcript",
+"topic": "db"
+},
+"-N3x7ESpHrQ": {
+"status": "transcript",
+"topic": "db"
+},
+"902xL7t3cX8": {
+"status": "transcript",
+"topic": "db"
+},
+"ccxuHMGKX3U": {
+"status": "transcript",
+"topic": "db"
+},
+"QaHvavpqxMU": {
+"status": "transcript",
+"topic": "db"
+},
+"L5q2xNIQQrc": {
+"status": "transcript",
+"topic": "db"
+},
+"UYmCFPVx-XY": {
+"status": "transcript",
+"topic": "db"
+},
+"tjT4O5HGIEU": {
+"status": "transcript",
+"topic": "db"
+},
+"O3tTBcEmpWA": {
+"status": "transcript",
+"topic": "db"
+},
+"1dYbhikXnkw": {
+"status": "transcript",
+"topic": "db"
+},
+"tnUBjJJnwn0": {
+"status": "transcript",
+"topic": "db"
+},
+"Oe_AcOyUnVs": {
+"status": "transcript",
+"topic": "db"
+},
+"ls6vJLO4otA": {
+"status": "transcript",
+"topic": "db"
+},
+"JwbQKBhmrC4": {
+"status": "transcript",
+"topic": "db"
+},
+"d8vMgg32juU": {
+"status": "transcript",
+"topic": "db"
+}
+}

@@ -1,0 +1,185 @@
+{
+  "main": {
+    "id": "d8c822b4286970bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "a3b4316d6c3855f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e068ac800c08742c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a192dce5a76b7c5f",
+    "type": "split",
+    "children": [
+      {
+        "id": "478aec7087eaa4d1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae9b59ee9983cebd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Done",
+                "matchingCase": true,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "54af831d265ddf33",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "2f780e0d9651fd7b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 375.5
+  },
+  "right": {
+    "id": "ac8bc3b407725a03",
+    "type": "split",
+    "children": [
+      {
+        "id": "77f59673b568d800",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "610bea06be0254ab",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "12b8802f43a09006",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "8941d7063ed2a2e4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "zk-prefixer:Create new unique note": false,
+      "workspaces:Manage workspace layouts": false,
+      "templater-obsidian:Templater": false,
+      "custom-sort:Toggle custom sorting": false
+    }
+  },
+  "active": "e068ac800c08742c",
+  "lastOpenFiles": [
+    "Java/Flow Control/JAVA - For Loop.md",
+    "Java/Flow Control/JAVA - For-Each Loop.md",
+    "Java/Flow Control/JAVA - Do-While Loop.md",
+    "Java/Flow Control/JAVA - While Loop.md",
+    "Java/Flow Control/JAVA - Switch Expression.md",
+    "Java/Flow Control/JAVA - Switch Statement.md",
+    "Java/Flow Control/JAVA - If-Else Statement.md",
+    "Java/Operators/JAVA - Assignment Operators.md",
+    "Java/Flow Control/resources",
+    "Java/Flow Control",
+    "Java/Untitled.canvas",
+    "Java/Operators/JAVA - Comparison Operators.md",
+    "Java/Operators/resources/Pasted image 20240310145305.png",
+    "Java/Operators/resources/Pasted image 20240310145155.png",
+    "Java/Operators/resources/Pasted image 20240310145103.png",
+    "Java/Building Blocks/JAVA - Data Types.md",
+    "Java/Operators/JAVA - Binary Operators.md",
+    "Global Hotkeys.md",
+    "Java/Building Blocks/JAVA - Variables.md",
+    "Java/Building Blocks/JAVA - Environment.md",
+    "Java/Building Blocks/JAVA - Text Blocks.md",
+    "Java/Building Blocks/JAVA - Packages.md",
+    "Java/Building Blocks/JAVA - Objects.md",
+    "Java/Building Blocks/JAVA - Local Variable Type Inference.md",
+    "Java/Building Blocks/JAVA - Garbage Collector.md",
+    "Java/Operators/JAVA - Operators in Java.md",
+    "Java/Operators/JAVA - Unary Operators.md",
+    "Java/Operators/resources/Pasted image 20240303135756.png",
+    "Java/Operators/resources/Pasted image 20240303135446.png",
+    "Java/Operators/resources/Pasted image 20240303141212.png",
+    "Java/Operators/resources/Pasted image 20240303132231.png",
+    "Java/Building Blocks/resouces/Pasted image 20240131065628.png",
+    "Java/Building Blocks/resouces/Pasted image 20240206173202.png",
+    "Java/Building Blocks/resouces/Pasted image 20240219170809.png",
+    "PV Automation.md",
+    "data-structure-algo.md",
+    "Start/Java/Operators/JAVA - Comparison Operators.md",
+    "Start/Java/Operators/JAVA - Assignment Operators.md",
+    "Start/Java/Operators/JAVA - Binary Operators.md",
+    "Start/Java/Operators/resources",
+    "Start/Java/Building Blocks/EntendResources/Build-in+Modules.pdf",
+    "Start/Linux/Download, Install and Configure",
+    "Start/Java/Operators",
+    "Start/Linux/Introduction to Linux/ExtendResouces/Virtual+memory.pdf",
+    "Start/Java/Building Blocks/EntendResources",
+    "Start/Linux/Introduction to Linux/ExtendResouces/Parts+of+OS.pdf",
+    "Start/Linux/Introduction to Linux/ExtendResouces/Operating+system.pdf"
+  ]
+}

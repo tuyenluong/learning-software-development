@@ -1,0 +1,122 @@
+{
+  "main": {
+    "id": "d8c822b4286970bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "94b885011b8651c8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "PV Automation.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a192dce5a76b7c5f",
+    "type": "split",
+    "children": [
+      {
+        "id": "478aec7087eaa4d1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2e43dd11bf4296e6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "ae9b59ee9983cebd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Todo",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 251
+  },
+  "right": {
+    "id": "ac8bc3b407725a03",
+    "type": "split",
+    "children": [
+      {
+        "id": "77f59673b568d800",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "610bea06be0254ab",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "PV Automation.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "12b8802f43a09006",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "8941d7063ed2a2e4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 226.40000915527344
+  },
+  "active": "94b885011b8651c8",
+  "lastOpenFiles": [
+    "2022-04-03.md",
+    "2022-04-30.md",
+    "2022-05-12.md",
+    "2022-04-16.md",
+    "Dự án Tiktok/Cốc chống đổ/Kịch bản ghi âm cho cốc giữ nhiệt chống đổ.md",
+    "Dự án Tiktok/Cốc chống đổ/Khung sườn ghi âm cho cốc giữ nhiệt chống đổ.md",
+    "Start/Home/Learning.md",
+    "2022-04-24.md",
+    "2022-09-25 - Phòng.md",
+    "2022-08-20.md"
+  ]
+}

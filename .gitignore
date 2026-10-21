@@ -1,0 +1,10 @@
+.obsidian/workspace.json
+.obsidian/workspaces.json
+.obsidian/graph.json.~lock.*
+
+# keep raw transcripts, members-only material and local tools out of the public repo
+anonystick/transcripts/
+anonystick/tools/*.wav
+*.wav
+anonystick/subs/
+__pycache__/
