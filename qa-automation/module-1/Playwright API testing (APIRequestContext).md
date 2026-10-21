@@ -22,7 +22,7 @@ Useful request options (per call, on `get/post/put/patch/delete/fetch`) from the
 - `headers`, `params` (query string).
 - `failOnStatusCode`: throw on non-2xx/3xx instead of returning the response.
 - `timeout`: **default 30000 ms**; `0` disables it.
-- `maxRedirects` (since 1.26), `maxRetries` (since 1.46: retries on *network errors* only, default 0).
+- `maxRedirects` (since 1.26), `maxRetries` (since 1.46: retries **network errors only**, currently just `ECONNRESET`, never HTTP status codes; default 0).
 
 Assertion: `await expect(response).toBeOK()` checks the status is **200–299** ([APIResponseAssertions](https://playwright.dev/docs/api/class-apiresponseassertions)). It prints the response body on failure, which beats `expect(res.status()).toBe(200)`.
 

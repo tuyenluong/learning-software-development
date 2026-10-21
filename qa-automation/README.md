@@ -7,7 +7,7 @@ Overview: [Module 1 - QA Automation for Edge Cases](module-1/Module%201%20-%20QA
 
 1. [Test design for messaging and transaction edge cases](module-1/Test%20design%20for%20messaging%20and%20transaction%20edge%20cases.md): the five invariants to assert for duplicates, retries, DLQ, out-of-order and races, plus where pyramid/trophy and Pact fit.
 2. [Playwright API testing (APIRequestContext)](module-1/Playwright%20API%20testing%20(APIRequestContext).md): request fixture, auth, idempotency-key tests (same key twice, different payload, concurrent), schema checks.
-3. Framework structure: fixtures and test data *(coming)*
+3. [Framework structure: fixtures and test data](module-1/Framework%20structure%20-%20fixtures%20and%20test%20data.md): Playwright `test.extend` fixtures, JUnit extensions, test data builders, deterministic data (unique ids, seeds, clocks).
 4. Testcontainers for Kafka and RabbitMQ, Java and Go *(coming)*
 5. Async waits without sleeps *(coming)*
 6. CI with flaky-test control *(coming)*
