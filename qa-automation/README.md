@@ -10,4 +10,4 @@ Overview: [Module 1 - QA Automation for Edge Cases](module-1/Module%201%20-%20QA
 3. [Framework structure: fixtures and test data](module-1/Framework%20structure%20-%20fixtures%20and%20test%20data.md): Playwright `test.extend` fixtures, JUnit extensions, test data builders, deterministic data (unique ids, seeds, clocks).
 4. [Testcontainers for Kafka and RabbitMQ (Java and Go)](module-1/Testcontainers%20for%20Kafka%20and%20RabbitMQ%20(Java%20and%20Go).md): Testcontainers 2.x changes, Spring Boot `@ServiceConnection` as beans, testcontainers-go, DLT/DLQ and duplicate tests, reuse, Docker in GitHub Actions and Jenkins.
 5. [Async waits without sleeps](module-1/Async%20waits%20without%20sleeps.md): Awaitility (incl. `during` for "stays at 1"), Playwright `expect.poll`/`toPass`, Testcontainers wait strategies, testify `EventuallyWithT`.
-6. CI with flaky-test control *(coming)*
+6. [CI with flaky-test control](module-1/CI%20with%20flaky-test%20control.md): causes of flakiness, Surefire reruns/flakes, TestNG retry, Playwright retries/traces/`--fail-on-flaky-tests`, quarantine, Jenkins and GitHub Actions examples.
