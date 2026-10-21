@@ -17,7 +17,7 @@ Legend: 📘 = permanent note written from official docs. ⏳ = not written yet 
 | # | Lesson | Type | What you'll be able to do |
 |---|---|---|---|
 | 1 | [[Test design for messaging and transaction edge cases]] | 📘 | Pick the right assertions (effect, state, outputs, routing, liveness) for duplicates, retries, dead letters, out-of-order and races; where pyramid/trophy and Pact fit |
-| 2 | Playwright API testing (APIRequestContext) | ⏳ | Auth, fixtures, idempotency-key tests, contract-style response checks |
+| 2 | [[Playwright API testing (APIRequestContext)]] | 📘 | Auth, fixtures, idempotency-key tests, contract-style response checks |
 | 3 | Framework structure: fixtures and test data | ⏳ | Build reusable fixtures and deterministic, isolated test data |
 | 4 | Testcontainers for Kafka and RabbitMQ (Java and Go) | ⏳ | Real brokers + Postgres in tests, Spring Boot `@ServiceConnection`, testcontainers-go |
 | 5 | Async waits without sleeps | ⏳ | Awaitility, Playwright `expect.poll` / `toPass`, Testcontainers wait strategies |
