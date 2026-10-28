@@ -205,12 +205,12 @@ Other cloud-adjacent signals from ROLIVA's QA snapshot: **Docker 6% (114)**, **K
 
 | Level | Open postings | Skill leaders |
 |---|---|---|
-| **Junior** | **1,420** (1,239 list skills) | python 44%, **java 43%**, api 36%, ai 27%, sql 25%, git 22%, rest 20%, docker 16%, cloud 16%, ci-cd 15%, postgresql 14%, aws 14%, **redis 13%**, **spring 13%**, kubernetes 8%, go 7%, azure 6% |
+| **Junior** | **1,085** (937 list skills) | api 47%, python 40%, **java 39%**, sql 33%, git 29%, rest 27%, ai 23%, docker 22%, cloud 20%, ci-cd 20%, postgresql 18%, aws 18%, **spring 17%**, microservices 13%, redis 11%, kubernetes 11%, azure 9%, kafka 7%, gcp 7% |
 | **Middle** | **1,178** (1,084 list skills) | api 65%, java 41%, **aws 41%**, rest 39%, cloud 38%, ci-cd 37%, ai 35%, docker 33%, python 31%, **kubernetes 28%**, microservices 27%, sql 27%, git 27%, postgresql 25%, azure 22%, spring 21%, **event-driven 21%**, **kafka 21%**, mysql 18%, devops 18%, agile 17%, **observability 15%**, distributed systems 15%, gcp 15%, redis 14%, nosql 14%, **test-automation 13%**, **rabbitmq 9%**, s3 9% |
 
 ([freehire junior](https://freehire.me/insights/roles/backend/junior), [freehire middle](https://freehire.me/insights/roles/backend/middle), [freehire backend seniority split](https://freehire.me/insights/roles/backend))
 
-- **The junior-to-middle jump is the most useful line in this report.** From junior to middle, Kubernetes goes **8% → 28%**, CI/CD **15% → 37%**, AWS **14% → 41%**, observability **0% → 15%**, Kafka **0% → 21%**. Junior postings rarely ask for infrastructure. Middle postings expect it.
+- **The junior-to-middle jump is the most useful line in this report.** From junior to middle, Kubernetes goes **11% → 28%**, CI/CD **20% → 37%**, AWS **18% → 41%**, microservices **13% → 27%**, Kafka **7% → 21%**. Observability does not appear in the junior top 40 at all and is **15%** at middle. Junior postings rarely ask for infrastructure. Middle postings expect it.
 - freehire's seniority census (28 Oct): 23,169 open Backend roles — Senior 16,001, Lead 2,068, Staff 1,278, **Middle 1,178**, **Junior 1,085**, Intern 1,081, Principal 367. Junior and Middle grew faster than Senior month-over-month (+297 and +252, against +1,518 on a much larger base).
 
 **Vietnam: ITviec live counts, 28 Oct 2026:** "java" 104, "backend developer" 88, "spring boot" 44, "golang" 35, "microservices" 33, "kafka" 18, "quarkus" no tag page (404, ≈0).
@@ -243,7 +243,7 @@ Other cloud-adjacent signals from ROLIVA's QA snapshot: **Docker 6% (114)**, **K
 | **Mid** | Java 21/25 + Spring Boot 3/4 **or** Go; REST API design; SQL + PostgreSQL (indexes, transactions); Docker; unit and integration tests (JUnit/Testcontainers or Go testing); Git and CI; one cloud (AWS is most common) | Kafka *or* RabbitMQ producer/consumer basics; Redis; Kubernetes basics; gRPC | Strong testing of your own services (Tuyen's natural edge) |
 | **Senior** | **Distributed systems:** microservices boundaries, messaging (Kafka), retries, timeouts, idempotency, outbox/saga, consistency trade-offs; observability (logs, metrics, traces); performance and concurrency; system design interviews; on-call/incident thinking | Event sourcing/CQRS; Kafka Streams/Connect/Debezium (CDC); K8s operations; security (OAuth2/OIDC) | **Proving correctness under failure:** fault injection, chaos tests, reproducing duplicate/out-of-order delivery; domain depth in payments/fintech; writing ADRs and design docs (the bridge to architect) |
 
-*One refinement this week: the mid-level row now sits closer to the senior row than the baseline suggested. **Kubernetes jumps from 8% of junior postings to 28% of middle postings**, and CI/CD from 15% to 37% ([freehire](https://freehire.me/insights/roles/backend/middle)), so a mid-level candidate without container orchestration or a pipeline is now the exception rather than the rule.*
+*One refinement this week: the mid-level row now sits closer to the senior row than the baseline suggested. **Kubernetes jumps from 11% of junior postings to 28% of middle postings**, and CI/CD from 20% to 37% ([freehire](https://freehire.me/insights/roles/backend/middle)), so a mid-level candidate without container orchestration or a pipeline is now the exception rather than the rule.*
 
 ---
 
@@ -468,7 +468,7 @@ Six real postings were read in full, plus four skill surveys that split by senio
 - **Neocode, Java FinTech, middle, 3–6 years** ([hirify](https://hirify.me/jobs/1218356-java-fintech-backend-developer)): Java 21+, Spring Boot 3/4, PostgreSQL, Redis, Kafka/RabbitMQ, **transactions, idempotency, distributed systems basics**, Docker, basic K8s, observability, Testcontainers, **BigDecimal for money, audit log, idempotency keys, secure webhooks, data masking, payment statuses, PCI DSS basics**, OAuth2/OIDC + Spring Security.
 - **Métrica, Mid Backend – Java, Kafka, Spring Boot and AWS** ([remote, Spain](https://www.spainjobs.io/companies/metrica/desarrolladora-backend-mid-java-kafka-spring-boot-aws--22fcd61272)): Java 17+, Spring Boot 3.x Web/Data JPA, **Kafka in production (consumers, topics, partitions)** or RabbitMQ/SQS-SNS, **hexagonal architecture**, PostgreSQL/Oracle plus query optimisation, JUnit + Mockito, **GitHub Actions + SonarQube**, **OpenAPI/API-first**, SOLID/Clean Code. Nice-to-have: AWS in production (EKS, S3, CloudWatch), **outbox, idempotent consumer, retries + DLQ**, Redis, **Testcontainers and contract tests**, banking domain, English B1+.
 
-Surveys used for the frequency numbers: [freehire junior backend](https://freehire.me/insights/roles/backend/junior) (1,420 postings, 27 Oct 2026), [freehire middle backend](https://freehire.me/insights/roles/backend/middle) (1,178 postings, 28 Oct 2026), [Jobpedia junior software engineer](https://jobpedia.ai/roles/software-engineer/junior) (323 roles), [Skillenai Backend Engineer](https://skillenai.com/data/role/backend-engineer) (2,627 postings), and [Zorky's Java backend skill survey](https://zorky.tech/en/research/backend/java).
+Surveys used for the frequency numbers: [freehire junior backend](https://freehire.me/insights/roles/backend/junior) (1,085 postings, 937 with skills, 28 Oct 2026), [freehire middle backend](https://freehire.me/insights/roles/backend/middle) (1,178 postings, 28 Oct 2026), [Jobpedia junior software engineer](https://jobpedia.ai/roles/software-engineer/junior) (323 roles), [Skillenai Backend Engineer](https://skillenai.com/data/role/backend-engineer) (2,627 postings), and [Zorky's Java backend skill survey](https://zorky.tech/en/research/backend/java).
 
 ### (a) What the path already covers
 
@@ -476,20 +476,20 @@ Each row is something real postings ask for **and** the path teaches.
 
 | Path element | Where the market asks for it |
 |---|---|
-| Core Java: collections, exceptions, streams, basic concurrency | Sber lists exactly this for 2–4 years; Java is **43%** of junior backend postings ([freehire](https://freehire.me/insights/roles/backend/junior)) and 41% at middle |
-| HTTP and REST design | api **36%** and rest **20%** of junior postings; api 65%, rest 39% at middle; Jobpedia REST 19% for junior SE, 21% for all SE |
-| SQL + PostgreSQL: joins, indexes, transactions | sql **25%**, postgresql **14%** of junior postings; sql 27%, postgresql 25% at middle; Zorky puts SQL/PostgreSQL/indexes/transactions before Spring Boot in its roadmap |
-| Spring Boot CRUD with validation, error handling, tests | spring **13%** of junior postings, **21%** at middle; all six postings read name Spring Boot, and four of them pin 3.x |
-| Git | git **22%** junior, 27% middle; Addeco asks for Git and GitHub including pipelines |
-| Docker and running locally with a database | docker **16%** junior, **33%** middle; Addeco and Sber both require Docker |
+| Core Java: collections, exceptions, streams, basic concurrency | Sber lists exactly this for 2–4 years; Java is **39%** of junior backend postings ([freehire](https://freehire.me/insights/roles/backend/junior)) and 41% at middle |
+| HTTP and REST design | api **47%** and rest **27%** of junior postings; api 65%, rest 39% at middle; Jobpedia REST 19% for junior SE, 21% for all SE |
+| SQL + PostgreSQL: joins, indexes, transactions | sql **33%**, postgresql **18%** of junior postings; sql 27%, postgresql 25% at middle; Zorky puts SQL/PostgreSQL/indexes/transactions before Spring Boot in its roadmap |
+| Spring Boot CRUD with validation, error handling, tests | spring **17%** of junior postings, **21%** at middle; all six postings read name Spring Boot, and four of them pin 3.x |
+| Git | git **29%** junior, 27% middle; Addeco asks for Git and GitHub including pipelines |
+| Docker and running locally with a database | docker **22%** junior, **33%** middle; Addeco and Sber both require Docker |
 | Unit and integration tests | JUnit in Netomi, Sber and Métrica; Métrica pairs it with Mockito, Sber with Testcontainers |
 | Flyway migrations | Postings ask for schema **migrations** generically; Zorky lists migrations in the database step. The tool name is rare — see (c) — but the capability is asked for |
 | Testcontainers integration tests | Named outright by **Sber** (must-have), **Neocode** (must-have) and **Métrica** (nice-to-have). One of the path's strongest cards |
-| CI pipeline | ci-cd **15%** junior, **37%** middle; Addeco (GitHub pipelines), Métrica (GitHub Actions + SonarQube) |
-| First deploy to AWS | aws **14%** junior, **41%** middle; Jobpedia junior lists AWS as the top preferred cloud at 14%; ROLIVA and JobRemotely both put AWS first |
+| CI pipeline | ci-cd **20%** junior, **37%** middle; Addeco (GitHub pipelines), Métrica (GitHub Actions + SonarQube) |
+| First deploy to AWS | aws **18%** junior, **41%** middle; Jobpedia junior lists AWS as the top preferred cloud at 14%; ROLIVA and JobRemotely both put AWS first |
 | Auth: sessions, JWT, OAuth basics | Addeco requires Spring Security; Neocode requires OAuth2/OIDC + Spring Security. The other four postings read here do not name auth at all, so it is a differentiator in the CV stack rather than a keyword most ads filter on |
 | Transactions done right: isolation, races, API idempotency | Neocode: "transactions, idempotency"; Métrica: idempotent consumer as a nice-to-have. **The path's differentiator against every generic bootcamp** |
-| Redis caching | redis **13%** junior, 14% middle; Sber (caching, rate limiting, pub/sub), Netomi (Redis/Memcached), Neocode |
+| Redis caching | redis **11%** junior, 14% middle; Sber (caching, rate limiting, pub/sub), Netomi (Redis/Memcached), Neocode |
 | Messaging basics | kafka **21%** and event-driven architecture **21%** of middle postings, rabbitmq 9%; Skillenai backend Kafka 18.2%; Netomi "Kafka or RabbitMQ"; Métrica Kafka consumers/topics/partitions in production |
 | Observability: logs, metrics, tracing | observability **15%** middle; Skillenai 16.5%; Bees (New Relic/Datadog, production troubleshooting), Sber (Prometheus/Grafana/ELK) |
 | Performance basics: slow queries, pools, timeouts | Netomi performance profiling; Sber query plans and performance tuning |
@@ -505,15 +505,15 @@ Each row is something real postings ask for **and** the path teaches.
 | **JPA / Hibernate ORM, and the N+1 problem** | Zorky: Hibernate/JPA is standard, and "Spring Boot 3 + Spring Data JPA" appears in 95%+ of modern Java projects; Métrica names Spring Data JPA in the stack; §6 lists JPA N+1 as a standard backend interview topic | Stage 1, right after the first CRUD API — it is the first thing that goes wrong in a real repository |
 | **Maven or Gradle** | Addeco "Maven"; junbrain "Maven/Gradle"; Zorky notes Maven is still ahead of Gradle in Java shops | Stage 1, day one — the build tool is how the project is created |
 | **Mockito (unit-test isolation)** | Métrica "JUnit + Mockito"; Zorky "JUnit 5 + Mockito + Testcontainers"; junbrain lists JUnit/Mockito as the bonus | Stage 1, alongside the first tests |
-| **Kubernetes basics** | freehire: **8% junior, 28% middle**; Jobpedia junior lists Kubernetes as a preferred skill at 10%; Zorky calls Docker + Kubernetes standard; Addeco requires Docker + Kubernetes + Helm | End of Stage 2 or start of Stage 3 — it is the biggest junior-to-middle jump in the dataset |
-| **Microservices and service boundaries** | freehire: microservices 9% junior, **27% middle**; Skillenai: 16.2% of backend postings and **46.2% of Java Backend Developer postings**; Netomi, Bees and Métrica all list microservices | Stage 3 — messaging basics is the natural doorway |
+| **Kubernetes basics** | freehire: **11% junior, 28% middle**; Jobpedia junior lists Kubernetes as a preferred skill at 10%; Zorky calls Docker + Kubernetes standard; Addeco requires Docker + Kubernetes + Helm | End of Stage 2 or start of Stage 3 — it is the biggest junior-to-middle jump in the dataset |
+| **Microservices and service boundaries** | freehire: microservices 13% junior, **27% middle**; Skillenai: 16.2% of backend postings and **46.2% of Java Backend Developer postings**; Netomi, Bees and Métrica all list microservices | Stage 3 — messaging basics is the natural doorway |
 | **OpenAPI / API-first design and contract tests** | Métrica: OpenAPI/API-first is a **required** skill; contract tests a nice-to-have | Stage 2, alongside the payments API |
 | **Static analysis (SonarQube) and code-quality gates** | Métrica: GitHub Actions + SonarQube | Stage 2, as part of the CI pipeline |
 | **Reading SQL query plans (EXPLAIN)** | Sber "query plans"; Métrica "query optimisation"; Jobpedia SE postings list SQL at 21% overall | Stage 3, inside "performance basics" — the path says "slow queries" but not "read the plan" |
 | **gRPC** | Sber lists REST/gRPC together; the baseline called gRPC a mid-level nice-to-have | Optional Stage 3 lesson |
 | **Bash / shell scripting** | Addeco; it is the practical glue for local Docker, migrations and CI | Stage 1, half a lesson |
 | **English at a stated level** | Addeco B2/C1, Métrica B1+. English is the gate for the remote salaries in §5 | Not a lesson — a standing habit, noted so it is not discovered at interview time |
-| **AI coding tools as a stated plus** | Sber lists AI tooling as a plus; freehire's broad "ai" keyword appears in **27%** of junior and **35%** of middle postings (broad keyword, treat as directional) | Fold into Stage 1 habits, not a separate lesson |
+| **AI coding tools as a stated plus** | Sber lists AI tooling as a plus; freehire's broad "ai" keyword appears in **23%** of junior and **35%** of middle postings (broad keyword, treat as directional) | Fold into Stage 1 habits, not a separate lesson |
 | **Fintech money rules: BigDecimal, audit log, webhook security, data masking, payment statuses, PCI DSS basics** | Neocode, a middle fintech posting, lists all of these; the baseline already flagged "proving correctness under failure" and payments domain depth as the senior differentiator | Stage 2, into the payments project — the path already builds payments, so this is a content upgrade, not a new stage |
 | **NoSQL awareness** | freehire middle: nosql 14%, mysql 18%; a Vietnam bank backend listing in this window names Redis/MongoDB/MySQL/Oracle together | Stage 3, one comparison lesson |
 | **Legacy context: Java EE / EJB, Oracle** | A Java EE (EJB) developer role appeared in this window's alerts; Zorky: Oracle still common in banks | Not for the path — but worth knowing why bank codebases look the way they do |
@@ -537,7 +537,7 @@ These are not wasted, but they should be taught as **depth for interviews and fo
 
 1. **Add JPA/Hibernate and the N+1 problem to Stage 1.** The single biggest omission: it is universal in Java shops and a standard interview question.
 2. **Name the build tool (Maven) and Mockito explicitly** in Stage 1. An hour each to teach, and both appear verbatim in junior postings.
-3. **Move Kubernetes basics to the end of Stage 2**, not Stage 3. It is the sharpest junior-to-middle jump in the data (8% → 28%).
+3. **Move Kubernetes basics to the end of Stage 2**, not Stage 3. It is the sharpest junior-to-middle jump in the data (11% → 28%).
 4. **Put the fintech money rules into the Stage 2 payments project.** BigDecimal, audit log, webhook security and idempotency keys turn the project from "a CRUD app with retries" into "a payments service", which is what the fintech postings screen for.
 5. **Keep outbox, saga and Kafka internals, but label them "interview depth".** They are nice-to-haves in postings and required in senior interviews. That is a different kind of value, and saying so out loud stops Tuyen feeling behind when a junior posting does not mention them.
 
@@ -564,6 +564,7 @@ Optional extras: [A Tour of Go](https://go.dev/tour/) · [Quarkus Kafka guide](h
 
 ## Caveats
 
+- **Corrected 28 Oct 2026, before this was reported:** the junior backend skill column was rebuilt against freehire's live page. The junior posting count is **1,085** (not 1,420), and several junior percentages were written too low (java 39% not 43%, api 47% not 36%, kubernetes 11% not 8%). Every junior and junior-to-middle number in this report now matches the source as read on 28 Oct. The middle column and all QA figures were already correct.
 - **This is a catch-up report.** It covers 17–28 Oct after the 23 Oct run failed, so the "week" is 11 days and the deltas against the baseline are 7-day comparisons from 21 Oct to 28 Oct.
 - **Skillenai** measures posting mix, not hiring volume. The SDET sample is small (132), and its "Go" count may be inflated by the ambiguous word. Its all-role skill totals grow partly with index coverage, so use the *share change* figures, not the raw count growth.
 - **ROLIVA** counts its own board (2,000 QA/test listings). It is the best QA-specific cloud count available, but it is one board, not the market.
