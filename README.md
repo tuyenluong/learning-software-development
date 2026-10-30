@@ -23,3 +23,16 @@ The following is the list of setups that I've added: plugin, hotkeys, template t
 ## Guide
 1. Go to "*Global Hotkeys*" file and grasp the basic concept of how to use this note. (*second Brain > Global Hotkeys*)
 2. Each topic you guys want to share must go inside a folder of its own, if it's a series then create a template in the *Templates* folder. 
+
+## Repo layout
+Job market research and teaching material live in this one repo, in separate folders:
+
+| Folder | What's in it |
+|---|---|
+| [job-market/](job-market/) | Job market reports only: the 2026 baseline and the dated weekly reports (`job-market-YYYY-MM-DD.md`). |
+| [qa-automation/](qa-automation/) | QA automation track (priority 1): QA Module 1 lesson notes. |
+| [module-1/](module-1/) | Backend track: Messaging and Transactions notes. |
+| [anonystick/](anonystick/) | Literature notes from the anonystick YouTube channel (public videos only). |
+| [secondBrain/](secondBrain/) | Obsidian setup: templates, hotkeys, Kanban, indexes. |
+
+[INDEX.md](INDEX.md) lists everything newest first.
