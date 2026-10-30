@@ -11,3 +11,6 @@ Overview: [Module 1 - QA Automation for Edge Cases](module-1/Module%201%20-%20QA
 4. [Testcontainers for Kafka and RabbitMQ (Java and Go)](module-1/Testcontainers%20for%20Kafka%20and%20RabbitMQ%20(Java%20and%20Go).md): Testcontainers 2.x changes, Spring Boot `@ServiceConnection` as beans, testcontainers-go, DLT/DLQ and duplicate tests, reuse, Docker in GitHub Actions and Jenkins.
 5. [Async waits without sleeps](module-1/Async%20waits%20without%20sleeps.md): Awaitility (incl. `during` for "stays at 1"), Playwright `expect.poll`/`toPass`, Testcontainers wait strategies, testify `EventuallyWithT`.
 6. [CI with flaky-test control](module-1/CI%20with%20flaky-test%20control.md): causes of flakiness, Surefire reruns/flakes, TestNG retry, Playwright retries/traces/`--fail-on-flaky-tests`, quarantine, Jenkins and GitHub Actions examples.
+
+## Related notes
+- [Playwright test locks for shared resources](Playwright%20test%20locks%20for%20shared%20resources.md): named `lock` on tests (1.63+) so tests sharing an account or setting never overlap, when to lock vs isolate data, and an exercise.
