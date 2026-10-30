@@ -3,9 +3,9 @@
 .obsidian/graph.json.~lock.*
 
 # keep raw transcripts, members-only material and local tools out of the public repo
-anonystick/transcripts/
-anonystick/tools/*.wav
+learning-material/backend-engineering/anonystick/transcripts/
+learning-material/backend-engineering/anonystick/tools/*.wav
 *.wav
-anonystick/subs/
+learning-material/backend-engineering/anonystick/subs/
 __pycache__/
-anonystick/tools/AUDIO-README.md
+learning-material/backend-engineering/anonystick/tools/AUDIO-README.md

@@ -15,7 +15,7 @@ Updated: 2026-10-21 08:47 UTC. Channel: https://www.youtube.com/@anonystick. Tot
 ## How to continue
 
 ```bash
-cd /workspace/research/teaching-material/anonystick
+cd /workspace/research/teaching-material/learning-material/backend-engineering/anonystick
 python3 tools/fetch.py        # resumes from tools/state.json; polite pace (--sleep-requests 1 --sleep-interval 2, 3s between videos, backs off on 429, stops after 3 blocks in a row)
 python3 tools/progress.py     # regenerates this file
 ```

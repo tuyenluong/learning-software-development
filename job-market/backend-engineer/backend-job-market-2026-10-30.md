@@ -3,7 +3,7 @@
 **Prepared by:** Jake (Research) for Tuyen Luong and Jacob (Teacher)  **Date:** 30 Oct 2026
 **Purpose:** Backend-only market facts for the QE → backend → solution architect learning plan. The core teaching focus is transaction and messaging problems.
 **Coverage:** first run of the weekly **Backend Engineer** report (a separate series from the QE/combined reports). Inbox window **22–30 Oct 2026**; fresh postings sampled from **14–30 Oct 2026**; index data as of **29–30 Oct 2026**.
-**Builds on:** the backend parts of `../qe-backend-job-market-2026.md` (baseline, 21 Oct 2026) and `../job-market-2026-10-28.md` (28 Oct 2026). This report is the **baseline for the backend-engineer series**; next Friday's report compares against it.
+**Builds on:** the backend parts of `../qa-engineer/qe-backend-job-market-2026.md` (baseline, 21 Oct 2026) and `../qa-engineer/job-market-2026-10-28.md` (28 Oct 2026). This report is the **baseline for the backend-engineer series**; next Friday's report compares against it.
 
 > **How to read the numbers**
 > - **Skillenai** = a job-posting index (90-day rolling windows; this run's pages say "as of 29 Oct 2026"). It shows how often a skill shows up in postings, not total hiring. Its "demand vs prior 4 weeks" is a *share* change between two heavily overlapping windows (both ending by 26 Oct), so a 2-day move from the 28 Oct report is mostly index refresh, not a new week of hiring.
@@ -254,7 +254,7 @@ Over the full 21 → 30 Oct span the biggest moves are **PostgreSQL +2.5 points,
 
 ¹ "Go" is an ambiguous word; treat Skillenai's count as an upper bound.
 
-Sources: [Skillenai Go](https://skillenai.com/data/skill/go), [Skillenai Spring Boot](https://skillenai.com/data/skill/spring-boot), [ITviec golang](https://itviec.com/it-jobs/golang), [ITviec spring-boot](https://itviec.com/it-jobs/spring-boot). SO 2026 and Java-org survey figures are in the [21 Oct baseline](../qe-backend-job-market-2026.md) and were not re-pulled.
+Sources: [Skillenai Go](https://skillenai.com/data/skill/go), [Skillenai Spring Boot](https://skillenai.com/data/skill/spring-boot), [ITviec golang](https://itviec.com/it-jobs/golang), [ITviec spring-boot](https://itviec.com/it-jobs/spring-boot). SO 2026 and Java-org survey figures are in the [21 Oct baseline](../qa-engineer/qe-backend-job-market-2026.md) and were not re-pulled.
 
 **Verdict (unchanged, with stronger support):**
 - **Spring Boot is the primary stack.** It had the biggest share gain this week, it leads in Vietnam and in banks and fintech, and it fits Tuyen's saved "remote Backend java" search (6 of the 7 backend alerts this week).
@@ -358,7 +358,7 @@ Sources: [Skillenai Go](https://skillenai.com/data/skill/go), [Skillenai Spring 
 
 ## 9. Backend path vs the market
 
-*Checked against this week's 13 fresh postings and freehire junior/middle data. The full gap analysis is in §9 of the [28 Oct report](../job-market-2026-10-28.md); this section only records what this week's data adds.*
+*Checked against this week's 13 fresh postings and freehire junior/middle data. The full gap analysis is in §9 of the [28 Oct report](../qa-engineer/job-market-2026-10-28.md); this section only records what this week's data adds.*
 
 | Path element | This week's evidence | Verdict |
 |---|---|---|

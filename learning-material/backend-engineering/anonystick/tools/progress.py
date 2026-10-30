@@ -13,7 +13,7 @@ lab={'note_done':'✅ note written','transcript':'📝 transcript fetched, note 
 'no_subs':'⚠️ no Vietnamese captions available','unavailable':'❌ unavailable','blocked_retry':'⏳ rate-limited (429), retry later','pending':'⬜ not attempted yet'}
 L=["# anonystick: processing progress","",f"Updated: {datetime.datetime.now(datetime.UTC).strftime('%Y-%m-%d %H:%M UTC')}. Channel: https://www.youtube.com/@anonystick. Total videos: **{len(e)}**.","",
 "## Summary",""]+[f"- {lab[k]}: **{cnt.get(k,0)}**" for k in lab]+["",
-"## How to continue","","```bash","cd /workspace/research/teaching-material/anonystick",
+"## How to continue","","```bash","cd /workspace/research/teaching-material/learning-material/backend-engineering/anonystick",
 "python3 tools/fetch.py        # resumes from tools/state.json; polite pace (--sleep-requests 1 --sleep-interval 2, 3s between videos, backs off on 429, stops after 3 blocks in a row)",
 "python3 tools/progress.py     # regenerates this file","```","",
 "Then write notes for 📝 rows: read `transcripts/<id>.vi.txt` and write `<id>.md` in the Obsidian literature-note format (see any existing note). The order below is the suggested learning order (foundations first).","",

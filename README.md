@@ -25,15 +25,16 @@ The following is the list of setups that I've added: plugin, hotkeys, template t
 2. Each topic you guys want to share must go inside a folder of its own, if it's a series then create a template in the *Templates* folder. 
 
 ## Repo layout
-Job market research and teaching material live in this one repo, in separate folders:
+Learning material and job market research live in this one repo. Each has one master folder, split into one folder per subject:
 
 | Folder | What's in it |
 |---|---|
-| [job-market/](job-market/) | Job market reports only: the 2026 baseline and the dated weekly reports (`job-market-YYYY-MM-DD.md`). |
-| [job-market/backend-engineer/](job-market/backend-engineer/) | Weekly Backend Engineer job market reports only (`backend-job-market-YYYY-MM-DD.md`). |
-| [qa-automation/](qa-automation/) | QA automation track (priority 1): QA Module 1 lesson notes. |
-| [module-1/](module-1/) | Backend track: Messaging and Transactions notes. |
-| [anonystick/](anonystick/) | Literature notes from the anonystick YouTube channel (public videos only). |
+| [learning-material/](learning-material/) | Master folder for all teaching notes, one subfolder per subject. |
+| [learning-material/qa-automation/](learning-material/qa-automation/) | QA automation (priority 1): QA Module 1 lesson notes in `module-1/`. |
+| [learning-material/backend-engineering/](learning-material/backend-engineering/) | Backend engineering: Messaging and Transactions notes in `module-1/`, and anonystick YouTube channel notes in `anonystick/`. |
+| [job-market/](job-market/) | Master folder for job market reports only, one subfolder per role. |
+| [job-market/qa-engineer/](job-market/qa-engineer/) | QA / QE job market reports: the 2026 baseline and dated weekly reports (`job-market-YYYY-MM-DD.md`). |
+| [job-market/backend-engineer/](job-market/backend-engineer/) | Backend Engineer job market reports (`backend-job-market-YYYY-MM-DD.md`). |
 | [secondBrain/](secondBrain/) | Obsidian setup: templates, hotkeys, Kanban, indexes. |
 
 [INDEX.md](INDEX.md) lists everything newest first.

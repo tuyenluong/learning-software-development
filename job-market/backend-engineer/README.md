@@ -1,6 +1,6 @@
 # Backend engineer job market reports
 
-Weekly Backend Engineer job market reports (Go · Java Spring Boot · Quarkus · Kafka · RabbitMQ), one per Friday, named `backend-job-market-YYYY-MM-DD.md`. Each uses the same format as the QE reports in [../](../): top skills, "What changed this week", then sections 0–10 and caveats. Only backend reports go in this folder.
+Weekly Backend Engineer job market reports (Go · Java Spring Boot · Quarkus · Kafka · RabbitMQ), one per Friday, named `backend-job-market-YYYY-MM-DD.md`. Each uses the same format as the QE reports in [../qa-engineer/](../qa-engineer/): top skills, "What changed this week", then sections 0–10 and caveats. Only backend reports go in this folder.
 
 Newest first:
 
