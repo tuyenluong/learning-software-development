@@ -41,7 +41,7 @@ He reviews his own async order flow from the high-concurrency ticket project (th
 - **Multiple relay workers** need `FOR UPDATE SKIP LOCKED` or a single leader, and per-aggregate ordering (key = order id). See the corrections in [[DQN0pRV8RnU]].
 - **CDC caveats** (not in the video): it needs binlog/replication access and a Kafka Connect cluster to run, schema changes flow through to consumers, and Debezium's usual guarantee is also at-least-once. Many teams use CDC *on the outbox table* (the hybrid in part 2) so they publish clean events instead of raw table changes.
 
-## How it maps to the learning focus
+## How it connects to the core topics
 - **Core focus:** partial failures and dual writes, distributed transactions (Saga with compensation), outbox, at-least-once delivery, crash recovery.
 - **QA tests to design:** (1) make Kafka unavailable at step 4, then check no order is stuck in pending (or that a sweeper fixes it). (2) Kill the app between the DB commit and the publish, restart, and check the event is published exactly once *from the consumer's point of view*. (3) Make step 3 fail after the Redis decrement and check the stock is restored. (4) Double-submit the same order concurrently and check there's one order. (5) Measure end-to-end latency with polling vs CDC.
 - **Spring Boot:** `@Transactional` service writes `orders` + `outbox_event`; a `@Scheduled` relay or Debezium connector; the Spring Modulith event publication registry is a ready-made outbox. **Go:** `tx := db.BeginTx(...)` for both inserts, and a relay goroutine with `SELECT ... FOR UPDATE SKIP LOCKED`.

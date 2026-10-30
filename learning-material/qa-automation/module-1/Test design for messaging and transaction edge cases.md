@@ -119,9 +119,9 @@ Header name check: Spring Kafka exposes the DLT headers as constants on `KafkaHe
 - **Contract tests (Pact)** answer a different question: "does the producer's message/response still match what the consumer expects?" Pact supports both HTTP and **message** (queue) contracts ([Pact docs](https://docs.pact.io/), [How Pact works](https://docs.pact.io/getting_started/how_pact_works)). They catch a renamed field before it becomes a poison message, but they don't test duplicates, retries or races.
 - **What to automate first** (highest risk per effort): (1) duplicate delivery → effect once; (2) poison message → DLQ once + consumer keeps going; (3) concurrent same-idempotency-key API calls; (4) retry after a transient failure → effect once; (5) out-of-order for one key.
 
-## How it maps to the learning focus
+## How it connects to the core topics
 - **Core focus:** duplicates, retries and idempotency, poison messages and DLQ, out-of-order messages, races. This lesson is the "what to check" layer over all of [[Module 1 - Messaging and Transactions]].
-- **Your QA work:** next time you write a test plan for an event-driven feature, add a row per invariant (effect / state / outputs / routing / liveness) for each edge case above.
+- **In practice:** when writing a test plan for an event-driven feature, add a row per invariant (effect / state / outputs / routing / liveness) for each edge case above.
 
 ## Related
 [[Module 1 - QA Automation for Edge Cases]] · [[Spring Kafka retries and dead-letter topics]] · [[hrSP7UocdJ8]] · [[inUimYVAGv0]] · [[G4-_ckYTtvo]] · [[Out-of-order messages and consumer rebalancing]] · [[GLqyIqWtRiA]] · [[Idempotent Consumer]] · [[Dead Letter Queue]]

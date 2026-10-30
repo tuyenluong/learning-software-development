@@ -42,7 +42,7 @@ A **rebalance** reassigns partitions among the consumers in a group. Triggers: a
 | **New consumer group protocol** (KIP-848) | The broker drives incremental assignment, with no global sync barrier. Opt in with `group.protocol=consumer`; the client default is still `classic`. | [KIP-848](https://cwiki.apache.org/confluence/display/KAFKA/KIP-848%3A+The+Next+Generation+of+the+Consumer+Rebalance+Protocol) |
 | **Share groups** (KIP-932, GA in 4.2) | Queue semantics with per-record acks, when you **don't** need ordering ([[aJ5kLfn8AtI]]). | group type `share` |
 
-## How it maps to the learning focus
+## How it connects to the core topics
 - **Core focus:** out-of-order and duplicate messages, consumer lag, rebalancing, timeouts.
 - **QA tests to design:**
   1. **Ordering soak:** 1,000 orders × (create, pay, ship) with random processing delays. Assert every order ends "shipped" and no transition was rejected. Repeat with consumer concurrency 1 vs N, and while adding a partition.

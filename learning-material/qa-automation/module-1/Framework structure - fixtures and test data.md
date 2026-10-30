@@ -67,7 +67,7 @@ test('another user cannot read my order', async ({ order, asOtherUser }) => {
 });
 ```
 
-## JUnit 6 / TestNG / Java side (your daily stack)
+## JUnit 6 / TestNG / Java side
 JUnit has no `use()`; the same ideas map to (TestNG in brackets: `@BeforeMethod`/`@AfterMethod`, `@BeforeClass`, `@DataProvider`, `ITestListener`):
 - `@BeforeEach` / `@AfterEach` for per-test setup/teardown; `@BeforeAll` (static) for per-class.
 - **Extensions** (`@ExtendWith`, `BeforeEachCallback`, `ParameterResolver`) for reusable fixtures that inject objects into test parameters, which is how Testcontainers and Spring's test support plug in (lesson 4).
@@ -96,7 +96,7 @@ var dup = aPayment().withId(msg.id()).build();           // same id = a duplicat
 ## Deterministic test data
 - **Unique, not random-and-forgotten.** Ids should be unique per test (UUID, or `runId` + counter) so parallel tests and re-runs never collide. Put the run id into names (`qa-${runId}`) so you can find and clean up leftovers.
 - **Random content must be reproducible.** If you use Faker, set a seed: `faker.seed(1234)` makes the same values come out every run ([Faker API](https://fakerjs.dev/api/faker.html)). Log the seed; when a test fails, re-run with that seed. Random data with no seed = a flaky test you can't reproduce.
-- **Time is test data too.** "Expires in 24 h", "end of month", time zones (Tuyen's env is UTC+7, CI is usually UTC). Inject a clock (`java.time.Clock` in Java) or pass the timestamp in the data; never compare against `now()` taken in a different place.
+- **Time is test data too.** "Expires in 24 h", "end of month", time zones (a local machine on UTC+7, CI usually on UTC). Inject a clock (`java.time.Clock` in Java) or pass the timestamp in the data; never compare against `now()` taken in a different place.
 - **Order is test data too.** `SELECT` without `ORDER BY`, a `HashMap`, or Kafka records across partitions have no guaranteed order. Assert on sets/sorted lists, or sort before comparing.
 - **Seed shared reference data once** (currencies, products) in a worker fixture or a migration, read-only. Anything a test changes must be created by that test.
 
@@ -108,9 +108,9 @@ var dup = aPayment().withId(msg.id()).build();           // same id = a duplicat
 - **Unseeded randomness / wall-clock time** → seed + log, inject the clock.
 - **Messaging-specific:** a test consumer on a shared topic picks up *another* test's messages → filter by your test's `runId` in the key or a header, or give each test its own topic/queue (cheap with Testcontainers, lesson 4).
 
-## How it maps to the learning focus
+## How it connects to the core topics
 - **Core focus:** duplicates (builders make "same id twice" a one-liner), races (`@RepeatedTest`, unique data per thread), test isolation for messaging.
-- **Your QA work:** look at your current framework. Is there any test that only passes after another one? Any hard-coded user shared by many tests? Those are your flaky-test candidates for lesson 6.
+- **In practice:** audit an existing framework. Is there any test that only passes after another one? Any hard-coded user shared by many tests? Those are the flaky-test candidates for lesson 6.
 
 ## Related
 [[Module 1 - QA Automation for Edge Cases]] · [[Playwright API testing (APIRequestContext)]] · [[Test design for messaging and transaction edge cases]]

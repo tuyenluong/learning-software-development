@@ -36,8 +36,8 @@ The example is a bánh mì shop (*tiệm bánh mì*) with customers CR7 and Mess
 - "Return 100 ms then process later" means the user sees *accepted*, not *done*. The UI and API need a pending state and a way to report a later failure.
 - His drawback (b), message loss, is the subject of RabbitMQ (4) on acks, durable and persistent ([[az2VNMgNFrk]]). Drawback (c) leads to outbox and saga ([[DQN0pRV8RnU]]).
 
-## How it maps to the learning focus
-- **Messaging foundations:** this is the "why" before Jacob's lessons on lost, duplicate and out-of-order messages.
+## How it connects to the core topics
+- **Messaging foundations:** this is the "why" before the lessons on lost, duplicate and out-of-order messages.
 - **QA angle:** async flows need different tests. Poll or await eventual state (Playwright `expect.poll`, Awaitility in Java), test the *pending* state, load-test the spike and watch queue depth and drain time, and kill a consumer during the spike.
 - **Architecture:** you can only explain a broker choice through tradeoffs (throughput vs latency vs routing flexibility vs replay).
 

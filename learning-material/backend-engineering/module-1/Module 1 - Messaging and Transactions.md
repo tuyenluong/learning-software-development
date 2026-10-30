@@ -9,7 +9,7 @@ Indexes:
 ----
 # Module 1: Messaging & Transactions (curriculum)
 
-Status: **lessons 1–8 locked by Jacob** (review: [[REVIEW-jacob-batch1]]), in Jake's batch-1 reading order, with his corrections applied. Lessons with a letter (4a, 6a, 7a…) are **new, added 2026-10-21 to fill the gaps Jacob listed, and still need Jacob's check**. Each is placed right after the lesson it builds on.
+Status: **lessons 1–8 reviewed**, in reading order, with review corrections applied. Lessons with a letter (4a, 6a, 7a…) were **added 2026-10-21 to fill gaps found in review**. Each is placed right after the lesson it builds on.
 
 Legend: 🎥 = anonystick video note (Vietnamese, timestamped) · 📘 = permanent note written from official docs (not from the channel).
 
@@ -32,15 +32,15 @@ Legend: 🎥 = anonystick video note (Vietnamese, timestamped) · 📘 = permane
 | 7e | [[Spring Kafka retries and dead-letter topics]] | 📘 (new) | DefaultErrorHandler, DeadLetterPublishingRecoverer, @RetryableTopic, ordering trade-off |
 | 8 | [[aJ5kLfn8AtI]]: Kafka share groups ("queues for Kafka") | 🎥 | queue semantics on Kafka; **GA since 4.2** |
 
-## Gap coverage (Jacob's list)
+## Gap coverage
 - Spring Kafka retries + dead-letter topics → **7e (docs)**. No public channel video found.
 - Out-of-order messages and rebalancing → **7c (channel)** for the problem, plus **7d (docs)** for causes, fixes and rebalancing. The channel's solution videos look members-only, and "7 things about topics/partitions/consumers" (a7lmP5hdgB0) was rate-limited and is queued for retry.
 - Isolation-level anomalies table → **4a (channel, MySQL only)** plus **4b (docs, MySQL vs Postgres)**.
 - Saga part 1 (2TBqQBEI56A) and Stripe idempotency (A9gqa8q-l1w) → **6a, 7a**, plus 7b because A9gqa8q-l1w only sets up the problem.
 
 ## Still open / candidates for Module 1
-- Jacob's "MySQL deadlocks (JDCbKBhmrC4)": that id isn't in the catalogue. The matching video is **JDbKCDj3pMs** ("Section 116: When do DEADLOCKS happen?"), whose hidden view count suggests it's members-only. Same for **Debezium CDC (KqLzls2xCnQ)**. They're queued; the fetcher will mark them if they're locked.
+- "MySQL deadlocks (JDCbKBhmrC4)": that id isn't in the catalogue. The matching video is **JDbKCDj3pMs** ("Section 116: When do DEADLOCKS happen?"), whose hidden view count suggests it's members-only. Same for **Debezium CDC (KqLzls2xCnQ)**. They're queued; the fetcher will mark them if they're locked.
 - Transcripts already fetched that could extend the module: retries from the client side, "Retry API carefully" (gyaoxeCKkRY) and "retryable / retryDelay" (uuaST5OhCx4); MVCC in MySQL (WKGIz5ViT7Y), the follow-up to 4a.
 
-## Suggested pacing (for Jacob)
-One lesson per noon slot. 4a+4b and 7a+7b work as pairs. Each note ends with flash cards for the night quiz.
+## Suggested pacing
+One lesson per study session. 4a+4b and 7a+7b work as pairs. Each note ends with flash cards for review.

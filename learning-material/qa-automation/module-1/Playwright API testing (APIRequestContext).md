@@ -182,9 +182,9 @@ This is **provider-side schema checking**: it catches a renamed field or a new e
 - **Key expiry**: a retry after the key was pruned (Stripe: ≥24 h) creates a new payment → document it; test it with a test-only TTL override if the service has one.
 - **Leaking auth between tests**: one shared context with cookies from an earlier test → use per-test `request` (default) or dispose your own contexts.
 
-## How it maps to the learning focus
+## How it connects to the core topics
 - **Core focus:** retries and idempotency, duplicates, races, contract drift that turns into poison messages.
-- **Your QA work:** pick one POST endpoint at work that should be idempotent and write the three tests above against a test env.
+- **In practice:** pick one POST endpoint that should be idempotent and write the three tests above against a test env.
 
 ## Related
 [[Module 1 - QA Automation for Edge Cases]] · [[Test design for messaging and transaction edge cases]] · [[A9gqa8q-l1w]] · [[G4-_ckYTtvo]] · [[inUimYVAGv0]] · [[Idempotent Consumer]]

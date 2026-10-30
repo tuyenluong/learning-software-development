@@ -142,9 +142,9 @@ func TestDuplicateOrderMessageIsAppliedOnce(t *testing.T) {
 - **DLT has fewer partitions than the source topic** → DLT publish fails for high partitions (the recoverer uses the same partition number). Create test topics with the same partition count.
 - **Fault injection:** `container.stop()` / `docker pause` mid-test to simulate a broker outage, then assert the outbox/retry catches up with no duplicates. Toxiproxy (a Testcontainers module) adds latency or cuts connections between app and broker.
 
-## How it maps to the learning focus
+## How it connects to the core topics
 - **Core focus:** duplicates, poison messages, DLQ/DLT routing, requeue loops, broker failures, all reproduced against real brokers.
-- **Your QA work:** your AWS checks (S3, DynamoDB, Lambda) can use the same approach with the LocalStack module; the pattern (real dependency in a container, assert the effect) is identical.
+- **In practice:** AWS checks (S3, DynamoDB, Lambda) can use the same approach with the LocalStack module; the pattern (real dependency in a container, assert the effect) is identical.
 
 ## Related
 [[Module 1 - QA Automation for Edge Cases]] · [[Test design for messaging and transaction edge cases]] · [[Spring Kafka retries and dead-letter topics]] · [[hrSP7UocdJ8]] · [[az2VNMgNFrk]] · [[Framework structure - fixtures and test data]]

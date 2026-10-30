@@ -42,7 +42,7 @@ Kafka 4.0 adds [[Share Groups]] (KIP-932, "Queues for Kafka"), an early-access f
 - Lock timeout means **redelivery**: a slow consumer, not only a crashed one, can cause the same record to be processed twice, so consumers still need to be [[Idempotent Consumer]]s (my addition).
 - No DLQ yet. Per KIP-932, records that keep failing are retried up to a delivery-count limit and then archived, so poison messages can be dropped quietly (my addition, verify on the current docs).
 
-## How it maps to the learning focus
+## How it connects to the core topics
 - **Messaging problems:** at-least-once delivery, redelivery after a timeout, poison messages and DLQs, consumer scaling vs partition count, [[Consumer Lag]].
 - **QA angle:** to test a share-group consumer, kill or freeze a consumer mid-message and check the record is redelivered and processed exactly once *in effect*. Also check ordering assumptions, since a classic group keeps order per key and a share group doesn't.
 - **Backend (Spring Boot / Go):** Spring Kafka and Go clients may lag behind on share-consumer support. Check before using it.

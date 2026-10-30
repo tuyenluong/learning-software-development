@@ -22,7 +22,7 @@ There are three different waits, and mixing them up is a common source of flakin
 2. **App ready**: your consumer has joined the group and got its partitions → framework hooks (`ContainerTestUtils.waitForAssignment`).
 3. **Outcome reached**: the row exists, the DLT has 1 record → Awaitility / `expect.poll` / `toPass` / `EventuallyWithT`.
 
-## 1. Java: Awaitility (first choice for your stack)
+## 1. Java: Awaitility (first choice on the JVM)
 From the [Awaitility usage guide](https://github.com/awaitility/awaitility/wiki/Usage):
 - **Defaults:** timeout **10 s**, poll interval **100 ms**, poll delay **100 ms** (same as the interval unless you set it). Change globally with `Awaitility.setDefaultTimeout(...)` or `-Dawaitility.defaultTimeout=PT5S`.
 - `untilAsserted(() -> { assertThat(...)... })` reuses normal AssertJ/JUnit/TestNG assertions; the last failure message is shown on timeout (`ConditionTimeoutException`).
@@ -102,9 +102,9 @@ require.EventuallyWithT(t, func(c *assert.CollectT) {
 - **Timeouts tuned to a laptop** → CI is 2–5× slower. Set timeouts from CI measurements, keep the poll interval short.
 - **Polling something with side effects** (a POST in the poll) → you create the duplicates you're testing for. Poll with GETs/reads only.
 
-## How it maps to the learning focus
+## How it connects to the core topics
 - **Core focus:** async consumers, consumer lag and rebalancing (assignment waits), duplicates (the "stays at 1" assertion).
-- **Your QA work:** your AWS Step Functions and Lambda checks are the same problem. Awaitility around `DescribeExecution` or a DynamoDB `GetItem` replaces fixed sleeps there too.
+- **In practice:** AWS Step Functions and Lambda checks are the same problem. Awaitility around `DescribeExecution` or a DynamoDB `GetItem` replaces fixed sleeps there too.
 
 ## Related
 [[Module 1 - QA Automation for Edge Cases]] · [[Testcontainers for Kafka and RabbitMQ (Java and Go)]] · [[Test design for messaging and transaction edge cases]] · [[Out-of-order messages and consumer rebalancing]]

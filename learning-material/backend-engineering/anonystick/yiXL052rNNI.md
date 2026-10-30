@@ -34,7 +34,7 @@ Why ordering matters (create order → pay → ship), how Kafka gives you order 
 - **Ordering can also break before the consumer:** producer retries with `enable.idempotence=false` and `max.in.flight.requests.per.connection > 1` can reorder batches. With idempotence on (the default since 3.0) order is kept for up to 5 in-flight requests ([Kafka producer configs](https://kafka.apache.org/43/configuration/producer-configs/)). Non-blocking retry topics (`@RetryableTopic`) also give up ordering. See [[Spring Kafka retries and dead-letter topics]].
 - Rebalances can cause **re-delivery**, which looks like out-of-order (an old event arrives again after newer ones). Consumers should reject stale events by version. See [[Out-of-order messages and consumer rebalancing]].
 
-## How it maps to the learning focus
+## How it connects to the core topics
 - **Core focus:** out-of-order messages, partition keys, consumer concurrency.
 - **QA tests to design:** publish create → pay → ship for 1,000 orders interleaved, with artificial random delay per step, then assert every order's final state is "shipped" and no "paid before created" error appears in logs. Run it with consumer concurrency 1 and N. Then add a partition mid-test and watch what breaks.
 - **Spring Boot:** `kafkaTemplate.send(topic, orderId, event)` (key = order id). `ConcurrentKafkaListenerContainerFactory.setConcurrency(n)` adds consumers (one per partition, which keeps order), **not** threads inside a partition; don't hand records to an `@Async` executor. **Go:** with franz-go/sarama, one goroutine per partition, or a key-hashed worker pool per partition.

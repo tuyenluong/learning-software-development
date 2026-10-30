@@ -39,7 +39,7 @@ Let the **database's unique constraint** do the deduplication, with no Redis and
 - **Retention:** a key table grows forever, so purge keys older than your maximum redelivery window (Stripe uses 24 h).
 - **"One mailbox slot":** the correct idea is that InnoDB takes a lock on the unique index entry, so the second inserter **waits** for the first to commit or roll back. If the first rolls back, the second succeeds. The "CPU can't do two things at once" explanation isn't accurate (multi-core CPUs can), but the conclusion holds.
 
-## How it maps to the learning focus
+## How it connects to the core topics
 - **Core focus:** duplicate messages, idempotent consumers, atomicity of "dedup + effect", race conditions.
 - **QA tests to design:** (1) send the same event id 2× concurrently, then assert 1 business row and 1 key row. (2) Inject a failure *after* the key insert and *before* the business write; on retry the effect must still happen once (catches split transactions). (3) Same key, different payload: decide and test the policy (Stripe errors). (4) Send a malformed field and check it isn't silently swallowed by `INSERT IGNORE`. (5) Load-test with listener concurrency 3 vs 20 and watch the Hikari pool metrics.
 - **Spring Boot:** `@Transactional` listener method; `jdbcTemplate.update("INSERT IGNORE INTO processed_event(id) VALUES (?)", id)` returns an `int`; for Postgres `INSERT ... ON CONFLICT DO NOTHING`. `spring.kafka.listener.concurrency` ≤ Hikari `maximum-pool-size`. **Go:** `res, _ := tx.ExecContext(ctx, "INSERT ... ON CONFLICT DO NOTHING", id)`; `n, _ := res.RowsAffected()`; if `n == 0` skip, else do the work in the same `tx`.

@@ -33,7 +33,7 @@ A viewer asked about a system with **500–1000 concurrent requests**: do you re
 7. **Where it stops scaling:** under heavy contention, both approaches pile up waiting and retrying requests, and CPU spikes. The next levels are cache (Redis) and Kafka/MQ, covered in other videos. [17:29](https://www.youtube.com/watch?v=GLqyIqWtRiA&t=1049s), [17:59](https://www.youtube.com/watch?v=GLqyIqWtRiA&t=1079s)
 8. He announces a new **Spring Boot 4.0** series for Java beginners. [18:32](https://www.youtube.com/watch?v=GLqyIqWtRiA&t=1112s)
 
-## PostgreSQL version of the same story (added after [[REVIEW-jacob-batch1|Jacob's review]]; not in the video)
+## PostgreSQL version of the same story (added after review; not in the video)
 - **Different default:** PostgreSQL defaults to **READ COMMITTED**, not REPEATABLE READ. Each statement sees a fresh snapshot, so read-check-write in the app is still a race (two transactions both read `stock = 1`, both write `0`, two orders). The name for this bug is a **[[Lost Update]]**: the second write overwrites the first without seeing it.
 - **The single conditional UPDATE is still safe in Postgres.** If another transaction has already updated the row, the second `UPDATE ... WHERE id = :id AND stock >= :qty` **waits** for the row lock, then **re-evaluates the WHERE clause against the newly committed row**. If the stock is now too low, it matches 0 rows. That's why the level-2 fix works on both databases.
 - At Postgres **REPEATABLE READ** or **SERIALIZABLE**, the same conflict doesn't wait-and-recheck. The second transaction fails with `ERROR: could not serialize access due to concurrent update` (SQLSTATE 40001), and the app must **retry the whole transaction**.
@@ -49,7 +49,7 @@ DDD ticket project (application / controller / domain / infrastructure / start);
 - The atomic UPDATE only protects the **stock row**. The order insert, payment and so on still need to sit in the same DB transaction, or be compensated (see [[Saga Pattern]]).
 - He calls the `version` approach "optimistic" and the single conditional UPDATE "update using optimistic" too. Strictly speaking, the single UPDATE relies on InnoDB's implicit row lock (a *pessimistic* lock held only for that statement) (my clarification).
 
-## How it maps to the learning focus
+## How it connects to the core topics
 - **Transaction problems:** isolation levels, lost updates, read-check-write races, atomic conditional updates. This is the foundation for the idempotency and outbox notes.
 - **QA angle:** seed stock = 5, fire 50 concurrent buy-1 requests, then assert stock == 0, orders == 5 and no negative stock. Repeat with `qty` > 1 and mixed quantities. That's an easy, high-value test to add to an API suite.
 - **Spring Boot:** `@Modifying @Query("update Product p set p.stock = p.stock - :q where p.id = :id and p.stock >= :q")` and check the returned int; JPA `@Version` for optimistic locking. **Go:** `res, _ := db.Exec(...)` then `res.RowsAffected()`.

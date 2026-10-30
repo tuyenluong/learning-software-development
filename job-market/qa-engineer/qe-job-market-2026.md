@@ -1,24 +1,23 @@
 # Job Market 2026: QE / SDET / QA Automation (baseline)
 
-**Prepared by:** Jake (Research) for Tuyen Luong and Jacob (Teacher)  **Date:** 21 Oct 2026
-**Purpose:** QA / QE automation market facts for Tuyen's QA learning plan. This report covers QA, SDET and test automation roles only; backend engineer findings are in [../backend-engineer/](../backend-engineer/).
-**Builds on:** `software-tech-briefing-2026-10.md`, `jeremyluong-keyword-research.md`, `blog-post-briefs.md` (inbox aggregate).
+**Date:** 21 Oct 2026
+**Purpose:** QA / QE automation market facts. This report covers QA, SDET and test automation roles only; backend engineer findings are in [../backend-engineer/](../backend-engineer/).
 
 > **How to read the numbers**
 > - **Skillenai** = a job-posting index (90-day windows ending 14–20 Oct 2026). It shows how often a skill shows up in postings, not total hiring. Its SDET sample is small (140 postings).
-> - **ITviec counts** = live listing counts I pulled from itviec.com tag pages on **21 Oct 2026**. They are a snapshot and move week to week.
+> - **ITviec counts** = live listing counts from itviec.com tag pages on **21 Oct 2026**. They are a snapshot and move week to week.
 > - **vitX** = a Vietnam hiring-pulse report built on ITviec/TopDev listings, 4 weeks to 15 Oct 2026. vitX is a staffing vendor.
 > - **Second Talent** = a staffing vendor's rate cards. Its remote pay numbers are **vendor estimates**, not survey data.
-> - Anything marked **(est.)** is my own estimate or conversion. VND→USD uses about **26,000 VND/USD**, which is approximate.
-> - **Inbox (Jobs label)** = aggregate only. These are LinkedIn/Glassdoor alert digests, mostly job titles. No personal data is included, and nothing was sent or changed.
+> - Anything marked **(est.)** is an estimate or conversion made for this report. VND→USD uses about **26,000 VND/USD**, which is approximate.
+> - **Job-alert sample** = aggregate counts from a sample of LinkedIn/Glassdoor job-alert emails, mostly job titles. No personal data, recruiter names or contacts are included.
 
 ---
 
-## 0. Bottom line (for Jacob)
+## 0. Bottom line
 
 1. **The QE market rewards an SDET who codes, not a tester.** CI/CD (57%), Python (51%), Playwright (47%), Java (36%) and API testing (21%) top SDET postings. AI shows up in job titles more and more.
 2. **QA pay rises with automation and seniority.** In Vietnam, ITviec medians at 5–8 years are about **25.3M VND for Tester and 29.75M for QA-QC**, and automation and AI skills add roughly +20–40% over manual testing at the same seniority (secondary source). Remote QA automation rate cards for Vietnam-based engineers run about **$2,500–3,900/mo at mid and $3,900–5,600 at senior** (vendor estimates).
-3. **Messaging and distributed systems are not in the SDET top 15, which makes them a differentiator.** A "backend-aware" QE who can test Kafka/RabbitMQ flows, retries, idempotency and DLQs stands out, especially for backend/integration QE roles at fintechs, which fits Tuyen's banking/fintech job alerts.
+3. **Messaging and distributed systems are not in the SDET top 15, which makes them a differentiator.** A "backend-aware" QE who can test Kafka/RabbitMQ flows, retries, idempotency and DLQs stands out, especially for backend/integration QE roles at fintechs, which are a large share of the job-alert sample.
 4. **SDET interviews are practical.** Framework design, API testing, flaky-test strategy and "how would you test it" questions on event-driven flows are the standard rounds, and more companies now allow AI in interviews.
 
 ---
@@ -51,7 +50,7 @@
 **Vietnam: ITviec live counts, 21 Oct 2026:** "tester" 58, "automation test" 36, "playwright" 12, "sdet" 11, "selenium" 10 ([itviec.com/it-jobs/tester](https://itviec.com/it-jobs/tester), [/automation-test](https://itviec.com/it-jobs/automation-test), [/playwright](https://itviec.com/it-jobs/playwright)).
 - **vitX (3 Sep census):** QA and testing had **72 of 469** engineering roles (about 15%), and QA ads stay up a median of **31 days**, among the longest of any discipline ([vitX Oct 2026](https://www.vitx.global/reports/vitx-vietnam-it-hiring-pulse-2026-10.pdf)).
 
-**Inbox (Jobs label, aggregate):**
+**Job-alert sample (aggregate):**
 - About 50% of alerts are QA/automation roles. About 40% of QA titles are "Senior".
 - Titles are converging on **SDET / Software Engineer in Test / Quality Engineer**.
 - At least 8 QA titles name AI ("AI-Augmented Testing (Playwright, TypeScript)", "Software Engineer in Test (Agentic AI)", "QA Automation (MLOps)").
@@ -61,7 +60,7 @@
 
 ## 2. Must-have vs nice-to-have vs differentiator (mid → senior)
 
-*This synthesis is my own, based on the frequencies above and the interview sources in §5.*
+*Synthesis based on the frequencies above and the interview sources in §5.*
 
 | Level | Must-have | Nice-to-have | Differentiator (gets the remote or senior offer) |
 |---|---|---|---|
@@ -73,7 +72,7 @@
 ## 3. Testing messaging and distributed systems: why it matters for a QE
 
 - **Messaging is not a standard SDET requirement.** Kafka, messaging and distributed systems are absent from the SDET top 15 above, which is exactly why they are a differentiator for a QE.
-- **Where it shows up in QA hiring:** senior and fintech SDET loops ask "How would you test a Kafka consumer?", and backend/integration QE titles appear in Tuyen's alerts.
+- **Where it shows up in QA hiring:** senior and fintech SDET loops ask "How would you test a Kafka consumer?", and backend/integration QE titles appear in the job-alert sample.
 
 ### How it's tested in SDET interviews
 *Sources: interview-prep sites. The topic lists are secondary-source consensus, not employer data.*
@@ -87,7 +86,7 @@ In SDET loops, messaging and transaction topics arrive as **"how would you test 
 
 Typical failure scenarios to be ready to test: "users get charged twice", "messages end up in the DLQ after a schema change", "two requests withdraw from the same account at once", and idempotency of POST requests.
 
-**This maps directly onto Jacob's core focus.** Each lesson can follow "what breaks → how to reproduce and test it as a QE".
+**This maps directly onto the transaction and messaging focus of the learning notes.** Each lesson can follow "what breaks → how to reproduce and test it as a QE".
 
 ---
 
@@ -101,7 +100,7 @@ Typical failure scenarios to be ready to test: "users get charged twice", "messa
 | Tester | 14.15M | 14.2M | 20.7M | 25.3M (≈$970) | 36.5M (≈$1,400) | 28.8M |
 | QA-QC | – | 18M | 24.4M | 29.75M (≈$1,140) | 38.5M (≈$1,480) | 31.2M |
 
-- **Inbox anecdote (posted range in an alert title):** a QA Automation role "up to $2.1K/month", consistent with the medians above.
+- **Job-alert anecdote (posted range in an alert title):** a QA Automation role "up to $2.1K/month", consistent with the medians above.
 - An industry blog citing ITviec says automation and AI skills add about +20–40% over manual testing at the same seniority ([itlearn.vn](https://itlearn.vn/blog/luong-tester)). This is secondary and directional.
 
 ### Remote / international (Vietnam-based engineer, USD / month)
@@ -138,21 +137,21 @@ Typical failure scenarios to be ready to test: "users get charged twice", "messa
 ## 6. Trends
 
 **AI in testing**
-- **World Quality Report 2025-26:** 43% of organisations are experimenting with GenAI in QA, but only **15% have scaled it** enterprise-wide. **GenAI is the top-ranked skill for quality engineers (63%)**, ahead of core QE skills (60%). Synthetic test data use rose from 14% to 25% ([Capgemini WQR](https://www.capgemini.com/insights/research-library/world-quality-report-2025-26/)). OpenText's press release also reports an average 19% productivity gain, with a third seeing minimal gains; I couldn't re-verify this because the fetch was blocked ([OpenText](https://www.opentext.com/about/press-releases/world-quality-report-2025-ai-adoption-surges-in-quality-engineering-but-enterprise-level-scaling-remains-elusive)).
+- **World Quality Report 2025-26:** 43% of organisations are experimenting with GenAI in QA, but only **15% have scaled it** enterprise-wide. **GenAI is the top-ranked skill for quality engineers (63%)**, ahead of core QE skills (60%). Synthetic test data use rose from 14% to 25% ([Capgemini WQR](https://www.capgemini.com/insights/research-library/world-quality-report-2025-26/)). OpenText's press release also reports an average 19% productivity gain, with a third seeing minimal gains; it couldn't be re-verified because the page fetch was blocked ([OpenText](https://www.opentext.com/about/press-releases/world-quality-report-2025-ai-adoption-surges-in-quality-engineering-but-enterprise-level-scaling-remains-elusive)).
 - **SO 2026:** 58.1% of AI users use it for writing or improving tests. 73% use coding agents daily, but only 48% trust output that isn't easy to check ([SO 2026 AI](https://survey.stackoverflow.co/2026/ai)).
 - **Framework-native agents are now free:** Playwright Test Agents (planner, generator, healer) and MCP, Cypress `cy.prompt`, WebdriverIO v10 (see `software-tech-briefing-2026-10.md`).
-- **Vietnam:** 13.7% of ITviec IT roles ask for AI, up from 11.3% in Aug ([vitX](https://www.vitx.global/reports/vitx-vietnam-it-hiring-pulse-2026-10.pdf)). The inbox shows at least 8 QA titles naming AI.
+- **Vietnam:** 13.7% of ITviec IT roles ask for AI, up from 11.3% in Aug ([vitX](https://www.vitx.global/reports/vitx-vietnam-it-hiring-pulse-2026-10.pdf)). The job-alert sample shows at least 8 QA titles naming AI.
 - **Implication:** the QE value shifts to **verifying AI-written code and tests**: oracles, contracts, determinism, and evaluating LLM features.
 
 **SDET career moves**
 - Skillenai career flows show SDETs mostly move to **other SDET roles** (46 same-role moves), with only 2 observed SDET→Software Engineer moves vs 10 SE→SDET ([Skillenai SDET](https://skillenai.com/data/role/software-development-engineer-in-test-sdet)).
-- A QA title that already appears in Tuyen's alerts is **"backend-focused SDET / Quality Engineer – Core Services"**.
+- A QA title that already appears in the job-alert sample is **"backend-focused SDET / Quality Engineer – Core Services"**.
 
 ---
 
 ## 7. Recommended QA / automation skill priority list
 
-*Time estimates assume about 6–8 hrs/week and are my estimates. Jacob should confirm Tuyen's actual weekly time.*
+*Time estimates assume about 6–8 hrs/week of study and are estimates.*
 
 ### Strengthen the QE base and become a "backend-aware SDET" (months 0–3)
 1. **API testing in depth** (Playwright `request` + REST Assured in Java): auth, schema, negative cases, idempotent methods. *(21% of SDET postings; it's the bridge skill.)*
@@ -161,7 +160,7 @@ Typical failure scenarios to be ready to test: "users get charged twice", "messa
 4. **Testing async/event flows:** asserting eventual consistency (polling and awaitility, not sleep), duplicate and out-of-order injection, DLQ assertions, contract tests (Pact). *(Differentiator.)*
 5. **AI-in-testing literacy:** Playwright agents/MCP, reviewing AI-generated tests. *(AI titles are rising.)*
 
-**Why this order:** it starts with the skills most SDET postings ask for (API testing, CI), then adds the messaging and transaction testing that sets a QE apart, which is also Jacob's core teaching focus.
+**Why this order:** it starts with the skills most SDET postings ask for (API testing, CI), then adds the messaging and transaction testing that sets a QE apart, which is also the core focus of the learning notes.
 
 ---
 
@@ -182,4 +181,4 @@ Typical failure scenarios to be ready to test: "users get charged twice", "messa
 - **ITviec salaries** are self-reported medians from 2025 survey waves.
 - **The VND→USD conversion** (≈26,000) is approximate.
 - **Interview topic lists** come from prep sites (secondary). CoderPad is a vendor survey of about 650 people.
-- **Inbox data** is alert titles only. No personal data, recruiter names or contacts are included. No email was sent, drafted or changed.
+- **Job-alert data** is alert titles only. No personal data, recruiter names or contacts are included.

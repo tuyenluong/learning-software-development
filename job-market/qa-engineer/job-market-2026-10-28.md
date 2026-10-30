@@ -1,7 +1,7 @@
 # Job Market 2026-10-28: QE / SDET / QA Automation
 
-**Prepared by:** Jake (Research) for Tuyen Luong and Jacob (Teacher)  **Date:** 28 Oct 2026
-**Purpose:** QA / QE automation market facts for Tuyen's QA learning plan. This report covers QA, SDET and test automation roles only; backend engineer findings from this window are in [../backend-engineer/backend-job-market-2026-10-30.md](../backend-engineer/backend-job-market-2026-10-30.md#earlier-data-21-oct-and-28-oct).
+**Date:** 28 Oct 2026
+**Purpose:** QA / QE automation market facts. This report covers QA, SDET and test automation roles only; backend engineer findings from this window are in [../backend-engineer/backend-job-market-2026-10-30.md](../backend-engineer/backend-job-market-2026-10-30.md#earlier-data-21-oct-and-28-oct).
 **Coverage:** catch-up for the weekly run that failed on **Fri 23 Oct 2026**. Window covered: **17–28 Oct 2026**.
 **Builds on:** [qe-job-market-2026.md](qe-job-market-2026.md) (baseline, 21 Oct 2026).
 
@@ -13,8 +13,8 @@
 > - **Jobpedia.AI** = a posting aggregator that publishes per-role skill shares over 90-day windows.
 > - **AutomationDataCamp (ADC)** = a French QA training company's public barometer of French job ads (405 "QA"-titled + 1,180 "test"-titled). European and French-language, so read it for direction, not for Vietnam.
 > - **Mentorpiece Vacy Index** (reported via Habr) = share of tech companies with at least one open role of a given type. Company-level, not posting-level.
-> - Anything marked **(est.)** is my own estimate or conversion. VND→USD uses about **26,000 VND/USD**, which is approximate.
-> - **Inbox (Jobs label)** = aggregate only. These are LinkedIn/Glassdoor alert digests, mostly job titles. No personal data is included, and nothing was sent or changed.
+> - Anything marked **(est.)** is an estimate or conversion made for this report. VND→USD uses about **26,000 VND/USD**, which is approximate.
+> - **Job-alert sample** = aggregate counts from a sample of LinkedIn/Glassdoor job-alert emails, mostly job titles. No personal data, recruiter names or contacts are included.
 
 ---
 
@@ -31,7 +31,7 @@
 
 ## What changed this week (21 Oct → 28 Oct 2026)
 
-**Job emails: yes, there were new ones.** 28 job-alert emails arrived in the Gmail **Jobs** label between 17 and 28 Oct. All 28 were automated digest emails from LinkedIn job alerts and Glassdoor. None came from a named recruiter, none stated a salary range, and I read them read-only: no email was replied to, labelled, archived or changed.
+**Job-alert sample: 28 new alerts.** A sample of 28 job-alert emails dated 17–28 Oct was counted. All 28 were automated digest emails from LinkedIn job alerts and Glassdoor. None came from a named recruiter and none stated a salary range.
 
 **The changes worth acting on**
 
@@ -65,15 +65,15 @@
 
 ([tester](https://itviec.com/it-jobs/tester), [automation-test](https://itviec.com/it-jobs/automation-test), [playwright](https://itviec.com/it-jobs/playwright), [sdet](https://itviec.com/it-jobs/sdet))
 
-**Inbox (Jobs label, aggregate, 17–28 Oct):**
+**Job-alert sample (aggregate, 17–28 Oct):**
 - **28 alerts in 11 days** — roughly the same daily rate as the baseline's 6-month sample.
 - About **50%** of alerts were QA/automation roles, the same as the baseline.
 - Recurring QA titles: Senior QA Engineer, SDET, Automation Test Engineer (Middle/Senior), QC Auto, QA Analyst.
-- **No salary ranges were stated in any of the 28 alerts.** Salary figures in §4 come from the ITviec survey and posted ranges on live listings, not from this window's inbox.
+- **No salary ranges were stated in any of the 28 alerts.** Salary figures in §4 come from the ITviec survey and posted ranges on live listings, not from this window's job alerts.
 
 ---
 
-## 0. Bottom line (for Jacob)
+## 0. Bottom line
 
 1. **The QE market keeps moving toward "engineer who tests".** CI/CD 56.1%, Python 51.5%, Playwright 47.0%, Java 35.6% top SDET postings, and **Playwright has now overtaken Selenium** in an independent European ad survey (24.2% vs 21.7%). Meanwhile the share of companies with open *manual* QA roles fell **33%** in six months.
 2. **Cloud is settled at the top and unsettled below it.** AWS leads on both sources: **10% of QA postings** (ROLIVA) and **53 of 64** cloud-naming remote listings (JobRemotely). Azure and GCP swap places between the two (Azure 10% vs GCP 4% on one; GCP 31 vs Azure 23 on the other), so **anything below AWS is a soft ordering**.
@@ -148,7 +148,7 @@ Other cloud-adjacent signals from ROLIVA's QA snapshot: **Docker 6% (114)**, **K
 
 ## 2. Must-have vs nice-to-have vs differentiator (mid → senior)
 
-*This synthesis is my own, based on the frequencies above and the interview sources in §5.*
+*Synthesis based on the frequencies above and the interview sources in §5.*
 
 | Level | Must-have | Nice-to-have | Differentiator (gets the remote or senior offer) |
 |---|---|---|---|
@@ -169,13 +169,13 @@ Other cloud-adjacent signals from ROLIVA's QA snapshot: **Docker 6% (114)**, **K
 
 In SDET loops, messaging and transaction topics arrive as "how would you test it": test strategy for an event-driven flow, contract tests, Testcontainers with a real broker, asserting eventual consistency without `sleep`, fault injection. Failure scenarios worth being able to test: "users get charged twice", "messages land in the DLQ after a schema change", "two requests withdraw from the same account", idempotency keys on POST.
 
-**This maps directly onto Jacob's core focus.** Each lesson can follow "what breaks → how to reproduce and test it as a QE".
+**This maps directly onto the transaction and messaging focus of the learning notes.** Each lesson can follow "what breaks → how to reproduce and test it as a QE".
 
 ---
 
 ## 4. Salary ranges
 
-**No new salary data this window.** The inbox contained no stated ranges, and ITviec has not published a new survey. The figures below are the 2025–2026 survey, re-read on 28 Oct 2026 and unchanged.
+**No new salary data this window.** The job alerts contained no stated ranges, and ITviec has not published a new survey. The figures below are the 2025–2026 survey, re-read on 28 Oct 2026 and unchanged.
 
 ### Vietnam local: ITviec 2025–2026 report, median **gross VND / month**
 ([ITviec report](https://itviec.com/report/vietnam-it-salary-and-recruitment-market), 1,839 respondents, surveyed May–Nov 2025)
@@ -244,7 +244,7 @@ In SDET loops, messaging and transaction topics arrive as "how would you test it
 
 ## 7. Recommended QA / automation skill priority list
 
-*Time estimates assume about 6–8 hrs/week and are my estimates. Jacob should confirm Tuyen's actual weekly time. Order unchanged from the baseline; additions are marked **new**.*
+*Time estimates assume about 6–8 hrs/week of study and are estimates. Order unchanged from the baseline; additions are marked **new**.*
 
 ### Strengthen the QE base and become a "backend-aware SDET" (months 0–3)
 1. **API testing in depth** (Playwright `request` + REST Assured in Java): auth, schema, negative cases, idempotent methods. *(22% of SDET postings; it is the bridge skill.)*
@@ -254,7 +254,7 @@ In SDET loops, messaging and transaction topics arrive as "how would you test it
 5. **AI-in-testing literacy:** Playwright agents/MCP, and the seven review checks before merging an AI-generated test. *(20.7% of French QA ads mention AI.)*
 6. **new** — **One cloud, and make it AWS.** Running and debugging tests against one real AWS deployment beats a tour of three consoles, and AWS is the only cloud both sources put first.
 
-**Why this order (unchanged):** it starts with the skills most SDET postings ask for (API testing, CI), then adds the messaging and transaction testing that sets a QE apart, which is also Jacob's core teaching focus.
+**Why this order (unchanged):** it starts with the skills most SDET postings ask for (API testing, CI), then adds the messaging and transaction testing that sets a QE apart, which is also the core focus of the learning notes.
 
 ---
 
@@ -283,4 +283,4 @@ In SDET loops, messaging and transaction topics arrive as "how would you test it
 - **ITviec salaries** are self-reported medians from 2025 survey waves; no new salary data appeared in this window.
 - **The VND→USD conversion** (≈26,000) is approximate.
 - **Interview topic lists** come from prep sites (secondary). CoderPad is a vendor survey of about 650 people and was not re-run this window.
-- **Inbox data** is alert titles only. No personal data, recruiter names or contacts are included. 28 alerts were read read-only; no email was sent, drafted, labelled, archived or changed.
+- **Job-alert data** is alert titles only, from a sample of 28 alerts. No personal data, recruiter names or contacts are included.

@@ -38,7 +38,7 @@ Using two MySQL sessions (user A and user B) on a `test_player` table (Pepe, Ron
 - **REPEATABLE READ's snapshot is for SELECTs only.** UPDATE/DELETE in InnoDB act on the **latest committed** row, not the snapshot, which is how a [[Lost Update]] can still happen in MySQL REPEATABLE READ with app-side read-modify-write (see [[GLqyIqWtRiA]]).
 - The demos show dirty reads and non-repeatable reads but **no phantom or write-skew demo**. For the full anomaly table, MySQL vs PostgreSQL, see [[Isolation levels and anomalies (Postgres vs MySQL)]].
 
-## How it maps to the learning focus
+## How it connects to the core topics
 - **Core focus:** isolation levels, dirty and non-repeatable reads, locking vs MVCC, the cost of stronger isolation.
 - **QA angle:** this two-terminal demo *is* a test technique. Reproduce concurrency bugs by hand with two DB sessions (or two threads with a latch) and step through statements in a set order. Write the sequence down as a test case: "T1 BEGIN; T1 UPDATE; T2 SELECT → expect X; T1 COMMIT; T2 SELECT → expect Y".
 - **Spring Boot:** `@Transactional(isolation = Isolation.READ_COMMITTED)`; note that MySQL's default is REPEATABLE READ and Postgres's is READ COMMITTED, so the same code behaves differently. **Go:** `db.BeginTx(ctx, &sql.TxOptions{Isolation: sql.LevelRepeatableRead})`.

@@ -43,7 +43,7 @@ Kafka producer `acks` (0 / 1 / all), consumer offset commit, MySQL binlog CDC (t
 - **Order per aggregate:** SKIP LOCKED can hand event 2 of order #42 to poller B while poller A is still sending event 1, so consumers see "paid" before "created". Keep publish order per aggregate: send events for one aggregate from one poller in id order (e.g. partition pollers by `hash(aggregate_id)`), and use the **aggregate id as the Kafka message key** so all of its events land on the same partition, where Kafka keeps order. See [[Out-of-order messages and consumer rebalancing]].
 - If you commit offsets *before* processing (e.g. auto-commit), a crash can lose a message. If you commit *after*, a crash can duplicate it.
 
-## How it maps to the learning focus
+## How it connects to the core topics
 - **Core focus:** lost vs duplicate messages, the outbox pattern, at-least-once vs exactly-once, producer vs consumer acknowledgements, offset commits.
 - **QA angle:** kill the outbox publisher between "sent" and "marked published", then check the duplicate is harmless. Kill the consumer between "processed" and "offset committed", then check nothing is double-applied. Stop a broker while producing with `acks=1` vs `acks=all` and compare what gets lost.
 - **Spring Boot / Go:** Spring Kafka `AckMode` (RECORD/BATCH/MANUAL), `@Transactional` outbox write together with the business row; in Go, `franz-go`/`sarama` with manual commit.

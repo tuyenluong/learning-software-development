@@ -2,7 +2,7 @@ To utilize all this space, please download [Obsidian](https://obsidian.md/) and 
 
 [Obsidian](https://obsidian.md/) mainly uses `.md` file due to its lightweight attribute and no-mouse mindset for anyone with a high typing rate per minute.
 
-The following is the list of setups that I've added: plugin, hotkeys, template that I have added.
+The setup includes the following plugins, hotkeys and templates:
 - Templates
   - Added an Index and an example template inside the Templates folder
   - Along with the hotkeys in the Global Hotkeys file
@@ -22,7 +22,7 @@ The following is the list of setups that I've added: plugin, hotkeys, template t
 
 ## Guide
 1. Go to "*Global Hotkeys*" file and grasp the basic concept of how to use this note. (*second Brain > Global Hotkeys*)
-2. Each topic you guys want to share must go inside a folder of its own, if it's a series then create a template in the *Templates* folder. 
+2. Each shared topic must go inside a folder of its own, if it's a series then create a template in the *Templates* folder. 
 
 ## Repo layout
 Learning material and job market research live in this one repo. Each has one master folder, split into one folder per subject:
@@ -30,7 +30,7 @@ Learning material and job market research live in this one repo. Each has one ma
 | Folder | What's in it |
 |---|---|
 | [learning-material/](learning-material/) | Master folder for all teaching notes, one subfolder per subject. |
-| [learning-material/qa-automation/](learning-material/qa-automation/) | QA automation (priority 1): QA Module 1 lesson notes in `module-1/`. |
+| [learning-material/qa-automation/](learning-material/qa-automation/) | QA automation: QA Module 1 lesson notes in `module-1/`. |
 | [learning-material/backend-engineering/](learning-material/backend-engineering/) | Backend engineering: Messaging and Transactions notes in `module-1/`, and anonystick YouTube channel notes in `anonystick/`. |
 | [job-market/](job-market/) | Master folder for job market reports only, one subfolder per role. |
 | [job-market/qa-engineer/](job-market/qa-engineer/) | QA / QE job market reports: the 2026 baseline and dated weekly reports (`job-market-YYYY-MM-DD.md`). |

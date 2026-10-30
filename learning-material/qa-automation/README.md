@@ -1,6 +1,6 @@
-# QA automation (priority 1)
+# QA automation
 
-Tuyen's QA automation track, taught by Jacob from notes researched by Jake. Every note is written from official docs, with links and versions checked as of the date in its frontmatter. Backend engineering notes ([module-1/](../backend-engineering/module-1/)) are background reading for now.
+QA automation notes for testing messaging and transaction edge cases. Every note is written from official docs, with links and versions checked as of the date in its frontmatter. The backend engineering notes ([module-1/](../backend-engineering/module-1/)) explain why these edge cases happen.
 
 ## QA Module 1: QA Automation for Edge Cases
 Overview: [Module 1 - QA Automation for Edge Cases](module-1/Module%201%20-%20QA%20Automation%20for%20Edge%20Cases.md)

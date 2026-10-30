@@ -19,7 +19,7 @@ Video_id: inUimYVAGv0
 **Credit:** [anonystick on YouTube](https://www.youtube.com/@anonystick). Written from Vietnamese auto-captions. "Idempotent" comes out as "indem button / item button" and "unique" as "unit". The public video stops after method 3 and says the higher-level code is members-only. [18:19](https://www.youtube.com/watch?v=inUimYVAGv0&t=1099s)
 
 ## What it teaches
-What [[Idempotency]] (*tính lũy đẳng*; he also says *tính bất biến*, but that means **immutability**, a different idea; see [[REVIEW-jacob-batch1|Jacob's review]]) means, where duplicates come from in real systems, and three DB-level ways to stop a payment from being recorded twice. The demo uses the channel's DDD "Tết train ticket" project (*vé tàu Tết*) with VNPay.
+What [[Idempotency]] (*tính lũy đẳng*; he also says *tính bất biến*, but that means **immutability**, a different idea) means, where duplicates come from in real systems, and three DB-level ways to stop a payment from being recorded twice. The demo uses the channel's DDD "Tết train ticket" project (*vé tàu Tết*) with VNPay.
 
 ## Key concepts and steps
 1. **Definition:** f(f(x)) = f(x). However many times you send the same request, you get one result and no extra records. `DELETE` is naturally idempotent *(in **state**: the resource is gone either way. The **response** can differ: the first call may return 200/204, a repeat 404. So tests should assert on state, not the status code alone)*. [02:05](https://www.youtube.com/watch?v=inUimYVAGv0&t=125s), [03:08](https://www.youtube.com/watch?v=inUimYVAGv0&t=188s)
@@ -47,9 +47,9 @@ What [[Idempotency]] (*tính lũy đẳng*; he also says *tính bất biến*, b
 - With a unique constraint, the duplicate-key exception must become an idempotent success response, not a 500 (my addition).
 - Likely reasons he calls method 3 "not enough" (my inference): it only protects that one table; side effects such as a call to the payment gateway or a sent email aren't covered; and the caller needs the *original* response back. That's why systems use an [[Idempotency Key]] table that stores the response (Stripe-style). The channel has a follow-up: "How to implement Stripe's simple and effective API Idempotency" (A9gqa8q-l1w).
 
-## How it maps to the learning focus
+## How it connects to the core topics
 - **Transaction problems:** race conditions, pessimistic vs optimistic locking, unique constraints as the last line of defence.
-- **Messaging problems:** redelivery and retries cause duplicates. This is the same reasoning as [[Idempotent Consumer]] (Jacob's idempotent-consumer lesson).
+- **Messaging problems:** redelivery and retries cause duplicates. This is the same reasoning as [[Idempotent Consumer]].
 - **QA angle:** fire N parallel identical payment requests (k6/JMeter, or a Playwright API test with `Promise.all`), then assert exactly one payment row and one charge. Replay the webhook. Simulate a client timeout followed by a retry.
 - **Spring Boot:** `@Version` (JPA optimistic locking), `@Lock(PESSIMISTIC_WRITE)`, handling `DataIntegrityViolationException`.
 
