@@ -3,7 +3,7 @@
 **Prepared by:** Jake (Research) for Tuyen Luong and Jacob (Teacher)  **Date:** 30 Oct 2026
 **Purpose:** Backend-only market facts for the QE → backend → solution architect learning plan. The core teaching focus is transaction and messaging problems.
 **Coverage:** first run of the weekly **Backend Engineer** report (a separate series from the QE/combined reports). Inbox window **22–30 Oct 2026**; fresh postings sampled from **14–30 Oct 2026**; index data as of **29–30 Oct 2026**.
-**Builds on:** the backend parts of `../qa-engineer/qe-backend-job-market-2026.md` (baseline, 21 Oct 2026) and `../qa-engineer/job-market-2026-10-28.md` (28 Oct 2026). This report is the **baseline for the backend-engineer series**; next Friday's report compares against it.
+**Builds on:** the backend parts of the 21 Oct 2026 baseline and the 28 Oct 2026 report. Those two reports were combined QE + backend reports and are now QA-only ([qe-job-market-2026.md](../qa-engineer/qe-job-market-2026.md), [job-market-2026-10-28.md](../qa-engineer/job-market-2026-10-28.md)); their backend figures are kept in [Earlier data](#earlier-data-21-oct-and-28-oct) below. This report is the **baseline for the backend-engineer series**; next Friday's report compares against it.
 
 > **How to read the numbers**
 > - **Skillenai** = a job-posting index (90-day rolling windows; this run's pages say "as of 29 Oct 2026"). It shows how often a skill shows up in postings, not total hiring. Its "demand vs prior 4 weeks" is a *share* change between two heavily overlapping windows (both ending by 26 Oct), so a 2-day move from the 28 Oct report is mostly index refresh, not a new week of hiring.
@@ -254,7 +254,7 @@ Over the full 21 → 30 Oct span the biggest moves are **PostgreSQL +2.5 points,
 
 ¹ "Go" is an ambiguous word; treat Skillenai's count as an upper bound.
 
-Sources: [Skillenai Go](https://skillenai.com/data/skill/go), [Skillenai Spring Boot](https://skillenai.com/data/skill/spring-boot), [ITviec golang](https://itviec.com/it-jobs/golang), [ITviec spring-boot](https://itviec.com/it-jobs/spring-boot). SO 2026 and Java-org survey figures are in the [21 Oct baseline](../qa-engineer/qe-backend-job-market-2026.md) and were not re-pulled.
+Sources: [Skillenai Go](https://skillenai.com/data/skill/go), [Skillenai Spring Boot](https://skillenai.com/data/skill/spring-boot), [ITviec golang](https://itviec.com/it-jobs/golang), [ITviec spring-boot](https://itviec.com/it-jobs/spring-boot). SO 2026 and Java-org survey figures (21 Oct) are in [Earlier data](#earlier-data-21-oct-and-28-oct) and were not re-pulled.
 
 **Verdict (unchanged, with stronger support):**
 - **Spring Boot is the primary stack.** It had the biggest share gain this week, it leads in Vietnam and in banks and fintech, and it fits Tuyen's saved "remote Backend java" search (6 of the 7 backend alerts this week).
@@ -274,7 +274,6 @@ Sources: [Skillenai Go](https://skillenai.com/data/skill/go), [Skillenai Spring 
 |---|---|---|---|---|---|---|
 | **Back-end Developer** | 12.4M (≈$480) | 25.35M (≈$975) | 30.1M (≈$1,160) | **39.9M (≈$1,530)** | **54.9M (≈$2,110)** | 37.8M |
 | Tech Lead | – | 45.3M | 53.85M | – | 68.45M | 51.8M (≈$1,990) |
-| *Tester (for comparison)* | 14.15M | 14.2M | 20.7M | 25.3M | 36.5M | 28.8M |
 
 - **Go (Second Talent rate card, vendor):** junior 20–35M, mid 35–55M, senior 55–80M VND/month ([source](https://www.secondtalent.com/developer-rate-card/golang-developer-vietnam/)). Unchanged; an upper-market estimate.
 - **Paymetric Labs** lists a Vietnam back-end (Java/Go/Node.js) median of **₫41.6M/month**, range ₫37.8–42.6M, +6.5% year on year ([source](https://www.paymetriclabs.com/vn/salaries/back-end-developer-java-go-node-js)). Its method and sample size are not stated; treat as a cross-check only. It sits close to ITviec's 5–8 year median.
@@ -358,7 +357,7 @@ Sources: [Skillenai Go](https://skillenai.com/data/skill/go), [Skillenai Spring 
 
 ## 9. Backend path vs the market
 
-*Checked against this week's 13 fresh postings and freehire junior/middle data. The full gap analysis is in §9 of the [28 Oct report](../qa-engineer/job-market-2026-10-28.md); this section only records what this week's data adds.*
+*Checked against this week's 13 fresh postings and freehire junior/middle data. The full 28 Oct gap analysis is in [Earlier data → 28 Oct gap analysis](#28-oct-gap-analysis-backend-path-vs-the-market); this section only records what this week's data adds.*
 
 | Path element | This week's evidence | Verdict |
 |---|---|---|
@@ -385,6 +384,7 @@ Sources: [Skillenai Go](https://skillenai.com/data/skill/go), [Skillenai Spring 
 8. **PostgreSQL transaction isolation**: https://www.postgresql.org/docs/current/transaction-iso.html
 9. **Testcontainers guides**: https://testcontainers.com/guides/
 10. **Designing Data-Intensive Applications** (Kleppmann): https://dataintensive.net/
+11. **Flyway docs** (migrations, versioning, repeatable migrations): https://documentation.red-gate.com/flyway
 
 Optional extras: [A Tour of Go](https://go.dev/tour/) · [Quarkus Kafka guide](https://quarkus.io/guides/kafka) · [System Design Primer](https://github.com/donnemartin/system-design-primer)
 
@@ -392,9 +392,181 @@ Optional extras: [A Tour of Go](https://go.dev/tour/) · [Quarkus Kafka guide](h
 
 ---
 
+## Earlier data (21 Oct and 28 Oct)
+
+*These backend figures first appeared in the two combined QE + backend reports (21 Oct baseline and 28 Oct catch-up). Those reports are now QA-only, so the backend figures that are not already in the sections above are kept here with their original sources. They were not re-pulled on 30 Oct.*
+
+### From the 21 Oct 2026 baseline
+
+**Skillenai and hiring surveys**
+- **Kafka in Java backend titles:** 29.0% of "Java Backend Engineer", 27.8% of "Java Backend Developer" postings. **RabbitMQ in backend titles:** 14.3% of "Back-End Engineer", 8.8% of "Backend Software Engineer", often paired *with* Kafka ([Skillenai Kafka](https://skillenai.com/data/skill/kafka), [Skillenai RabbitMQ](https://skillenai.com/data/skill/rabbitmq)).
+- **CoderPad State of Tech Hiring 2026:** back-end is the #2 role hiring managers plan to fill (46%, after full-stack 49%) and #3 hardest to fill (16%). Software architect is in 15% of hiring plans. 82% of developers find GenAI useful and 54% would lose ≥10% productivity without it; developers expect system design and debugging to grow in importance. Hiring budgets are expected to rise at 53% of companies (vs 37% in 2025) ([CoderPad](https://coderpad.io/survey-reports/coderpad-state-of-tech-hiring-2026/)).
+- **Career flows:** Backend Engineer hires came mainly from Software Engineer (88 moves on 21 Oct; 104 in / 57 out on 28 Oct) ([Skillenai Backend](https://skillenai.com/data/role/backend-engineer)).
+
+**Go vs Spring Boot vs Quarkus: usage surveys**
+
+| Signal | Go | Spring Boot | Quarkus |
+|---|---|---|---|
+| SO 2026 usage | Go language **16.5%** | Spring Boot **12.8%** of web-framework users (Java 27.6%) | **0.3%** (may not have been a listed option, so likely understated) |
+| Java-org surveys | n/a | Azul 2025: **42%** of orgs use Spring Boot for Java microservices; Vaadin 2025: 86% | Azul 2025: **7%**; Jakarta EE 2025 survey: Quarkus runtime use **declining** |
+| UK permanent jobs (ITJobsWatch, 6 mo) | n/a | n/a | **2** (vs 15 a year ago) |
+| Live roles | n/a | n/a | Alion lists **91–152** live Quarkus roles |
+| Top employers (Skillenai) | Capital One, Cisco, SpaceX, Stripe, CrowdStrike, Cloudflare, Grab | Mastercard, Barclays, Wise, JPMorgan, Capco | Citi, Sopra Steria, Red Hat consulting, defence/gov (OpenShift shops) |
+
+Sources: [SO 2026 languages](https://survey.stackoverflow.co/2026/technology/data/languages), [SO 2026 web frameworks](https://survey.stackoverflow.co/2026/technology/data/web-framework), [Azul State of Java 2025](https://www.qbssoftware.com/wp-content/uploads/2025/04/Azul-report-State-of-Java-2025.pdf), [Jakarta EE 2025 survey](https://outreach.eclipse.foundation/hubfs/2025%20Jakarta%20EE%20Developer%20Survey%20Report.pdf), [ITJobsWatch Quarkus](https://www.itjobswatch.co.uk/jobs/uk/quarkus.do), [Alion Quarkus jobs](https://alion.io/jobs/quarkus), [Skillenai Go](https://skillenai.com/data/skill/go), [Skillenai Spring Boot](https://skillenai.com/data/skill/spring-boot).
+
+**Vietnam**
+- **vitX** (4 weeks to 15 Oct 2026): backend is the largest discipline, **144 of 469** engineering roles (30.7%). Stacks named in job titles: **Java 52**, Python 43, React 35, .NET 26, AWS 23, **Go 22**. Banks, fintechs and securities firms posted **19%** of roles. **45.4%** of roles are senior, lead or manager and only **5.4%** junior. Remote is only **2.8%** of Vietnam-board roles. AWS is named about **3.3×** as often as Azure ([vitX](https://www.vitx.global/reports/vitx-vietnam-it-hiring-pulse-2026-10.pdf)).
+- **TopDev 2024–25:** Spring Boot is the #1 Java framework at **45.2%** ([TopDev](https://topdev.vn/download-report)).
+- **ITviec 2025–2026 survey, Project Leader/PM** (median gross VND/month): <1 yr 17.2M, 1–2 yr 29.85M, 3–4 yr 48.4M, 5–8 yr 58.45M, overall 50.1M ([ITviec report](https://itviec.com/report/vietnam-it-salary-and-recruitment-market)).
+- **Inbox (21 Oct, aggregate):** about **40%** of alerts were backend, mostly from the saved search "remote Backend java" (Java/Spring, AWS/Azure, API); about **19 of 41** backend alerts were remote. Keyword hits in alert bodies over 6 months: Spring Boot 3 threads, Go-related 6 (ambiguous match), Kafka, RabbitMQ and Quarkus 0. One posted range in an alert title: "Senior Java, good English, remote, **up to 55M gross**".
+
+**Remote pay (Vietnam-based engineer)**
+- [Second Talent APAC benchmark](https://www.secondtalent.com/apac-salary-benchmark/) (vendor), Vietnam **all-roles** median: mid **$3,100**, senior **$4,500** (IQR $4,300–5,500), lead **$5,300**.
+- Live listing ([Jobstore](https://www.jobstore.com/vn/job/l23019796/senior-java-developer-remote-job)): Senior Java remote contract **$30–90/hr** (VND 60–110M/mo). One listing, anecdotal.
+- **Estimates (21 Oct, est.):** senior backend remote about **$5–7K/mo**, a premium of about **+25–35%** over senior QA automation remote; architect/lead roles **$7–10K/mo**; locally the backend move is worth about **+35–55%** over Tester/QA-QC medians at 5–8+ years.
+
+**Interviews: backend loop topics not listed in §6**
+- **Data:** indexes, isolation levels, locking, migrations.
+- **Ops:** observability, rate limiting, circuit breakers, retries with jitter.
+
+**QE → backend transition and architect path**
+- Practitioner guides suggest an **internal transfer** first, and **3–6 months** of focused work if you already write strong automation code (12–18 months if not) ([SeekerScore](https://www.seekerscore.com/routes/qa-engineer-to-software-engineer), [Codefarm](https://codefarm.in/blog/software-engineering/qa-to-developer-transition)). Secondary sources; treat the timelines as estimates.
+- The switch is uncommon (2 observed SDET→Software Engineer moves vs 10 SE→SDET), so it needs deliberate proof: a deployed service, production-quality code, and system-design fluency.
+- **Architect path:** SO 2026 "Architect, software or solutions" is 7% of respondents with a **$102K** global median; ITviec Tech Lead median 51.8M VND, PM/PL 50.1M. Architects are expected to make and document trade-offs (ADRs), handle reliability, scaling, cost, security and cross-team integration.
+
+### From the 28 Oct 2026 report
+
+**Skillenai, Backend Engineer (2,627 postings, 90 days to 27 Oct)**
+- **Top posters:** GitLab 129, Grafana Labs 117, CLERA 61, Wise 60, Stripe 56. **Top metros:** Berlin 4.4%, New York City 3.1%, London 2.8%, San Francisco 2.7%, Tel Aviv 2.5% ([Skillenai Backend](https://skillenai.com/data/role/backend-engineer)).
+- **Kafka in titles:** 28.6% of "Java Backend Engineer", 30.1% of "Distributed Systems Engineer". **RabbitMQ in titles:** 12.1% of "Back-End Engineer", 10.6% of "Java Engineer". Kafka is paired most with Python, Java, Kubernetes, AWS and SQL ([Skillenai Kafka](https://skillenai.com/data/skill/kafka), [Skillenai RabbitMQ](https://skillenai.com/data/skill/rabbitmq)).
+- **Top Kafka employers:** Wise 175, Cisco 149, CrowdStrike 115, Mastercard 101, Barclays 91, Capital One 70, JPMorgan 60. **Top event-driven architecture employers:** Wise 50, Mastercard 45, Barclays 35, Fiserv 16, Capco 16, Airwallex 12 ([Skillenai EDA](https://skillenai.com/data/skill/event-driven-architecture)).
+
+**freehire, open Backend postings by seniority (updated 27–28 Oct)**
+
+| Level | Open postings | Skill leaders |
+|---|---|---|
+| **Junior** | **1,085** (937 list skills) | api 47%, python 40%, java 39%, sql 33%, git 29%, rest 27%, ai 23%, docker 22%, cloud 20%, ci-cd 20%, postgresql 18%, aws 18%, spring 17%, microservices 13%, redis 11%, kubernetes 11%, azure 9%, kafka 7%, gcp 7% |
+| **Middle** | **1,178** (1,084 list skills) | api 65%, java 41%, aws 41%, rest 39%, cloud 38%, ci-cd 37%, ai 35%, docker 33%, python 31%, kubernetes 28%, microservices 27%, sql 27%, git 27%, postgresql 25%, azure 22%, spring 21%, event-driven 21%, kafka 21%, mysql 18%, devops 18%, agile 17%, observability 15%, distributed systems 15%, gcp 15%, redis 14%, nosql 14%, test-automation 13%, rabbitmq 9%, s3 9% |
+
+([freehire junior](https://freehire.me/insights/roles/backend/junior), [freehire middle](https://freehire.me/insights/roles/backend/middle), [freehire backend seniority split](https://freehire.me/insights/roles/backend))
+
+- **Junior → middle jumps (28 Oct):** Kubernetes 11% → 28%, CI/CD 20% → 37%, AWS 18% → 41%, microservices 13% → 27%, Kafka 7% → 21%. Observability is not in the junior top 40 and is 15% at middle.
+- **Seniority census (28 Oct):** 23,169 open Backend roles: Senior 16,001, Lead 2,068, Staff 1,278, Middle 1,178, Junior 1,085, Intern 1,081, Principal 367. Month-over-month growth: Junior +297, Middle +252, Senior +1,518 (on a much larger base).
+- **Correction recorded on 28 Oct:** the junior column was rebuilt against freehire's live page before reporting. The junior posting count is 1,085 (not 1,420), and java 39% (not 43%), api 47% (not 36%), kubernetes 11% (not 8%).
+
+**Vietnam and inbox (28 Oct)**
+- Posted ranges on live ITviec listings: Mid/Sr Java "up to $3,200", **Senior Backend "up to 50M"**. Titles kept clustering in **banking and fintech**: two bank backend roles and one fintech platform Java role in that window's sample.
+- Inbox (17–28 Oct): about **40%** of 28 alerts were backend. Recurring backend titles: Principal Java/Kotlin Engineer, Intermediate/Senior Backend Engineer, Middle Java Developer, Senior Backend (Java, Fintech). One employer posted *both* an Intermediate and a Senior remote-Vietnam backend role (19 and 25 Oct), the first time the alerts showed one company hiring two backend levels remotely in one window.
+
+**Cloud-listing pay (global remote, not a Vietnam rate)**
+- [JobRemotely cloud analysis, 1 Oct 2026](https://jobremotely.io/blog/cloud-jobs-aws-azure-gcp): median yearly pay across listings naming a cloud: **AWS $175,450**, Azure $168,500, GCP $165,250. US-only: AWS $185,000 (n=35), Azure $193,050 (n=21), GCP $195,000 (n=21). Mostly US-tagged (566 of 687 listings).
+
+### 28 Oct gap analysis: backend path vs the market
+
+*Moved here in full from §9 of the 28 Oct report, which is now QA-only. Section references (§5, §6) point to this report's salary and interview sections.*
+
+*A teammate is building Tuyen a junior-to-mid backend track in Java/Spring Boot. This section sets its three stages against what junior and mid Java backend postings actually ask for. Everything below comes from postings and public skill surveys read in this window. Where I had no count, I say "in the postings I read" rather than inventing a percentage.*
+
+#### The path as briefed
+
+| Stage | Timing | Content | Project |
+|---|---|---|---|
+| **1. Junior** | 0–6 months | Core Java (collections, exceptions, streams, basic concurrency); HTTP and REST design; SQL with PostgreSQL (joins, indexes, transactions); Spring Boot CRUD API with validation, error handling and tests; Git, Docker, running the app locally with a database | A small orders API |
+| **2. Strong junior** | 6–12 months | Auth (sessions, JWT, OAuth basics); transactions done right (isolation levels, race conditions, API idempotency); Flyway migrations and Testcontainers integration tests; a CI pipeline and a first deploy to AWS | Payments on the orders API with retries and idempotency keys |
+| **3. Mid-level** | 12–24 months | Caching with Redis; background jobs; messaging basics; observability (logs, metrics, tracing); performance basics (slow queries, connection pools, timeouts); simple system design and writing down decisions; owning a feature end to end | — |
+
+#### What the postings ask for
+
+Six real postings were read in full, plus four skill surveys that split by seniority. The postings span junior through mid:
+
+- **Junior Java backend** ([junbrain, Oct 2026](https://junbrain.com/jobs/project/junior-java-developer-backend-role/ql1b6N9)): Java 11+, Spring/Spring Boot, PostgreSQL/MySQL and basic SQL, Git, OOP, Agile/Scrum, code reviews, debugging. Bonus: REST APIs, JUnit/Mockito, Maven/Gradle, Docker or cloud, GitHub portfolio.
+- **Junior backend Java** ([Addeco](https://www.adecco.com/en-pl/job-offers/junior-backend-java-developer-warszawa-mazowieckie/jn-022026-963243)): Java 17+, Spring/Spring Boot/**Spring Security**, Maven, SQL databases, Git and GitHub including pipelines, unit testing, **Bash/Shell**, **Docker + Kubernetes + Helm**, PostgreSQL, English B2/C1, scrum. (Asks 2+ years despite the "Junior" title.)
+- **Sber, Middle Java Backend, 2–4 years** ([hh.ru](https://hh.ru/vacancy/134545742)): Java 17+ core — collections, streams, concurrency basics; Spring Boot 3/Spring Cloud; REST/gRPC; **Kafka/NATS**; JUnit + **Testcontainers**; PostgreSQL indexes and **query plans**; **Redis** for caching, rate limiting and pub/sub; Docker; basic Kubernetes; CI/CD; **Prometheus/Grafana/ELK**; postmortems; basic performance tuning. AI tooling a plus.
+- **Netomi, SDE II – Backend, 2–4 years** ([Built In](https://builtin.com/job/sde-ii-backend/10390296)): Java + Spring Boot, microservices, RDS MySQL/PostgreSQL, **Kafka or RabbitMQ**, **Redis/Memcached**, distributed systems, performance profiling, JUnit and integration tests, Docker/K8s/AWS ECS, CI/CD, third-party integrations, **end-to-end feature ownership**, collaboration with QA and DevOps.
+- **Bees, Intermediate Java Developer** ([Greenhouse](https://job-boards.greenhouse.io/bees/jobs/8805778002)): Java, Spring Boot, REST, microservices, Azure DevOps, **observability (New Relic/Datadog), monitoring, logging, troubleshooting production issues**, agile, code reviews, CI/CD. Differentials: NoSQL, event-driven/messaging.
+- **Neocode, Java FinTech, middle, 3–6 years** ([hirify](https://hirify.me/jobs/1218356-java-fintech-backend-developer)): Java 21+, Spring Boot 3/4, PostgreSQL, Redis, Kafka/RabbitMQ, **transactions, idempotency, distributed systems basics**, Docker, basic K8s, observability, Testcontainers, **BigDecimal for money, audit log, idempotency keys, secure webhooks, data masking, payment statuses, PCI DSS basics**, OAuth2/OIDC + Spring Security.
+- **Métrica, Mid Backend – Java, Kafka, Spring Boot and AWS** ([remote, Spain](https://www.spainjobs.io/companies/metrica/desarrolladora-backend-mid-java-kafka-spring-boot-aws--22fcd61272)): Java 17+, Spring Boot 3.x Web/Data JPA, **Kafka in production (consumers, topics, partitions)** or RabbitMQ/SQS-SNS, **hexagonal architecture**, PostgreSQL/Oracle plus query optimisation, JUnit + Mockito, **GitHub Actions + SonarQube**, **OpenAPI/API-first**, SOLID/Clean Code. Nice-to-have: AWS in production (EKS, S3, CloudWatch), **outbox, idempotent consumer, retries + DLQ**, Redis, **Testcontainers and contract tests**, banking domain, English B1+.
+
+Surveys used for the frequency numbers: [freehire junior backend](https://freehire.me/insights/roles/backend/junior) (1,085 postings, 937 with skills, 28 Oct 2026), [freehire middle backend](https://freehire.me/insights/roles/backend/middle) (1,178 postings, 28 Oct 2026), [Jobpedia junior software engineer](https://jobpedia.ai/roles/software-engineer/junior) (323 roles), [Skillenai Backend Engineer](https://skillenai.com/data/role/backend-engineer) (2,627 postings), and [Zorky's Java backend skill survey](https://zorky.tech/en/research/backend/java).
+
+#### (a) What the path already covers
+
+Each row is something real postings ask for **and** the path teaches.
+
+| Path element | Where the market asks for it |
+|---|---|
+| Core Java: collections, exceptions, streams, basic concurrency | Sber lists exactly this for 2–4 years; Java is **39%** of junior backend postings ([freehire](https://freehire.me/insights/roles/backend/junior)) and 41% at middle |
+| HTTP and REST design | api **47%** and rest **27%** of junior postings; api 65%, rest 39% at middle; Jobpedia REST 19% for junior SE, 21% for all SE |
+| SQL + PostgreSQL: joins, indexes, transactions | sql **33%**, postgresql **18%** of junior postings; sql 27%, postgresql 25% at middle; Zorky puts SQL/PostgreSQL/indexes/transactions before Spring Boot in its roadmap |
+| Spring Boot CRUD with validation, error handling, tests | spring **17%** of junior postings, **21%** at middle; all six postings read name Spring Boot, and four of them pin 3.x |
+| Git | git **29%** junior, 27% middle; Addeco asks for Git and GitHub including pipelines |
+| Docker and running locally with a database | docker **22%** junior, **33%** middle; Addeco and Sber both require Docker |
+| Unit and integration tests | JUnit in Netomi, Sber and Métrica; Métrica pairs it with Mockito, Sber with Testcontainers |
+| Flyway migrations | Postings ask for schema **migrations** generically; Zorky lists migrations in the database step. The tool name is rare — see (c) — but the capability is asked for |
+| Testcontainers integration tests | Named outright by **Sber** (must-have), **Neocode** (must-have) and **Métrica** (nice-to-have). One of the path's strongest cards |
+| CI pipeline | ci-cd **20%** junior, **37%** middle; Addeco (GitHub pipelines), Métrica (GitHub Actions + SonarQube) |
+| First deploy to AWS | aws **18%** junior, **41%** middle; Jobpedia junior lists AWS as the top preferred cloud at 14%; ROLIVA and JobRemotely both put AWS first |
+| Auth: sessions, JWT, OAuth basics | Addeco requires Spring Security; Neocode requires OAuth2/OIDC + Spring Security. The other four postings read here do not name auth at all, so it is a differentiator in the CV stack rather than a keyword most ads filter on |
+| Transactions done right: isolation, races, API idempotency | Neocode: "transactions, idempotency"; Métrica: idempotent consumer as a nice-to-have. **The path's differentiator against every generic bootcamp** |
+| Redis caching | redis **11%** junior, 14% middle; Sber (caching, rate limiting, pub/sub), Netomi (Redis/Memcached), Neocode |
+| Messaging basics | kafka **21%** and event-driven architecture **21%** of middle postings, rabbitmq 9%; Skillenai backend Kafka 18.2%; Netomi "Kafka or RabbitMQ"; Métrica Kafka consumers/topics/partitions in production |
+| Observability: logs, metrics, tracing | observability **15%** middle; Skillenai 16.5%; Bees (New Relic/Datadog, production troubleshooting), Sber (Prometheus/Grafana/ELK) |
+| Performance basics: slow queries, pools, timeouts | Netomi performance profiling; Sber query plans and performance tuning |
+| Simple system design and writing decisions | Netomi asks for end-to-end ownership at mid; ADRs are the architect bridge (see the 21 Oct architect-path notes above) |
+| Owning a feature end to end | Netomi states it explicitly for SDE II |
+
+**Verdict on coverage:** strong. Of the roughly 20 skills that keep reappearing across the six postings, the path covers about 17. Its two best cards are the ones most bootcamps skip: **idempotency and transactions** (Stage 2) and **Testcontainers** (Stage 2). Both are must-haves at middle level, and both are where Tuyen's QA background gives an unfair advantage.
+
+#### (b) What the posts ask for that the path is missing
+
+| Gap | Evidence | Where it should go |
+|---|---|---|
+| **JPA / Hibernate ORM, and the N+1 problem** | Zorky: Hibernate/JPA is standard, and "Spring Boot 3 + Spring Data JPA" appears in 95%+ of modern Java projects; Métrica names Spring Data JPA in the stack; the backend interview loop (§6) lists JPA N+1 as a standard topic | Stage 1, right after the first CRUD API — it is the first thing that goes wrong in a real repository |
+| **Maven or Gradle** | Addeco "Maven"; junbrain "Maven/Gradle"; Zorky notes Maven is still ahead of Gradle in Java shops | Stage 1, day one — the build tool is how the project is created |
+| **Mockito (unit-test isolation)** | Métrica "JUnit + Mockito"; Zorky "JUnit 5 + Mockito + Testcontainers"; junbrain lists JUnit/Mockito as the bonus | Stage 1, alongside the first tests |
+| **Kubernetes basics** | freehire: **11% junior, 28% middle**; Jobpedia junior lists Kubernetes as a preferred skill at 10%; Zorky calls Docker + Kubernetes standard; Addeco requires Docker + Kubernetes + Helm | End of Stage 2 or start of Stage 3 — it is the biggest junior-to-middle jump in the dataset |
+| **Microservices and service boundaries** | freehire: microservices 13% junior, **27% middle**; Skillenai: 16.2% of backend postings and **46.2% of Java Backend Developer postings**; Netomi, Bees and Métrica all list microservices | Stage 3 — messaging basics is the natural doorway |
+| **OpenAPI / API-first design and contract tests** | Métrica: OpenAPI/API-first is a **required** skill; contract tests a nice-to-have | Stage 2, alongside the payments API |
+| **Static analysis (SonarQube) and code-quality gates** | Métrica: GitHub Actions + SonarQube | Stage 2, as part of the CI pipeline |
+| **Reading SQL query plans (EXPLAIN)** | Sber "query plans"; Métrica "query optimisation"; Jobpedia SE postings list SQL at 21% overall | Stage 3, inside "performance basics" — the path says "slow queries" but not "read the plan" |
+| **gRPC** | Sber lists REST/gRPC together; the baseline called gRPC a mid-level nice-to-have | Optional Stage 3 lesson |
+| **Bash / shell scripting** | Addeco; it is the practical glue for local Docker, migrations and CI | Stage 1, half a lesson |
+| **English at a stated level** | Addeco B2/C1, Métrica B1+. English is the gate for the remote salaries in §5 | Not a lesson — a standing habit, noted so it is not discovered at interview time |
+| **AI coding tools as a stated plus** | Sber lists AI tooling as a plus; freehire's broad "ai" keyword appears in **23%** of junior and **35%** of middle postings (broad keyword, treat as directional) | Fold into Stage 1 habits, not a separate lesson |
+| **Fintech money rules: BigDecimal, audit log, webhook security, data masking, payment statuses, PCI DSS basics** | Neocode, a middle fintech posting, lists all of these; the baseline already flagged "proving correctness under failure" and payments domain depth as the senior differentiator | Stage 2, into the payments project — the path already builds payments, so this is a content upgrade, not a new stage |
+| **NoSQL awareness** | freehire middle: nosql 14%, mysql 18%; a Vietnam bank backend listing in this window names Redis/MongoDB/MySQL/Oracle together | Stage 3, one comparison lesson |
+| **Legacy context: Java EE / EJB, Oracle** | A Java EE (EJB) developer role appeared in this window's alerts; Zorky: Oracle still common in banks | Not for the path — but worth knowing why bank codebases look the way they do |
+
+#### (c) What the path teaches that the posts rarely ask for
+
+These are not wasted, but they should be taught as **depth for interviews and for the job after next**, not as things that get a junior CV past a screen. Every claim below is about the six postings and the surveys read in this window.
+
+| Path element | Reality in the postings |
+|---|---|
+| **Flyway by name** | None of the six postings named Flyway. They say "migrations" (Zorky) or describe the database work generically. Teaching Flyway is right — it is the standard tool — but do not expect the word to match a keyword search |
+| **Isolation levels by name** | No posting named an isolation level (READ COMMITTED, REPEATABLE READ, SERIALIZABLE). They say "transactions" (Neocode) and "idempotency". The theory is what lets Tuyen answer the interview question, not what gets the CV read |
+| **Outbox and saga patterns** | Métrica lists outbox and idempotent consumer as **nice-to-have**, not required. No junior or mid posting read here required them. They matter at senior and in interviews (§6), which is how the path should frame them |
+| **Kafka internals depth: consumer lag, rebalancing, exactly-once semantics** | The postings ask for "Kafka in production (consumers, topics, partitions)". None named consumer lag, rebalancing or EOS. Skillenai shows Kafka in 18.2% of backend postings, so it is a minority skill — a strong differentiator, not a baseline requirement |
+| **Explicit system-design practice and written ADRs** | Netomi asks for end-to-end ownership; no posting read here asked for ADRs. The baseline put ADRs at architect level. Keep it as the later architect-track bridge, not a mid-level requirement |
+| **Background jobs and schedulers as their own topic** | No posting in this window named them explicitly. They are usually implied by "messaging" or "async work" |
+| **Caching strategy depth (eviction, stampede, write-through vs write-behind)** | Postings name **Redis** (13–14%) but none described a strategy. Teach the strategy in a lesson; do not build the path around it |
+| **Deep concurrency beyond the basics** | Java concurrency appears at the level of "collections, streams, concurrency basics" (Sber). Advanced JVM and concurrency tuning is a senior ask per Zorky's roadmap |
+
+#### What I would change in the path
+
+1. **Add JPA/Hibernate and the N+1 problem to Stage 1.** The single biggest omission: it is universal in Java shops and a standard interview question.
+2. **Name the build tool (Maven) and Mockito explicitly** in Stage 1. An hour each to teach, and both appear verbatim in junior postings.
+3. **Move Kubernetes basics to the end of Stage 2**, not Stage 3. It is the sharpest junior-to-middle jump in the data (11% → 28%).
+4. **Put the fintech money rules into the Stage 2 payments project.** BigDecimal, audit log, webhook security and idempotency keys turn the project from "a CRUD app with retries" into "a payments service", which is what the fintech postings screen for.
+5. **Keep outbox, saga and Kafka internals, but label them "interview depth".** They are nice-to-haves in postings and required in senior interviews. That is a different kind of value, and saying so out loud stops Tuyen feeling behind when a junior posting does not mention them.
+
+
+---
+
 ## Caveats
 
-- **First report in the backend-engineer series.** Its "What changed" deltas compare against the backend sections of the 21 Oct baseline and the 28 Oct combined report. The 28 Oct → 30 Oct gap is **two days**, and Skillenai's comparison windows overlap by 62 days, so most 2-day moves are index refresh. Next week's report is the first true week-on-week backend comparison.
+- **First report in the backend-engineer series.** Its "What changed" deltas compare against the backend sections of the 21 Oct baseline and the 28 Oct combined report. The 28 Oct → 30 Oct gap is **two days**, and Skillenai's comparison windows overlap by 62 days, so most 2-day moves are index refresh. Next week's report is the first true week-on-week backend comparison. Backend figures from the 21 Oct and 28 Oct reports that are not re-pulled here are kept in [Earlier data](#earlier-data-21-oct-and-28-oct), with their original sources.
 - **Skillenai** measures posting mix, not hiring volume. Its all-role totals grow with index coverage; use the share changes. Its RabbitMQ page no longer shows a share change, so none is reported. "Go" may be inflated by the ambiguous word.
 - **freehire** counts a skill anywhere in a posting (including nice-to-have), so its figures are a ceiling. Its total census fell 23,169 → 20,804 in two days, which suggests a cleanup of stale listings; use the per-level shares rather than the totals.
 - **Fresh-postings sample (n=13) is small and search-biased.** Remote share is 100% by design. It is weighted to Europe and Latin America because that is where the search found dated junior/mid postings. Four links closed between reading and re-checking. Postings with no clear date in the window were excluded (for example, roles posted 5–11 Oct, and an undated generic junior listing). One listing with machine-generated text was excluded as unreliable.
