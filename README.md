@@ -30,6 +30,7 @@ Job market research and teaching material live in this one repo, in separate fol
 | Folder | What's in it |
 |---|---|
 | [job-market/](job-market/) | Job market reports only: the 2026 baseline and the dated weekly reports (`job-market-YYYY-MM-DD.md`). |
+| [job-market/backend-engineer/](job-market/backend-engineer/) | Weekly Backend Engineer job market reports only (`backend-job-market-YYYY-MM-DD.md`). |
 | [qa-automation/](qa-automation/) | QA automation track (priority 1): QA Module 1 lesson notes. |
 | [module-1/](module-1/) | Backend track: Messaging and Transactions notes. |
 | [anonystick/](anonystick/) | Literature notes from the anonystick YouTube channel (public videos only). |

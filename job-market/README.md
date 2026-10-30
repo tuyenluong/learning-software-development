@@ -4,5 +4,6 @@ QE / automation testing and backend engineering job market research for Tuyen's 
 
 - [qe-backend-job-market-2026.md](qe-backend-job-market-2026.md): baseline, 21 Oct 2026
 - Weekly reports, one per Friday night, named `job-market-YYYY-MM-DD.md`, each with a "What changed this week" section. Newest is listed first in [INDEX.md](../INDEX.md).
+- [backend-engineer/](backend-engineer/): weekly Backend Engineer reports (Go, Spring Boot, Quarkus, Kafka, RabbitMQ), named `backend-job-market-YYYY-MM-DD.md`, same format. Listed newest first in [backend-engineer/README.md](backend-engineer/README.md).
 
 Reports use aggregate figures only (skill counts, seniority, salary ranges where stated), never individual emails or postings' contact details.
