@@ -47,7 +47,7 @@ He reviews his own async order flow from the high-concurrency ticket project (th
 - **Spring Boot:** `@Transactional` service writes `orders` + `outbox_event`; a `@Scheduled` relay or Debezium connector; the Spring Modulith event publication registry is a ready-made outbox. **Go:** `tx := db.BeginTx(...)` for both inserts, and a relay goroutine with `SELECT ... FOR UPDATE SKIP LOCKED`.
 
 ## Related
-[[Saga Pattern]] · [[Transactional Outbox]] · [[Change Data Capture]] · [[Dual Write]] · [[Idempotent Consumer]] · [[DQN0pRV8RnU]] · [[A9gqa8q-l1w]] · [[Module 1 - Messaging and Transactions]]
+[[Saga Pattern]] · [[Transactional Outbox]] · [[Change Data Capture]] · [[Dual Write]] · [[Idempotent Consumer]] · [[DQN0pRV8RnU]] · [[A9gqa8q-l1w]] · [[Messaging and Transactions]]
 
 ---
 ## Flash cards section

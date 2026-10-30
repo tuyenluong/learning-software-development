@@ -4,7 +4,7 @@ Modification_date: Wednesday 21st October 2026 15:47:35
 Indexes:
   - "[[permanent_notes]]"
   - "[[Kafka]]"
-  - "[[Module 1 - Messaging and Transactions]]"
+  - "[[Messaging and Transactions]]"
 Source: docs (Apache Kafka 4.3 producer/consumer configs, KIP-848, Spring for Apache Kafka 4.1.x) + channel video yiXL052rNNI
 ---
 
@@ -53,7 +53,7 @@ A **rebalance** reassigns partitions among the consumers in a group. Triggers: a
 - **Spring Boot:** `spring.kafka.consumer.properties.partition.assignment.strategy=org.apache.kafka.clients.consumer.CooperativeStickyAssignor`, `spring.kafka.consumer.properties.group.instance.id=${HOSTNAME}`, `spring.kafka.consumer.max-poll-records`, `spring.kafka.listener.concurrency` (consumers, one per partition). **Go:** franz-go `kgo.Balancers(kgo.CooperativeStickyBalancer())`, `kgo.InstanceID(...)`, `kgo.OnPartitionsRevoked(func(...){ cl.CommitMarkedOffsets(...) })`.
 
 ## Related
-[[yiXL052rNNI]] · [[DQN0pRV8RnU]] · [[Spring Kafka retries and dead-letter topics]] · [[aJ5kLfn8AtI]] · [[Idempotent Consumer]] · [[Module 1 - Messaging and Transactions]]
+[[yiXL052rNNI]] · [[DQN0pRV8RnU]] · [[Spring Kafka retries and dead-letter topics]] · [[aJ5kLfn8AtI]] · [[Idempotent Consumer]] · [[Messaging and Transactions]]
 
 ---
 ## Flash cards section

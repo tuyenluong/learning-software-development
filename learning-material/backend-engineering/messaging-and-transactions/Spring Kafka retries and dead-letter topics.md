@@ -5,7 +5,7 @@ Indexes:
   - "[[permanent_notes]]"
   - "[[Kafka]]"
   - "[[Java_Spring]]"
-  - "[[Module 1 - Messaging and Transactions]]"
+  - "[[Messaging and Transactions]]"
 Source: docs (Spring for Apache Kafka 4.1.x reference, Apache Kafka 4.3 docs)
 ---
 
@@ -73,7 +73,7 @@ void dlt(OrderEvent e) { /* alert, park, etc. */ }
 - **Go:** no framework does this for you. With franz-go or segmentio/kafka-go you write it yourself: retry in-process with a bounded back-off, then produce to `<topic>-retry` / `<topic>-dlt` with error headers, and commit the original offset only after that produce is acked.
 
 ## Related
-[[hrSP7UocdJ8]] · [[Out-of-order messages and consumer rebalancing]] · [[Dead Letter Queue]] · [[Poison Message]] · [[Idempotent Consumer]] · [[Module 1 - Messaging and Transactions]]
+[[hrSP7UocdJ8]] · [[Out-of-order messages and consumer rebalancing]] · [[Dead Letter Queue]] · [[Poison Message]] · [[Idempotent Consumer]] · [[Messaging and Transactions]]
 
 ---
 ## Flash cards section

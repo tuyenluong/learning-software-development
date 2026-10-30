@@ -44,7 +44,7 @@ After the outbox fixed lost orders on the producer side ([[2TBqQBEI56A]], [[DQN0
 - **Spring Boot:** `spring.kafka.producer.properties.enable.idempotence=true` (already the default); consumer dedup in the same `@Transactional` as the business write (see [[G4-_ckYTtvo]]). **Go:** watch the client defaults. franz-go turns producer idempotence on by default, but librdkafka-based `confluent-kafka-go` defaults to `enable.idempotence=false`, so set it explicitly ([librdkafka CONFIGURATION.md](https://github.com/confluentinc/librdkafka/blob/master/CONFIGURATION.md)). Do consumer dedup via a unique key in the same `tx`.
 
 ## Related
-[[Idempotency]] · [[Idempotent Consumer]] · [[TOCTOU]] · [[Distributed Lock]] · [[Transactional Outbox]] · [[G4-_ckYTtvo]] · [[inUimYVAGv0]] · [[Module 1 - Messaging and Transactions]]
+[[Idempotency]] · [[Idempotent Consumer]] · [[TOCTOU]] · [[Distributed Lock]] · [[Transactional Outbox]] · [[G4-_ckYTtvo]] · [[inUimYVAGv0]] · [[Messaging and Transactions]]
 
 ---
 ## Flash cards section

@@ -45,7 +45,7 @@ Let the **database's unique constraint** do the deduplication, with no Redis and
 - **Spring Boot:** `@Transactional` listener method; `jdbcTemplate.update("INSERT IGNORE INTO processed_event(id) VALUES (?)", id)` returns an `int`; for Postgres `INSERT ... ON CONFLICT DO NOTHING`. `spring.kafka.listener.concurrency` ≤ Hikari `maximum-pool-size`. **Go:** `res, _ := tx.ExecContext(ctx, "INSERT ... ON CONFLICT DO NOTHING", id)`; `n, _ := res.RowsAffected()`; if `n == 0` skip, else do the work in the same `tx`.
 
 ## Related
-[[Idempotent Consumer]] · [[Idempotency Key]] · [[Unique Constraint]] · [[A9gqa8q-l1w]] · [[inUimYVAGv0]] · [[2TBqQBEI56A]] · [[Module 1 - Messaging and Transactions]]
+[[Idempotent Consumer]] · [[Idempotency Key]] · [[Unique Constraint]] · [[A9gqa8q-l1w]] · [[inUimYVAGv0]] · [[2TBqQBEI56A]] · [[Messaging and Transactions]]
 
 ---
 ## Flash cards section

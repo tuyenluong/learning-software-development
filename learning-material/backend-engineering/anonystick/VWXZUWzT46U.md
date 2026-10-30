@@ -44,7 +44,7 @@ Using two MySQL sessions (user A and user B) on a `test_player` table (Pepe, Ron
 - **Spring Boot:** `@Transactional(isolation = Isolation.READ_COMMITTED)`; note that MySQL's default is REPEATABLE READ and Postgres's is READ COMMITTED, so the same code behaves differently. **Go:** `db.BeginTx(ctx, &sql.TxOptions{Isolation: sql.LevelRepeatableRead})`.
 
 ## Related
-[[Isolation Level]] · [[Dirty Read]] · [[Non-repeatable Read]] · [[MVCC]] · [[Savepoint]] · [[GLqyIqWtRiA]] · [[Isolation levels and anomalies (Postgres vs MySQL)]] · [[Module 1 - Messaging and Transactions]]
+[[Isolation Level]] · [[Dirty Read]] · [[Non-repeatable Read]] · [[MVCC]] · [[Savepoint]] · [[GLqyIqWtRiA]] · [[Isolation levels and anomalies (Postgres vs MySQL)]] · [[Messaging and Transactions]]
 
 ---
 ## Flash cards section

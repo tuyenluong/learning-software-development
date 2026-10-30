@@ -10,7 +10,7 @@ Indexes:
 ----
 # QA Module 1: QA Automation for Edge Cases (curriculum)
 
-Status: **new 2026-10-21**, written from official docs. The backend notes in [[Module 1 - Messaging and Transactions]] explain *why* the edge cases happen, and this module teaches *how to test them*.
+Status: **new 2026-10-21**, written from official docs. The backend notes in [[Messaging and Transactions]] explain *why* the edge cases happen, and this module teaches *how to test them*.
 
 Legend: 📘 = permanent note written from official docs. All 6 lessons written 2026-10-21; Java examples first (for Java, Selenium, TestNG/Cucumber and Jenkins shops), TypeScript Playwright second.
 

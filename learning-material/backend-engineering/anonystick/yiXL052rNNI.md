@@ -40,7 +40,7 @@ Why ordering matters (create order → pay → ship), how Kafka gives you order 
 - **Spring Boot:** `kafkaTemplate.send(topic, orderId, event)` (key = order id). `ConcurrentKafkaListenerContainerFactory.setConcurrency(n)` adds consumers (one per partition, which keeps order), **not** threads inside a partition; don't hand records to an `@Async` executor. **Go:** with franz-go/sarama, one goroutine per partition, or a key-hashed worker pool per partition.
 
 ## Related
-[[Kafka Partition]] · [[Message Ordering]] · [[Partition Key]] · [[Out-of-order messages and consumer rebalancing]] · [[DQN0pRV8RnU]] · [[Module 1 - Messaging and Transactions]]
+[[Kafka Partition]] · [[Message Ordering]] · [[Partition Key]] · [[Out-of-order messages and consumer rebalancing]] · [[DQN0pRV8RnU]] · [[Messaging and Transactions]]
 
 ---
 ## Flash cards section

@@ -5,7 +5,7 @@ Indexes:
   - "[[permanent_notes]]"
   - "[[Transactions_and_Concurrency]]"
   - "[[Databases]]"
-  - "[[Module 1 - Messaging and Transactions]]"
+  - "[[Messaging and Transactions]]"
 Source: docs (PostgreSQL 18 §13.2, MySQL 8.4 InnoDB manual) + channel videos VWXZUWzT46U, GLqyIqWtRiA
 ---
 
@@ -55,7 +55,7 @@ Notes:
 - **Spring Boot:** `@Transactional(isolation = Isolation.SERIALIZABLE)` plus retry on `CannotAcquireLockException` / `PessimisticLockingFailureException` / `ConcurrencyFailureException` (e.g. Spring's `@Retryable`). JPA `@Version` for optimistic locking, `@Lock(PESSIMISTIC_WRITE)` for FOR UPDATE. **Go:** `sql.TxOptions{Isolation: sql.LevelSerializable}`, with a retry loop on pgx error code `40001`.
 
 ## Related
-[[VWXZUWzT46U]] · [[GLqyIqWtRiA]] · [[9kpISaXHBvM]] · [[Isolation Level]] · [[MVCC]] · [[Lost Update]] · [[Write Skew]] · [[Module 1 - Messaging and Transactions]]
+[[VWXZUWzT46U]] · [[GLqyIqWtRiA]] · [[9kpISaXHBvM]] · [[Isolation Level]] · [[MVCC]] · [[Lost Update]] · [[Write Skew]] · [[Messaging and Transactions]]
 
 ---
 ## Flash cards section

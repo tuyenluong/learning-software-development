@@ -7,7 +7,7 @@ Indexes:
 ---
 
 ----
-# Module 1: Messaging & Transactions (curriculum)
+# Messaging & Transactions (curriculum)
 
 Status: **lessons 1–8 reviewed**, in reading order, with review corrections applied. Lessons with a letter (4a, 6a, 7a…) were **added 2026-10-21 to fill gaps found in review**. Each is placed right after the lesson it builds on.
 

@@ -12,7 +12,7 @@ Source: docs (Apache Kafka 4.3 design docs, RabbitMQ 4.x DLX + quorum queue docs
 ----
 # QA Lesson 1: Test design for edge cases (duplicates, retries, dead letters, races): what to assert
 
-> **Source type: official docs, not the channel.** QA Module 1, lesson 1. The backend notes in [[Module 1 - Messaging and Transactions]] explain *why* these failures happen; this note is about *what a test must check* when they do. Verified 2026-10-21 against the docs linked below. Tools and code come in later lessons; this one is about test design.
+> **Source type: official docs, not the channel.** QA Module 1, lesson 1. The backend notes in [[Messaging and Transactions]] explain *why* these failures happen; this note is about *what a test must check* when they do. Verified 2026-10-21 against the docs linked below. Tools and code come in later lessons; this one is about test design.
 
 ## The idea in one paragraph
 Happy-path tests check "it worked". Edge-case tests check **invariants**: things that must stay true *however many times* a message arrives, *in whatever order*, *however many retries happen*, and *whoever wins a race*. Kafka and RabbitMQ both give you **at-least-once** delivery in normal setups, so duplicates are expected behaviour, not a rare bug. The Kafka design docs say it plainly: the default is at-least-once, and a consumer that crashes after processing but before committing its offset **will process the same records again** ([Kafka 4.3 design: message delivery semantics](https://kafka.apache.org/43/design/design/)). Your job as QA is to turn "should be safe" into assertions.
@@ -120,7 +120,7 @@ Header name check: Spring Kafka exposes the DLT headers as constants on `KafkaHe
 - **What to automate first** (highest risk per effort): (1) duplicate delivery → effect once; (2) poison message → DLQ once + consumer keeps going; (3) concurrent same-idempotency-key API calls; (4) retry after a transient failure → effect once; (5) out-of-order for one key.
 
 ## How it connects to the core topics
-- **Core focus:** duplicates, retries and idempotency, poison messages and DLQ, out-of-order messages, races. This lesson is the "what to check" layer over all of [[Module 1 - Messaging and Transactions]].
+- **Core focus:** duplicates, retries and idempotency, poison messages and DLQ, out-of-order messages, races. This lesson is the "what to check" layer over all of [[Messaging and Transactions]].
 - **In practice:** when writing a test plan for an event-driven feature, add a row per invariant (effect / state / outputs / routing / liveness) for each edge case above.
 
 ## Related
