@@ -4,6 +4,7 @@ Weekly Backend Engineer job market reports (Go · Java Spring Boot · Quarkus ·
 
 Newest first:
 
+- [backend-job-market-2026-11-06.md](backend-job-market-2026-11-06.md): weekly report, 6 Nov 2026 (compared against the 30 Oct baseline)
 - [backend-job-market-2026-10-30.md](backend-job-market-2026-10-30.md): first run and series baseline, 30 Oct 2026 (compared against the backend parts of the 21 Oct baseline and the 28 Oct report; those backend figures are kept in its Earlier data section)
 
 Reports use aggregate figures only (skill counts, seniority, salary ranges where stated), never individual emails or contact details.
