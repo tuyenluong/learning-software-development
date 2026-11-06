@@ -14,3 +14,4 @@ Overview: [Module 1 - QA Automation for Edge Cases](module-1/Module%201%20-%20QA
 
 ## Related notes
 - [Playwright test locks for shared resources](Playwright%20test%20locks%20for%20shared%20resources.md): named `lock` on tests (1.63+) so tests sharing an account or setting never overlap, when to lock vs isolate data, and an exercise.
+- [Playwright 1.65 exclusive lock and failure reporters](Playwright%201.65%20exclusive%20lock%20and%20failure%20reporters.md): built-in `-exclusive-` lock, `failures` / `onlyFailures` reporters, Bun runner notes, and an exercise.
