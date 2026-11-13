@@ -30,11 +30,13 @@ Legend: 🎥 = anonystick video note (Vietnamese, timestamped) · 📘 = permane
 | 7c | [[yiXL052rNNI]]: Kafka message-order mistake | 🎥 (new) | per-partition order, keys, multi-threading trap |
 | 7d | [[Out-of-order messages and consumer rebalancing]] | 📘 (new) | causes of reordering, version checks, rebalancing, static membership, cooperative-sticky |
 | 7e | [[Spring Kafka retries and dead-letter topics]] | 📘 (new) | DefaultErrorHandler, DeadLetterPublishingRecoverer, @RetryableTopic, ordering trade-off |
+| 7f | [[Kafka exactly-once and its limits]] | 📘 (new, 2026-11-13) | transactional producer, read_committed, what EOS does not cover, DB-first commit order, idempotent consumer vs outbox |
 | 8 | [[aJ5kLfn8AtI]]: Kafka share groups ("queues for Kafka") | 🎥 | queue semantics on Kafka; **GA since 4.2** |
 
 ## Gap coverage
 - Spring Kafka retries + dead-letter topics → **7e (docs)**. No public channel video found.
 - Out-of-order messages and rebalancing → **7c (channel)** for the problem, plus **7d (docs)** for causes, fixes and rebalancing. The channel's solution videos look members-only, and "7 things about topics/partitions/consumers" (a7lmP5hdgB0) was rate-limited and is queued for retry.
+- Exactly-once limits (Kafka transactions vs database side effects) → **7f (docs)**, added 2026-11-13 after the phrase appeared as a written requirement in a backend job posting.
 - Isolation-level anomalies table → **4a (channel, MySQL only)** plus **4b (docs, MySQL vs Postgres)**.
 - Saga part 1 (2TBqQBEI56A) and Stripe idempotency (A9gqa8q-l1w) → **6a, 7a**, plus 7b because A9gqa8q-l1w only sets up the problem.
 
