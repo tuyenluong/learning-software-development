@@ -30,7 +30,7 @@ Learning material and job market research live in this one repo. Each has one ma
 | Folder | What's in it |
 |---|---|
 | [learning-material/](learning-material/) | Master folder for all teaching notes, one subfolder per subject. |
-| [learning-material/qa-automation/](learning-material/qa-automation/) | QA automation: QA Module 1 lesson notes in `module-1/`. |
+| [learning-material/qa-automation/](learning-material/qa-automation/) | QA automation: QA Module 1 lesson notes in `module-1/`, and a TypeScript Pact pack in `pact/`. |
 | [learning-material/backend-engineering/](learning-material/backend-engineering/) | Backend engineering: Messaging and Transactions notes in `messaging-and-transactions/`, and anonystick YouTube channel notes in `anonystick/`. |
 | [job-market/](job-market/) | Master folder for job market reports only, one subfolder per role. |
 | [job-market/qa-engineer/](job-market/qa-engineer/) | QA / QE job market reports: the 2026 baseline and dated weekly reports (`job-market-YYYY-MM-DD.md`). |

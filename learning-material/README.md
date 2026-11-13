@@ -4,7 +4,7 @@ Master folder for the learning notes, one folder per subject. Job market reports
 
 | Subject | What's in it |
 |---|---|
-| [qa-automation/](qa-automation/) | QA automation: QA Module 1, QA Automation for Edge Cases. |
+| [qa-automation/](qa-automation/) | QA automation: QA Module 1, QA Automation for Edge Cases, and a TypeScript Pact pack in `pact/`. |
 | [backend-engineering/](backend-engineering/) | Backend engineering: Module 1 Messaging and Transactions, plus anonystick YouTube channel notes. |
 
 New subjects (for example solution architecture) get their own folder here. Everything is listed newest first in [INDEX.md](../INDEX.md).
