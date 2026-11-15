@@ -18,7 +18,7 @@ The goal is what the client wants: to ship faster with fewer escaped bugs, and t
 - A test automation strategy and architecture fitted to their stack, covering what to automate, at which level (API, UI or unit), and what not to automate.
 - A stable, reliable suite running in their CI as a release gate, built on these patterns: catching bad test data before anything runs, data-driven tests, reusable steps, and a driver layer so they can change tools later.
 - A baseline report and an after report, measured on the metrics below.
-- A handover, meaning docs and coaching so their team owns the suite. Helix stays an internal accelerator, with an eject path to plain Playwright.
+- A handover, meaning docs and coaching so their team owns the suite.
 
 ## Metrics to focus on
 
