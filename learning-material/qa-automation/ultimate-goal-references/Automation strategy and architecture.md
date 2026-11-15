@@ -1,6 +1,6 @@
 ---
 Creation_date: 2026-11-16 01:05
-Modification_date: Monday 16th November 2026 01:05:00
+Modification_date: Monday 16th November 2026 01:20:00
 Indexes:
   - "[[permanent_notes]]"
   - "[[QA_Automation]]"
@@ -43,7 +43,7 @@ Capabilities in the same section:
 - **Test execution:** running the selected tests, plus logging and reporting.
 - **Test adaptation:** adapting automated tests to the components or interfaces of the system, with different adaptors for APIs, protocols and services.
 
-The glossary defines the **test adaptation layer** as "the layer in a test automation architecture which provides the necessary code to adapt test scripts on an abstract level to the various components, configuration or interfaces of the SUT." Section 3.1.1 describes that capability. It does not say the layer exists so you can swap tools later. That use is discussed under the driver pattern in the suite note.
+The glossary defines the **test adaptation layer** as "the layer in a test automation architecture which provides the necessary code to adapt test scripts on an abstract level to the various components, configuration or interfaces of the SUT." Section 3.1.1 describes that capability. The suite note covers the single driver.
 
 ### Layers of the framework
 
@@ -111,7 +111,7 @@ Review the distribution when you review coverage. A rise in UI tests with flat c
 - Starting at the UI because that is what the users see. Section 3.1.3 says to repair a thin bottom first. Section 5.1.1 says the pyramid is also how you protect ROI.
 - Automating the conditions in section 3.3.3 because they are in the manual pack.
 - A framework with a layer per technical concern. Section 3.1.3 says to keep the layer count low.
-- Test scripts that call core libraries directly, so a tool change touches every test. Section 3.1.3 puts business logic between them.
+- Test scripts that call core libraries directly. Section 3.1.3 puts the business-logic layer between them.
 - Assuming one shape fits a mainframe and a microservice system (section 3.1.2).
 
 ## Example (Playwright and CI)
@@ -125,7 +125,7 @@ For an API-plus-UI product:
 - UI level: a thin Playwright project for the journeys section 3.3.1 would keep (frequent, repeatable, worth running often).
 - Business-logic layer: functions such as "place order" that the API tests and the UI tests both call.
 - Core library: polling helpers and reporting hooks that do not mention this product.
-- Test adaptation: one module that constructs the Playwright request context or browser. Tests do not import Playwright themselves. That is the practical reading of test adaptation and of the single driver in CTAL-TAE 3.1.5. Swapping the tool later is a hope you design for. The syllabus does not promise the swap.
+- Test adaptation: one module that constructs the Playwright request context or browser. Tests do not import Playwright themselves. That is the practical reading of test adaptation and of the single driver in CTAL-TAE 3.1.5. The syllabus does not say what that buys you beyond the adaptor.
 
 What this example leaves manual, following section 3.3.3: visual review of a redesigned screen, and any step that needs a person to apply a business exception.
 

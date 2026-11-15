@@ -1,6 +1,6 @@
 ---
 Creation_date: 2026-11-16 01:05
-Modification_date: Monday 16th November 2026 01:05:00
+Modification_date: Monday 16th November 2026 01:20:00
 Indexes:
   - "[[permanent_notes]]"
   - "[[QA_Automation]]"
@@ -53,8 +53,7 @@ CTAL-TAE 4.2.1 uses the same idea in the pilot: the conditions around the suite 
 - The glossary's test adaptation layer is the code that adapts abstract scripts to the system's components, configuration, or interfaces.
 - CT-TAS 4.3.1: a framework includes "driver scripts."
 - CT-TAS 6.1.2, when moving to continuous testing: "stubs, drivers, and interfaces used in testing need to change to fit with the updated TAS."
-
-"Helix" and "an eject path to plain Playwright" are not in either syllabus. They are this goal's way of saying the team must be able to leave an internal accelerator. The architecture that supports a tool change is the adaptation layer, the single driver, and core libraries that do not depend on one system (CTAL-TAE 3.1.3). Whether a later swap is cheap is something you have to prove. The syllabus does not claim it.
+- CTAL-TAE 3.1.3: core libraries do not depend on one system. Test scripts call the business-logic layer, not the core libraries.
 
 **Catching bad test data before anything runs.** That sentence is not in the syllabi. The nearest instructions:
 
@@ -90,8 +89,7 @@ The test progress report (CTAL-TAE 6.1.3) is how the gate's result reaches peopl
 - Deployment-only smoke checks presented as functional coverage. Section 5.1.1 says those checks do not verify functional suitability broadly.
 - A blocking UI suite long enough to queue the pipeline (CT-TAS 6.2.1), instead of a smoke gate plus a separate regression.
 - Copying login, or any other overlap, into every script (CT-TAS 6.1.1).
-- One Playwright import in every test, so a tool change edits every file. Put construction of the driver in one place (CTAL-TAE 3.1.5).
-- Treating "we will swap Playwright later" as a syllabus promise.
+- One Playwright import in every test. Put construction of the driver in one place (CTAL-TAE 3.1.5). The syllabus does not say that this, by itself, lets you replace the tool.
 - Automating a case whose data is already invalid (CT-TAS 6.1.1).
 
 ## Example (Playwright and CI)
@@ -109,7 +107,7 @@ Inside the Playwright project, still as practice:
 - A setup project creates the users and the seed orders through the API, then the tests run. That follows CT-TAS 6.1.1 (automate preconditions before the real cases). An extra check that aborts when the seed file has a duplicate order id is the goal's "catch bad data before anything runs." It is not a syllabus step.
 - Cases that only differ by amount and currency read those values from a table. That is data-driven testing as section 3.1.4 describes it.
 - "Place order" is one function used by the API case and the UI case. That is the reusable step in sections 3.1.4 and 3.1.5.
-- Only the setup project imports Playwright and builds the request context. Tests call the business-logic functions. That is the single driver and the adaptation boundary. Leaving that module and using Playwright directly would be an eject path in the sense of the goal. The syllabus does not use that name.
+- Only the setup project imports Playwright and builds the request context. Tests call the business-logic functions. That is the single driver and the adaptation boundary in CTAL-TAE 3.1.5 and 3.1.1.
 
 ## Sources
 

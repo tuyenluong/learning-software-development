@@ -1,6 +1,6 @@
 ---
 Creation_date: 2026-11-16 01:05
-Modification_date: Monday 16th November 2026 01:05:00
+Modification_date: Monday 16th November 2026 01:20:00
 Indexes:
   - "[[permanent_notes]]"
   - "[[QA_Automation]]"
@@ -11,9 +11,9 @@ Source: ISTQB CTAL-TAE Syllabus v2.0, sections 4.3.1, 6.1.3, 8.1.2, 8.1.3; ISTQB
 ----
 # Handover and maintainability
 
-Goal wording this note unpacks: "a handover, meaning docs and coaching so their team owns the suite. Helix stays an internal accelerator, with an eject path to plain Playwright."
+Goal wording this note unpacks: "a handover, meaning docs and coaching so their team owns the suite."
 
-The time you spend maintaining the suite is [Maintenance effort](Maintenance%20effort.md). The design that makes a later tool change possible is [Automation strategy and architecture](Automation%20strategy%20and%20architecture.md) and [Suite as a CI release gate](Suite%20as%20a%20CI%20release%20gate.md).
+The time you spend maintaining the suite is [Maintenance effort](Maintenance%20effort.md). The architecture of the suite is in [Automation strategy and architecture](Automation%20strategy%20and%20architecture.md) and [Suite as a CI release gate](Suite%20as%20a%20CI%20release%20gate.md).
 
 ## Definition
 
@@ -40,14 +40,12 @@ Hardcoding "reduces development time" and is "time consuming to maintain" once t
 
 Section 8.1.2 adds the structural habits that lower maintenance: one library function for a repeated step, setup and teardown for repeated configuration, standard verification helpers, and a pilot before everyone moves to a new core-library version. Section 8.1.3: naming of new code stays consistent with section 4.3.1, and scripts that rarely run are candidates to remove so there is less to maintain.
 
-**Helix and an eject path to plain Playwright.** Not in either syllabus. Helix is an internal accelerator in this goal, not an ISTQB term. Playwright is not named. What the syllabi give you instead:
+**Who owns the tools, and where the driver sits.** Playwright is not named in either syllabus. What the syllabi do say:
 
 - In-house ownership, so the team is not stuck on a vendor timeline for a defect in the tool (CT-TAS 2.1.1).
-- Open-source tools as a licensing choice: no licence fee, and most open-source licences allow the tool to be modified (CT-TAS 2.1.2). That is about the licence, not about a named eject path.
+- Open-source tools as a licensing choice: no licence fee, and most open-source licences allow the tool to be modified (CT-TAS 2.1.2). That is a licence point.
 - Core libraries independent of one system, a business-logic layer, and a single driver, so product tests do not call the tool directly (CTAL-TAE 3.1.3 and 3.1.5).
 - CT-TAS 6.1.2: when the solution itself is updated, the suites, the stubs and drivers, and the infrastructure have to be changed and tested before you deploy the update. Release notes of known defects go to the automation engineers and the other stakeholders.
-
-An eject path is a design and a rehearsal of that update: the team can run the same cases on the tool alone if the accelerator goes away. The syllabus tells you to isolate drivers and to test a solution update before you trust it. It does not describe Helix.
 
 ## How to measure
 
@@ -74,20 +72,18 @@ Publish the handover the way CTAL-TAE 6.1.3 publishes any other test report: to 
 - Outsourcing the build and calling the last week a handover. CT-TAS 2.1.1 says that in an outsource arrangement the ownership of the tools stays with the outsource company.
 - Documentation that describes the tool, and not "what the test automation code does, and how it should be used" (CTAL-TAE 8.1.2).
 - A coding style the next person cannot extend: hardcoded data, copied steps, no logging (CTAL-TAE 4.3.1).
-- An accelerator woven into every test, so removing it is a rewrite. The driver and the core-library boundary exist so that is not the case (CTAL-TAE 3.1.3 and 3.1.5).
-- Declaring the eject path done because the tests import a wrapper. CT-TAS 6.1.2 says to test the updated solution before you deploy it. Run the suite once without the accelerator, on a branch, before you promise the path.
+- Test scripts that call the tool directly. CTAL-TAE 3.1.3 puts a business-logic layer between the scripts and the core libraries, and section 3.1.5 uses one driver to talk to the system under test. CT-TAS 6.1.2 says to test a changed driver before you deploy the updated solution.
 - Training that never covers what not to automate. The team will otherwise automate the conditions in CT-TAS 3.3.3. See [Automation strategy and architecture](Automation%20strategy%20and%20architecture.md).
 
 ## Example (Playwright and CI)
 
-This example is practice. Helix is the goal's name, not an ISTQB component.
+This example is practice. It is not an ISTQB procedure.
 
 The repository the team keeps after the engagement contains:
 
 - `README`: how to install, how CI chooses the smoke project and the nightly project, and how to read the HTML report and the trace. That is the "how it should be used" document from CTAL-TAE 8.1.2.
 - `flows/`: the reusable steps (place order, log in). Tests call these. CT-TAS 6.2.1 wants the team to know they exist and to use them.
-- `driver/`: the only module that imports Playwright and builds a request context or a browser. Product flows do not import Playwright.
-- A CI job, on a manual workflow, that runs the same smoke project with `driver/` pointed at Playwright alone. That job is the eject path in the goal's language. It is a rehearsal of CT-TAS 6.1.2 (change the driver, test it before you trust the update). It is not a syllabus requirement, and it does not mention Helix because the syllabus does not.
+- `driver/`: the only module that imports Playwright and builds a request context or a browser. Product flows do not import Playwright. That is the single driver in CTAL-TAE 3.1.5.
 
 Coaching, following section 2.2.1, is a working session in which a team member adds one data row and one negative case that the syllabus would leave manual, and says which is which. The session is done when they can do that without the original author, and when the static-analysis job (CTAL-TAE 7.1.4) still passes on the test code.
 

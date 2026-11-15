@@ -1,6 +1,6 @@
 ---
 Creation_date: 2026-11-16 01:05
-Modification_date: Monday 16th November 2026 01:05:00
+Modification_date: Monday 16th November 2026 01:20:00
 Indexes:
   - "[[permanent_notes]]"
   - "[[QA_Automation]]"
@@ -76,7 +76,7 @@ Stated here so a reader can see the whole gap in one place. Each note repeats th
 - **Maintenance as "time spent fixing tests per change" and "time to diagnose a failure".** The syllabi ask for average maintenance time of an automated test script, hours spent fixing the test automation solution, and a comparison of that maintenance time with manual testing time. They describe how to diagnose a failure. They do not name "per change" or "time to diagnose" as metrics.
 - **A baseline report and an after report**, as two engagement deliverables. CT-TAS 3.1.1 says to draw the current state of testing as a baseline and a target state. The glossary defines a test progress report as progress against a baseline. CTAL-TAE 6.1.3 says to keep a history of reports and watch trends, including changes in the pass-fail ratio. The pair of document names is this goal's, not the syllabus's.
 - **Catching bad test data before anything runs**, as a named pattern. The nearest text is to automate preconditions before the real test cases run (CT-TAS 6.1.1 and 6.2.1), and to refuse to automate a manual test that already fails because its data is invalid (CT-TAS 6.1.1). A pre-suite data check that aborts the run is general practice.
-- **A driver layer so the team can change tools later, Helix as an internal accelerator, and an eject path to plain Playwright.** The syllabi describe a test-adaptation capability, a single driver that talks to the system under test (singleton), core libraries that do not depend on one system, and in-house ownership of the solution. They do not mention Helix, Playwright, or an eject path.
+- **A driver layer so the team can change tools later.** The syllabi describe a test-adaptation capability, a single driver that talks to the system under test (singleton), and core libraries that do not depend on one system. They do not state that this layer exists so a team can change tools later. In-house ownership of the solution is a separate point, in CT-TAS 2.1.1, and it is covered in [Handover and maintainability](Handover%20and%20maintainability.md).
 - **Unit** as a test level name. Where the goal says unit, CT-TAS 3.1.1 says ISTQB calls Mike Cohn's unit level component testing.
 
 ROI itself is in the syllabus. The formula is `ROI = Savings / Investment`. The syllabus lists the inputs and does not expand them into one longer equation. That limit is written out in [Cost against benefit](Cost%20against%20benefit.md).
