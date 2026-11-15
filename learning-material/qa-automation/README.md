@@ -4,6 +4,8 @@ QA automation notes for testing messaging and transaction edge cases. Every note
 
 North star: [Ultimate Goal for QA Automation](ULTIMATE-GOAL.md) — what a QA automation engineer or consultant should achieve.
 
+ISTQB reference notes for the points in that goal: [ultimate-goal-references/](ultimate-goal-references/).
+
 ## QA Module 1: QA Automation for Edge Cases
 Overview: [Module 1 - QA Automation for Edge Cases](module-1/Module%201%20-%20QA%20Automation%20for%20Edge%20Cases.md)
 
