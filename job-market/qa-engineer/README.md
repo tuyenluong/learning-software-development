@@ -1,9 +1,10 @@
 # QA engineer job market reports
 
-QE / QA automation job market reports, one per Friday night, named `job-market-YYYY-MM-DD.md`. Each has top skills, a "What changed this week" section, then sections 0–8 and caveats. Only QA / QE reports go in this folder; backend reports go in [../backend-engineer/](../backend-engineer/).
+QE / QA automation job market reports, one per Friday night, named `job-market-YYYY-MM-DD.md`. Each has top skills, a "What changed this week" section, then sections 0–8 and caveats. From 20 Nov 2026 each also has a "Hiring companies" section that classifies every hiring company by type. Only QA / QE reports go in this folder; backend reports go in [../backend-engineer/](../backend-engineer/).
 
 Newest first:
 
+- [job-market-2026-11-20.md](job-market-2026-11-20.md): weekly report, 20 Nov 2026, sections 0–8, hiring-company types and caveats
 - [job-market-2026-11-13.md](job-market-2026-11-13.md): weekly report, 13 Nov 2026, sections 0–8 and caveats
 - [job-market-2026-11-06.md](job-market-2026-11-06.md): weekly report, 6 Nov 2026, sections 0–8 and caveats
 - [job-market-2026-10-30.md](job-market-2026-10-30.md): weekly report, 30 Oct 2026, sections 0–8 and caveats
