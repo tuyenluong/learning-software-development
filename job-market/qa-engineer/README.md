@@ -4,6 +4,7 @@ QE / QA automation job market reports, one per Friday night, named `job-market-Y
 
 Newest first:
 
+- [job-market-2026-11-27.md](job-market-2026-11-27.md): weekly report, 27 Nov 2026, sections 0–8, hiring-company types and caveats
 - [job-market-2026-11-20.md](job-market-2026-11-20.md): weekly report, 20 Nov 2026, sections 0–8, hiring-company types and caveats
 - [job-market-2026-11-13.md](job-market-2026-11-13.md): weekly report, 13 Nov 2026, sections 0–8 and caveats
 - [job-market-2026-11-06.md](job-market-2026-11-06.md): weekly report, 6 Nov 2026, sections 0–8 and caveats
